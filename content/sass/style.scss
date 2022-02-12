@@ -1,0 +1,12 @@
+@use '../../node_modules/cssremedy/css/remedy.css';
+
+html {
+  background-color: papayawhip;
+  height: 100%;
+}
+
+body {
+  display: grid;
+  min-height: 100%;
+  place-content: center;
+}
