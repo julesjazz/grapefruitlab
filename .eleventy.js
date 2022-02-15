@@ -16,6 +16,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addWatchTarget('./content/sass/');
   eleventyConfig.addPassthroughCopy('./content/css');
+  eleventyConfig.addPassthroughCopy('./content/fonts');
   eleventyConfig.addPassthroughCopy('./content/favicon.svg');
 
   // shortcodes
