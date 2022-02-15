@@ -1,7 +1,5 @@
 # Ignore installed npm modules
 node_modules/
-_site/
-studio/dist
 
 # Ignore build tool output, e.g. code coverage
 .nyc_output/
@@ -14,8 +12,9 @@ api-docs/
 .vscode
 .idea
 
-# Ignore eleventy output when doing manual tests
+# Ignore output when doing manual tests
 _site/
+studio/dist
 
 package-lock.json
 
