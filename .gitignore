@@ -1,5 +1,7 @@
 # Ignore installed npm modules
 node_modules/
+_site/
+studio/dist
 
 # Ignore build tool output, e.g. code coverage
 .nyc_output/
