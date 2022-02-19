@@ -1,3 +1,11 @@
 $fallback: Helvetica, Arial, sans-serif;
 $stack-novf: 'Roboto', $fallback;
 $stack: 'Roboto Extremo', $fallback;
+
+$cond: 25%;
+
+@mixin title {
+  font-stretch: var(--cond, $cond);
+  font-weight: bold;
+  text-transform: uppercase;
+}

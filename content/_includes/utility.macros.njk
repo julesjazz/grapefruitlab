@@ -1,0 +1,48 @@
+{# Attributes #}
+{% macro attr_if(
+  attr,
+  value=none
+) %}
+  {%- if value -%}
+    {%- if (value | string | lower != 'true') -%}
+      {%- set value = value | string -%}
+      {%- set value = value | url if (attr == 'href') else value -%}
+      {{ attr }}="{{ value }}"
+    {%- else -%}
+      {{ attr }}
+    {%- endif -%}
+  {%- endif -%}
+{% endmacro %}
+
+{% macro show_attrs(
+  attrs
+) %}
+  {%- for attr, value in attrs %} {{ attr_if(attr, value) }}{%- endfor -%}
+{% endmacro %}
+
+{% macro style_if(
+  style
+) -%}
+  {%- if style -%}
+    style="{%- for prop, val in style -%}{{ prop }}: {{ val }};{%- endfor -%}"
+  {%- endif -%}
+{%- endmacro %}
+
+{% macro link_if(
+  content,
+  url=none,
+  class=none
+) -%}
+  {%- if url -%}
+    <a
+      href="{{ url | url }}"
+      {{ attr_if('class', class) }}>
+      {{- content | safe -}}
+    </a>
+  {%- else -%}
+    <span
+      {{ attr_if('class', class) }}>
+      {{- content | safe -}}
+    </span>
+  {%- endif -%}
+{%- endmacro %}

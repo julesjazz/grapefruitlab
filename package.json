@@ -18,7 +18,7 @@
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-img": "^1.0.0",
     "@11ty/eleventy-navigation": "^0.3.2",
-    "accoutrement": "^3.0.1",
+    "accoutrement": "^4.0.0-beta.3",
     "cssremedy": "^0.1.0-beta.2",
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",

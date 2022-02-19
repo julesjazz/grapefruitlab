@@ -1,0 +1,33 @@
+body {
+  --margin: minmax(var(--gutter, 1em), 1fr);
+  background-image:
+    radial-gradient(
+      circle 100vw at 0 calc(-100vw + 8em),
+      saddlebrown 0 99.9%,
+      transparent 100%
+    )
+  ;
+  display: grid;
+  grid-template: 'header' auto 'hero' auto 'main' minmax(auto, 1fr) 'footer' auto;
+}
+
+header {
+  grid-area: header;
+  z-index: 1;
+
+  [rel='home']:any-link {
+    text-transform: uppercase;
+  }
+}
+
+#hero {
+  grid-area: header / hero / hero;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}

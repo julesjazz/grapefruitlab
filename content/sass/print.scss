@@ -1,0 +1,37 @@
+@forward '../../node_modules/cssremedy/css/remedy.css';
+
+@page {
+  margin-left: 1in;
+}
+
+html {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+@media print {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media screen {
+  body {
+    margin: 0 auto;
+    max-width: 75ch;
+  }
+}
+
+h2 {
+  font-size: 1.2em;
+  margin-bottom: 0;
+  break-after: avoid;
+}
+
+h2 + h3 {
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 1em;
+  font-style: italic;
+}

@@ -5,15 +5,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  {% set title = [title, site.title]|join(' » ') if title else site.title %}
-  <title>{{ title }}</title>
-  <meta name="description" content="{{ description or site.description }}">
+  {% set metatitle = [title, company.title]|join(' | ') if title else company.title %}
+  <title>{{ metatitle }}</title>
+  <meta name="description" content="{{ description or company.description }}">
   <meta name="author" content="Grapefruit Lab">
 
-  <meta property="og:title" content="{{ title }}">
+  <meta property="og:title" content="{{ metatitle }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.grapefruitlab.com/">
-  <meta property="og:description" content="{{ description or site.description }}">
+  <meta property="og:description" content="{{ description or company.description }}">
   {# <meta property="og:image" content="image.png"> #}
 
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -23,13 +23,22 @@
 
 <body>
   <header>
-    <h1>{{ title }}</h1>
+    <a href="/" rel="home">{{ company.title }}</a>
+    <nav>
+      {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+    </nav>
   </header>
+
+  {% if image and image.src %}
+    <img id="hero" src="/images/{{ image.src }}" alt="{{ image.alt }}">
+  {% endif %}
+
   <main>
+    <h1>{{ title }}</h1>
     {{ content | safe }}
   </main>
   <footer>
-    Copyright &copy; {{ page.date.getUTCFullYear() }} {{ site.title }}
+    Copyright &copy; {{ page.date.getUTCFullYear() }} {{ company.title }}
   </footer>
 </body>
 </html>

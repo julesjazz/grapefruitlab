@@ -1,4 +1,6 @@
-@use '../config';
+@use '../config/fonts';
+@use 'sass:meta';
+
 
 @font-face {
   font-family: "Roboto Extremo";
@@ -13,11 +15,15 @@
 }
 
 html {
+  @each $var, $value in meta.module-variables('fonts') {
+    --#{$var}: #{$value};
+  }
+
   --vf-support: false;
-  font-family: config.$stack-novf;
+  font-family: var(--stack-novf);
 
   @supports (font-variation-settings: normal) {
     --vf-support: true;
-    font-family: config.$stack;
+    font-family: var(--stack);
   }
 }

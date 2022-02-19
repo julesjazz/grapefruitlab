@@ -18,6 +18,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./content/css');
   eleventyConfig.addPassthroughCopy('./content/fonts');
   eleventyConfig.addPassthroughCopy('./content/favicon.svg');
+  eleventyConfig.addPassthroughCopy('./content/images');
 
   // shortcodes
   eleventyConfig.addPairedShortcode('md', mdown.render);

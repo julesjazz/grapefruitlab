@@ -1,0 +1,6 @@
+@use '../config';
+@use 'sass:meta';
+
+h1 {
+  @include config.title;
+}
