@@ -1,0 +1,7 @@
+@use 'sass:color';
+
+$bg: color.scale(maroon, $blackness: 90%);
+$fg: mistyrose;
+$overlay: color.scale($bg, $alpha: -25%);
+$action: pink;
+$focus: violet;

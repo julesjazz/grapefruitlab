@@ -1,7 +1,7 @@
 ---
 title: Pity+Fear (a travesty)
 image:
-  src: shows/pity.jpg
+  src: shows/pity/truth.jpg
   alt: |
     show details in bold type
     over a blurred painting of
@@ -28,7 +28,9 @@ run:
 
 A comic attempt at a one-woman tragedy,
 featuring two women.
+
 Over the course of an evening,
 we fail to grapple with queer identity,
 platonic realism,
+the conflicting myths of Agraulos,
 and what to order for dinner.

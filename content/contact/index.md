@@ -1,5 +1,9 @@
 ---
 title: Contact Us
+image:
+  src: shows/jane/death.jpg
+  alt: |
+    Jane Eyre cradles her dying friend, touching her face
 eleventyNavigation:
   key: contact
   order: 5

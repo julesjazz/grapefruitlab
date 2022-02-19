@@ -8,11 +8,14 @@ const mdown = require('markdown-it')({
   typographer: true,
 }).disable('code');
 
+const page = require('./filters/page');
+
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(nav);
 
   eleventyConfig.addFilter('md', mdown.render);
   eleventyConfig.addFilter('mdi', mdown.renderInline);
+  eleventyConfig.addFilter('getPage', page.getPage);
 
   eleventyConfig.addWatchTarget('./content/sass/');
   eleventyConfig.addPassthroughCopy('./content/css');

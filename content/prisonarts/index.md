@@ -1,5 +1,8 @@
 ---
-title: ACT Ensemble in Prison
+title: Prison Arts
+image:
+  src: shows/prison/gold-hat.jpg
+  alt: a quilted gold baseball cap, with feathers
 eleventyNavigation:
   key: prison
   title: prison arts

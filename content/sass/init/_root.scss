@@ -1,5 +1,14 @@
+@use '../config/color';
+@use 'sass:meta';
+
 html {
-  background-color: mistyrose;
+  @each $var, $value in meta.module-variables('color') {
+    --#{$var}: #{$value};
+  }
+
+  background-color: var(--bg);
+  color: var(--fg);
+  font-size: calc(1em + 0.25vmin);
   height: 100%;
 }
 

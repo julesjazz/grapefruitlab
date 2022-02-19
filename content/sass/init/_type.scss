@@ -1,6 +1,29 @@
 @use '../config';
 @use 'sass:meta';
 
+html {
+  --large: calc(1.2em + 0.25vw);
+}
+
 h1 {
   @include config.title;
+  text-align: center;
+}
+
+a:any-link {
+  color: var(--action);
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: var(--focus);
+}
+
+blockquote {
+  font-style: italic;
+
+  p:last-child {
+    font-style: normal;
+  }
 }

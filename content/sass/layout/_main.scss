@@ -1,0 +1,10 @@
+main {
+  margin: 0 auto;
+  max-width: 75ch;
+  padding: var(--gutter, 1em);
+  width: 100%;
+}
+
+main > :first-child:not(h2) {
+  font-size: calc(1.2em + 0.25vw);
+}

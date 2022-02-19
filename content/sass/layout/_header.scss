@@ -1,22 +1,18 @@
 header {
-  display: flex;
-  justify-content: space-between;
-  padding: var(--shim, 0.5em);
+  display: grid;
+  padding: var(--shim, 0.5rem);
+  place-items: center;
 }
 
-header a {
-  &:any-link {
-    color: mistyrose;
-    font-stretch: var(--cond);
-    padding: var(--shim, 0.5em);
-    text-shadow: 1px 1px 0 black;
+h1 {
+  font-size: clamp(1.4em, 3em + 6vw, 10vw);
+  opacity: 0.7;
+  position: relative;
+  text-shadow: 1px 1px 0 var(--overlay);
+  z-index: 1;
+
+  a:any-link {
+    --action: currentColor;
+    text-decoration: none;
   }
-}
-
-nav ul {
-  display: flex;
-  gap: var(--shim, 0.5em);
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
