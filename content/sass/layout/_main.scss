@@ -1,8 +1,5 @@
 main {
-  margin: 0 auto;
-  max-width: 75ch;
-  padding: var(--gutter, 1em);
-  width: 100%;
+  padding: var(--spacer) var(--gutter);
 }
 
 main > :first-child:not(h2) {

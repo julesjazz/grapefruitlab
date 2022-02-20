@@ -9,6 +9,6 @@ eleventyNavigation:
   key: shows
 ---
 
-{% for show in collections.show %}
-- [{{ show.data.title }}]({{ show.url }})
+{% for show in collections.show | reverse %}
+- **[{{ show.data.title }}]({{ show.url }})** » {{ show.data.sub | mdi | safe }}
 {% endfor %}

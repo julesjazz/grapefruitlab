@@ -1,20 +1,20 @@
 const nav = require('@11ty/eleventy-navigation');
-
 const yaml = require('js-yaml');
-const mdown = require('markdown-it')({
+
+const page = require('./filters/page');
+
+const md = require('markdown-it')({
   html: true,
   breaks: false,
   linkify: true,
   typographer: true,
 }).disable('code');
 
-const page = require('./filters/page');
-
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(nav);
 
-  eleventyConfig.addFilter('md', mdown.render);
-  eleventyConfig.addFilter('mdi', mdown.renderInline);
+  eleventyConfig.addFilter('md', content => md.render(content));
+  eleventyConfig.addFilter('mdi', content => md.renderInline(content));
   eleventyConfig.addFilter('getPage', page.getPage);
 
   eleventyConfig.addWatchTarget('./content/sass/');
@@ -24,11 +24,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./content/images');
 
   // shortcodes
-  eleventyConfig.addPairedShortcode('md', mdown.render);
-  eleventyConfig.addPairedShortcode('mdi', mdown.renderInline);
+  eleventyConfig.addPairedShortcode('md', content => md.render(content));
+  eleventyConfig.addPairedShortcode('mdi', content => md.renderInline(content));
 
   // config
-  eleventyConfig.setLibrary('md', mdown);
+  eleventyConfig.setLibrary('md', md);
   eleventyConfig.addDataExtension('yaml', yaml.load);
   eleventyConfig.setQuietMode(true);
   eleventyConfig.setDataDeepMerge(true);

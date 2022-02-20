@@ -37,6 +37,9 @@
   {% endif %}
 
   <header>
+    {% if feature %}
+      <p class="pretitle">Presenting:</p>
+    {% endif %}
     <h1>
       {% if feature %}
         {{ utility.link_if(feature.data.title, feature.url)}}
@@ -44,13 +47,41 @@
         {{ title }}
       {% endif %}
     </h1>
+    {% if sub or feature.data.sub %}
+      <p class="subtitle">{{ (feature.data.sub or sub) | mdi | safe }}</p>
+    {% endif %}
   </header>
 
   <main>
     {{ content | safe }}
+
+    {% for location in run %}
+      <section class="run">
+        <h2 class="venue">{{ location.venue }}</h2>
+        <p class="adr">{{ location.adr }}</p>
+        <ul>
+          {% for show in location.shows %}
+            <li>
+              <time datetime="{{ show.date.toISOString() }}">
+                {{ show.date.toLocaleDateString('en-US') }}
+                @ {{ show.time }}
+              </time>
+              {{ (show.note or '') | md | safe }}
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endfor %}
   </main>
+
   <footer>
-    Copyright &copy; {{ page.date.getUTCFullYear() }} {{ company.title }}
+    <div>
+      <p class="description">{{ company.description | mdi | safe }}</p>
+      <p class="legal">
+        Copyright &copy; {{ page.date.getUTCFullYear() }}
+        <strong>{{ company.title }}</strong>
+      </p>
+    </div>
   </footer>
 </body>
 </html>

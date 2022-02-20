@@ -1,0 +1,11 @@
+.venue {
+  margin-block-end: 0;
+}
+
+.venue + .adr {
+  margin-block-start: 0;
+}
+
+.adr {
+  font-style: italic;
+}

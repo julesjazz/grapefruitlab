@@ -1,8 +1,12 @@
 @use '../config/color';
+@use '../config/size';
 @use 'sass:meta';
 
 html {
   @each $var, $value in meta.module-variables('color') {
+    --#{$var}: #{$value};
+  }
+  @each $var, $value in meta.module-variables('size') {
     --#{$var}: #{$value};
   }
 

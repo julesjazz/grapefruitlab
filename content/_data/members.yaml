@@ -34,7 +34,7 @@
 - name: Kenny Storms
   pronouns: he/him
   image: kenny
-  url: none
+  url: false
   bio: |
     Kenny is a musician, DJ, media designer, director,
     voice coach, and project manager.

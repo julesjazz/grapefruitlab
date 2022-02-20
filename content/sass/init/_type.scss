@@ -1,4 +1,3 @@
-@use '../config';
 @use 'sass:meta';
 
 html {
@@ -6,8 +5,17 @@ html {
 }
 
 h1 {
-  @include config.title;
-  text-align: center;
+  text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5 {
+  font-stretch: var(--cond);
+  font-weight: 600;
+}
+
+strong, b {
+  font-stretch: var(--cond);
+  font-weight: 600;
 }
 
 a:any-link {

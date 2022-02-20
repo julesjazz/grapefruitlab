@@ -4,10 +4,11 @@ body {
   --margin: minmax(var(--gutter, 1em), 1fr);
   display: grid;
   grid-template:
-    'nav' auto
-    'header' minmax(min-content, 60vh)
-    'main' minmax(auto, 1fr)
-    'footer' auto
+    'nav nav nav' auto
+    'head head head' minmax(min-content, 60vh)
+    '. main .' minmax(auto, 1fr)
+    'foot foot foot' auto /
+    1fr minmax(min-content, 75ch) 1fr
   ;
 }
 
@@ -21,11 +22,11 @@ nav {
 }
 
 #hero {
-  grid-area: nav / header / header;
+  grid-area: nav / head / head;
 }
 
 header {
-  grid-area: header;
+  grid-area: head;
 }
 
 main {
@@ -33,5 +34,5 @@ main {
 }
 
 footer {
-  grid-area: footer;
+  grid-area: foot;
 }

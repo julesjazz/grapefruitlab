@@ -2,6 +2,7 @@
 
 $bg: color.scale(maroon, $blackness: 90%);
 $fg: mistyrose;
-$overlay: color.scale($bg, $alpha: -25%);
+$border: chocolate;
+$overlay: color.scale($bg, $alpha: -25%, $blackness: 50%);
 $action: pink;
 $focus: violet;
