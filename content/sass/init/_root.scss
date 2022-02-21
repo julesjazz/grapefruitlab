@@ -19,3 +19,15 @@ html {
 body {
   min-height: 100%;
 }
+
+picture {
+  display: contents;
+}
+
+source {
+  display: none;
+}
+
+picture img {
+  width: 100%;
+}

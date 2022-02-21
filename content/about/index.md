@@ -1,5 +1,5 @@
 ---
-title: About Grapefruit Lab
+title: About Us
 image:
   src: shows/between/mia-erin-path.jpg
   alt: |

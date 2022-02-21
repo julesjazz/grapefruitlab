@@ -1,7 +1,6 @@
 {%- import "utility.macros.njk" as utility -%}
-{%- set feature = collections.all | getPage(feature) if feature else none -%}
-{%- set image = feature.data.image if feature else image -%}
-{%- set imgpath = ['/images/', image.src or site.image.src] | join -%}
+{%- set feature = collections.features[0] if (collections.features.length > 0) and (page.url == '/') else none -%}
+{%- set image = feature.data.image if feature else image or site.image -%}
 <!doctype html>
 <html lang="en">
 <head>
@@ -30,9 +29,9 @@
     {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
   </nav>
 
-  {% if imgpath %}
+  {% if image %}
   <div id="hero">
-    <img src="{{ imgpath }}" alt="{{ image.alt }}">
+    {% image image.src, image.alt %}
   </div>
   {% endif %}
 

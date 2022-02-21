@@ -1,3 +1,4 @@
+@use '../config';
 @use 'sass:meta';
 
 html {
@@ -11,6 +12,13 @@ h1 {
 h1, h2, h3, h4, h5 {
   font-stretch: var(--cond);
   font-weight: 600;
+}
+
+ul,
+ol {
+  @include config.above(40em) {
+    padding-inline-start: 0;
+  }
 }
 
 strong, b {
@@ -29,9 +37,16 @@ a:active {
 }
 
 blockquote {
+  border-inline-start: var(--half-shim) solid var(--border);
   font-style: italic;
+  margin-inline: calc(var(--gutter) * -1.25) 0;
+  padding-inline: var(--gutter) 0;
 
-  p:last-child {
+  em {
     font-style: normal;
+  }
+
+  p:last-child em:only-child {
+    font-size: max(0.75em, 0.75rem);
   }
 }

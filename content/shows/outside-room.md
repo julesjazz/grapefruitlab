@@ -3,12 +3,11 @@ title: Outside the Room
 sub: Oct -- Nov 2018 @ BookBar
 date: 2018-10-23
 image:
-  src: shows/recipe/cooking.jpg
+  src: shows/outside/sweeping.jpg
   alt: |
-    a Black woman in front of a table,
-    wearing an apron and
-    gesturing with a wooden spoon.
-    Behind her, a row of audience along the wall.
+    a room full of books,
+    Meghan and Buba with their backs turned,
+    Julie is sweeping in front of a table
 tags:
   - show
 run:
