@@ -1,6 +1,6 @@
 ---
 title: glASS (and other imponderables)
-sub: Feb 2011 @ Titmouse
+sub: Feb 2011 @ TitWrench
 date: 2011-02-18
 image:
   src: shows/glass/julie.jpg
@@ -11,7 +11,7 @@ image:
 tags:
   - show
 run:
-  - venue: Titmouse
+  - venue: TitWrench
     adr: Denver
 ---
 
