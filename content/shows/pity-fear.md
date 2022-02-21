@@ -45,7 +45,7 @@ and what to order for dinner.
 
 Written by Miriam Suzanne,
 with original music & lyrics
-by Josselyn Cool (Better Selfs, Jane/Eyre).
+by Josselyn Cool (Better Selfs, Teacup Gorilla).
 Designed & developed with Julie Rada, Kenny Storms,
 and Erin Rollman.
 Thanks to Buntport Theater for
