@@ -1,5 +1,17 @@
 @forward '../../node_modules/cssremedy/css/remedy.css';
 
+// screen only
+header {
+  border-block-end: thin dotted;
+  margin-block-end: 2em;
+  padding-block-end: 2em;
+}
+
+h1 {
+  margin-block-end: 1rem;
+}
+
+// print styles
 @page {
   margin-left: 1in;
 }
@@ -10,7 +22,11 @@ html {
 
 @media print {
   html {
-    font-size: 18px;
+    font-size: 14pt;
+  }
+
+  header {
+    display: none;
   }
 }
 
