@@ -9,9 +9,19 @@
 </head>
 <body>
   <header>
-    <h1>{{ title }}</h1>
-    <a href="./">« back to show page</a>
+    <h1><a href="./">{{ title }}</a></h1>
+    <label for="print-size">
+      <span>Font size (pt):</span>
+      <input type="number" value="12" name="print-size" id="print-size" step="0.5">
+    </label>
   </header>
   {{ content | safe }}
+  <script>
+    const root = document.documentElement;
+    const fsInput = document.getElementById('print-size');
+    fsInput.addEventListener('change', () => {
+      root.style.setProperty('--fs-print', fsInput.value);
+    });
+  </script>
 </body>
 </html>

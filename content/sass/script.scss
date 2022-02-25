@@ -18,13 +18,10 @@ h1 {
 
 html {
   font-family: 'Courier New', Courier, monospace;
+  font-size: calc(var(--fs-print, 12) * 1pt);
 }
 
 @media print {
-  html {
-    font-size: 14pt;
-  }
-
   header {
     display: none;
   }

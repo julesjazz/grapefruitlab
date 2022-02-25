@@ -32,7 +32,7 @@ Why’s it so —
 
 *[Turns on the work lights. She’s carrying a guitar. She sees the audience, and is frozen.]*
 
-Mia *[blinded]*:
+**Mia *[blinded]*:**
 Aaa! Josie. Too much!
 
 **Josie:**
@@ -64,7 +64,7 @@ I don’t — *[sees them]* Fuck! That’s today? I’m not ready! Oh my god, it
 **Josie:**
 *[to audience]* Hi. *[off]* Mia! *[to audience]* I’m Josie, and that’s… *[off]* Miriam! *[to audience]* Have you just been sitting here in the dark? Did she… *[off]* Miriam Ericthonius Suzanne!
 
-Mia *[offstage]*:
+**Mia *[offstage]*:**
 I didn’t write this part, yet!
 
 **Josie:**
@@ -136,11 +136,11 @@ That’s Heraclitus! That’s him! Mister Buskin! *Everything Flows.* I love tha
 **Josie:**
 So is it all… philosophy and theater jokes?
 
-**Mia *[sits, and stares at the mess.]*:**
+**Mia:**
 Maybe we should scrap the whole thing, and start over?
 
-**Josie *[reading from a program]*:**
-No, no, we can make this work! Let’s see… “Pity *plus* Fear”? Is that how you say it?
+**Josie:**
+No, no, we can make this work! Let’s see… *[reading from a program]* “Pity *plus* Fear”? Is that how you say it?
 
 **Mia:**
 Say what?
@@ -426,14 +426,13 @@ I guess I’m just too close to it. If I could see it from out there… But then
 
 I guess the program’s already printed, but we can make an insert? Or just announce it before the show, like: *For tonight’s performance, the role of Miriam will be played by an understudy.* Something like that. It’s not hard to play me. Just, you know, cheat out? Project? Otherwise… Act natural or whatever? You do you.
 
+## Chorus: My Friends Call Me Happiness
+
 **Josie:**
 Live your truth.
 
 **Mia:**
 Live your *authentic* life.
-
-
-## Chorus: My Friends Call Me Happiness
 
 *[Josie starts a song, TBD.]*
 
@@ -471,7 +470,7 @@ I think they just call that *in-authentic*.
 It’s collaborative! I set you up, and then you come in like *yes, AND here’s a beautiful song I wrote.*
 
 **Josie:**
-Ok, sure. But your setup is just Aristotle, Sappho, Thesipis, Heraclitus, here’s what the dictionary has to say. How am I supposed to write songs about that? You know my style is more… raw and emotional. Where do I even fit in this?
+Ok, sure. But your setup is just Aristotle, Sappho, Thesipis, Heraclitus, here’s what the dictionary has to say. How am I supposed to write songs about that? You know my style is more… raw and honest. Where do I even fit in this?
 
 *[pause]*
 
@@ -530,7 +529,7 @@ I mean, sure, she’s a myth, right? So she can die as often as she needs to. Bu
 
 It’s just… None of her stories actually *fit together*! Like she’s only there so that she can be killed? Some kind of… tragic utility player? I think that’s a sports thing. Like she can play in the outfield, but then she’s a linebacker, and then… I don’t know sports. I guess, either way she’s gonna die?
 
-One time she’s thrown from the cliffs, a villain; or jumps from the Acropolis, a martyr, a hero; or she’s turned to stone by a god; or driven to suicide by the furries. (Furies? Furies!)
+One time she’s thrown from the cliffs, a villain; or jumps from the Acropolis, a martyr; or she’s turned to stone by a god; or driven to suicide by the furries. (Furies? Furies!)
 
 Oh, content warnings, I guess. For suicide, and other tragic… This is a tragedy. Also, probably, sexual violence, because it’s Greek… What do they call it in movies? *Language, Violence,* and *Thematic Elements.* I don’t know what that is, *Thematic Elements*. But I’m sure we have it. We should add that to the program. Are you taking notes?
 
@@ -551,7 +550,7 @@ But we could still change it, right?
 **Josie *[reading from the script]*:**
 I don’t know, Mia. Are you going to change it?
 
-Mia/Josie: *[Josie reading along as Mia says it]*
+**Mia/Josie *[Josie reading along as Mia says it]*:**
 I might! You don’t know. Poop. Poop. Walnuts! Fine. I get it. Stop!
 
 ### [Mia - Why Agraulos?]
@@ -567,7 +566,7 @@ Is that what Aristotle means? Make her story *serious, and complete, and of a ce
 
 ## Chorus: Truth Emerging from Her Well
 
-Mia *[to Josie]*:
+**Mia *[to Josie]*:**
 Have you seen that painting?
 
 **Josie:**
@@ -711,7 +710,7 @@ That’s clever. But are lyrics even poetry? How do we know?
 
 ### [Mia - Catharsis]
 
-The definition Aristotle he lands on, the purpose of all poetry, is *catharsis* — and only Tragedy achieves this, through Pity & Fear. Tragedy is perfect, and everyone else can go jump off a cliff with their love poems or whatever *— Sappho.*
+The definition Aristotle lands on, the purpose of all poetry, is *catharsis* — and only Tragedy achieves this, through Pity & Fear. Tragedy is perfect, and everyone else can go jump off a cliff with their love poems or whatever — *Sappho*.
 
 And so this supposed “defense” of poetry — by attempting to define it — becomes, in reality, a defense of only *some* poetry, and a weapon against the rest.
 
@@ -757,7 +756,7 @@ Sometimes I just want it all to stop, you know? So I bang my head against the wa
 I mean sometimes she lashes out, sure. And it can be brutal. But she doesn’t expect you to sympathize. It’s like she knows she’s not the chief character in any story. She’s not looking for glory, or respectability, or heroics.
 
 **Josie:**
-What are you even talking about? Of course I want sympathy. Of course I’m the main fucking character. You’re so full of shit. You can’t just make me be whoever you want, just because you wrote the script.
+What are you even talking about? Of course I want sympathy. Of course I’m the main fucking character. You can’t just make me be whoever you want, just because you wrote the script. You’re so full of shit.
 
 **Mia:**
 Well, I didn’t write *that*.
@@ -933,7 +932,7 @@ Agraulos and her sisters are sometimes called the Kekropodai — daughters of Ke
 
 And I wonder, when she heard that prophesy — a sacrifice of one to save the city — and she’s the eldest daughter of the king. She’s a public figure, with public duties. And she’s able to see herself in that story, in that role, the martyr. Was she confident about her choice? A destiny buried deep inside, or was she simply willing to risk it all and hope for the best?
 
-We’ll never know, and maybe it doesn’t matter? Either way, she throws herself off the ledge, over the cliff. And she dies on the rocks below, a hero.
+We’ll never know, and maybe it doesn’t matter? Either way, she throws herself off the ledge, over the cliff. And she dies on the rocks below.
 
 ## Chorus: One for Pity, One for Fear
 
@@ -1105,7 +1104,7 @@ Aristotle says the beginning is what comes before everything else — no setup r
 
 A tragedy that is serious and complete and of a certain magnitude. One moment in a life, one fragment, a turning point — peripity — a reversal of fortune. But Agraulos… her whole life… Many lives… It might all just be… all middle bits? Unscientific? There are some correlations, but I’m not sure about any causation.
 
-It doesn’t matter how many times she dies, or how she lives in those brief stories, she’ll never be tragic. Never a hero, never serious or complete. Always uncertain. The gift of her story is not a cathartic resolution, but a mess… That I carry with me, like a worry stone. All the possible lives, possible deaths.
+It doesn’t matter how many times she dies, or how she lives in those brief stories, she’ll never be tragic. Never serious or complete. Always uncertain. The gift of her story is not a cathartic resolution, but a mess… That I carry with me, like a worry stone. All the possible lives, possible deaths.
 
 Sappho too, of course. All we have are the poems she wrote, and most of those only from fragments of papyrus — often stolen off a body, the remains of a person who lived and died, but now… What we keep is the poetry. Wedding songs from the Lesbian poet. *Eros the melter of limbs (now again) stirs me / Sweetbitter unmanageable creature who steals in —*
 
@@ -1166,10 +1165,10 @@ Oh, are we circling back to *all theater is pornography*? That could work. This 
 Denouement means “the untying”. The untying of our limbs?
 
 **Josie:**
-A *happy ending*, as it were?
+A *happy ending*, you might say?
 
 **Mia:**
-I wanted to write a tragedy, but now we’re here, and I just can’t make all the pieces fit.
+I wanted to write a tragedy, but here we are, and I just can’t make all the pieces fit.
 
 **Josie:**
 Well… You don’t have to, right?
