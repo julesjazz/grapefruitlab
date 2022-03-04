@@ -27,7 +27,14 @@ run:
         time: 7:30pm
       - date: 2022-05-28
         time: 7:30pm
+summary: |
+  What does it mean to be a person --
+  to have a body, and live in it --
+  to make choices, and change over time --
+  to tell the truth?
 ---
+
+{{ summary | md | safe }}
 
 What does it mean to be a person --
 to have a body, and live in it --

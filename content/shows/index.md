@@ -5,8 +5,6 @@ image:
   alt: |
     julie in an apron,
     standing in the door of a cabin at night
-eleventyNavigation:
-  key: shows
 ---
 
 {% for show in collections.show | reverse %}

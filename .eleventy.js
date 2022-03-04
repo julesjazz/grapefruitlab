@@ -1,5 +1,7 @@
 const nav = require('@11ty/eleventy-navigation');
 const yaml = require('js-yaml');
+const { DateTime } = require("luxon");
+const util = require('util')
 
 const page = require('./filters/page');
 const image = require('./filters/image');
@@ -21,6 +23,19 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('imgSrc', (src) =>
     images.image(src, null, null, null, true),
   );
+
+  eleventyConfig.addFilter("debug", function(value) {
+    return util.inspect(value, {compact: false})
+   });
+
+   eleventyConfig.addFilter("readableDate", dateObj => {
+    return new Date(dateObj).toDateString()
+  });
+
+  // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
+  eleventyConfig.addFilter('htmlDateString', (dateObj) => {
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
+  });
 
   eleventyConfig.addWatchTarget('./content/sass/');
   eleventyConfig.addPassthroughCopy('./content/css');
