@@ -1,0 +1,1 @@
+{{ company.image | img | safe }}

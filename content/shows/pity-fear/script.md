@@ -79,8 +79,8 @@ Which part, the beginning?
 **Mia:**
 I didn’t know where to start!
 
-**Josie:**
-But we open tonight! *[or “last night” or “last week” etc]* Did you write *anything*?
+**Josie *[or “last night” or “last week” etc]*:**
+But we open tonight! Did you write *anything*?
 
 **Mia:**
 Yeah! Sure, but it’s all just middle bits. Like, *exposition*, you know? I was trying to write a *shitty first draft*, but then it’s not a draft at all, it’s just… shitty piles of shit?
@@ -101,7 +101,7 @@ Oh yeah, I just got those. Do you like them?
 They’re… really something.
 
 **Mia:**
-Yeah, it’s a joke, see? These masks? Tragedy and comedy?
+Yeah, it’s a joke. You know, these masks? Tragedy and comedy?
 
 **Josie:**
 Theater masks, yeah —
@@ -259,13 +259,13 @@ You’re a clever girl. You’ll think of something.
 **Mia:**
 Let’s see, Greek Tragedy, ok… I don’t really know where to start. I guess I said that already. Let me find my notes here… It’s kinda dark… Here’s something.
 
-The word “Tragedy” comes from the Greek word *trágos*, meaning he-goat, and *aeidein*, to sing. I don’t know how you say it, but like an ode? So I guess, basically, a "goat song"? Because maybe there’s a prize goat for the best performer? Or an animal sacrifice? Some Dionysian ritual? *Bacchanal* or whatever? I'm not sure why the goat's gender matters? For tragos, I mean. He-goat?
+The word “Tragedy” comes from the Greek word *trágos*, meaning he-goat, and *aeidein*, to sing. I don’t know how you say it, but like an ode? So I guess, basically, a "goat song"? Because maybe there’s a prize goat for the best performer? Or an animal sacrifice? Some Dionysian ritual? *Bacchanal* or whatever? I'm not sure why the goat's gender matters? For trágos, I mean. He-goat?
 
-There’s another theory, that the root is actually *trygos* and we're talking about grapes. The grape harvest. Wine. There’s less blood in that translation, everyone still gets drunk, and no one bothers to *gender the grapes*. Or… *sex* the grapes?
+There’s another theory, that the root is actually *trygos* and we're talking about grapes. The grape harvest. Wine. Everyone still gets drunk, and no one bothers to *gender the grapes*. Or… *sex* the grapes?
 
 When you sex a goat, you're looking to see if it has dangly bits? When you gender a goat, you're like *he's such a good goat, let's kill him to make Dionysus happy!* And when you *romance* a goat…
 
-So I guess people disagree about the word *Tragedy*. And the importance of dangly bits… But Aristotle says it’s the goat thing, not the grapes. And not as a prize or a sacrifice, but those nature spirits — Satyrs — half goat, half man. Some sort of fertility… They always have these massive… It’s where we get the word *satire*. But that’s weird, right? Satyrs are *comic*. Satire is *comedy.*
+So I guess people disagree about the word *Tragedy*. And the importance of dangly bits… But Aristotle says it’s the goat thing, not the grapes. And not as a prize or a sacrifice, but those nature spirits — Satyrs — half goat, half man. Some sort of fertility… They always have these massive… More upright, than dangly. It’s where we get the word *satire*. But that’s weird, right? Satire is *comedy.* Satyrs are *comic?*
 
 Sorry. Sorry, can I see that program again? *As herself, Miriam.* So is it about me, then? Am I the *protagonist*? From *pro*, meaning first, and *agōnistēs* meaning actor, or competitor. The first actor? The primary actor?
 
@@ -297,11 +297,9 @@ I used to be a theater person. Can you imagine? I mean, yeah, I am on stage. But
 
 So I guess Thespis was the first poet to write for an actor, himself, performing in character. Or the first Greek? But Sappho was writing and performing in character a hundred years before that, so why doesn’t she count? She was famous for it! Performing *as herself, Sappho*. The “lyric I” — that’s what they call it. Writing in first person.
 
-*Lyric*, as in *accompanied by a lyre*. No offense, Josie. It’s like a guitar, but older. More Greek. She was a pop star! Like Taylor Swift or whatever. She basically invented the guitar pick. Plato called her the *The Tenth Muse*, *The Mortal Muse*, or just *The Poetess.*
+*Lyric*, as in *accompanied by a lyre*. No offense, Josie. It’s like a guitar, but older. More Greek. She was a pop star! Like Taylor Swift or whatever. Plato called her the *The Tenth Muse*, *The Mortal Muse*, or just *The Poetess.* Which is in contrast to *The Poet*, masculine, Homer. If he even existed, I guess we’re not sure. He might have been *a poetic tradition,* whatever that means. *They* might have been a poetic tradition?
 
-That’s in contrast to *The Poet*, masculine, Homer. If he even existed, I guess we’re not sure. He might have been *a poetic tradition,* whatever that is. *They* might have been a poetic tradition?
-
-Homer and all the other *boy poets* just wrote about epic battles, and divine heroes — Captain America, Superman, The Human Torch. Third person war stories, just writing down what happened, like a good journalist. Detached. But then Sappho comes along and makes it all personal, talking about her own experience. Her feelings. *Eros* — Passion, desire, and unfulfilled longing. She was, get this, “*accused by some of being irregular in her ways and a woman-lover.”*
+Homer and all the other *boy poets* were obsessed with epic battles, and divine heroes — Captain America, Superman, The Human Torch. Third person war stories, just writing down what happened, like a good journalist. But then Sappho comes along and makes it all personal, talking about her own experience. Her feelings. *Eros* — Passion, desire, and unfulfilled longing. She was, get this, “*accused by some of being irregular in her ways and a woman-lover.”*
 
 ### [Mixed - Heroes & Extras]
 
@@ -315,9 +313,9 @@ Right?
 I’ll take lesbians over thespians any day.
 
 **Mia:**
-Are those the two options?
+Are those the two options? Do I have to pick one?
 
-Ok, honestly? This is all just stuff that I found on Wikipedia. It’s not like I walk around knowing things about Greek tragedy, or “the lyric I.” Well I do now, but I didn’t before…
+Ok, honestly? This is all just stuff that I found on Wikipedia. It’s not like I walk around knowing things about Greek tragedy, or “the lyric I.” Well, I didn’t before.
 
 So Thespis invents tragedy. A one-man show. But then Aeschylus introduces dialogue, a second actor — and it’s been all downhill from there. Shakespeare will start you off with thunder, lightning, and three witches — I wish we had that kind of budget — *[does Josie knock over a thunder sheet?]* but then, they’re basically nobody. It’s a play about some Scottish asshole, who goes around killing everyone. The witches are just… extra.
 
@@ -339,19 +337,41 @@ You said to comment on the action.
 **Mia:**
 Well comment on it *less*. I’m trying to develop a *rapport*.
 
-I mean it’s been, what? Four hundred years since Shakespeare? There’s a global pandemic, we’re finally back to live theater, but… It’s just me up here? With accompaniment, but still. A poor… Miriam *who struts and frets her hour* (hour and a half?) *upon the stage…* And then… What? Heard no more?
+I mean it’s been, what? Four hundred years since Shakespeare? There’s a global pandemic, we’re finally back to live theater, but… It’s just me up here? With accompaniment, but still. Aristotle would not be impressed. *There is a type of manly valor*, he says, *but valor in a woman,  or unscrupulous cleverness is inappropriate.*
 
-According to Aristotle, I shouldn’t even be up here in the first place. A tragic lead. He says *there is a type of manly valor* — this is a quote — *but valor in a woman, or unscrupulous cleverness is inappropriate.*
+And if you look up “Hero” — I know, I know, Miriam Webster, right? — a Hero is *the chief male character in a book, play, or movie*. And the first example is *a war hero.* Which… I was in a fight once. Like a physical… altercation. In middle school. A kid slapped me, and I fell down. That's the whole story, really.
 
-And if you look up “Hero” — I know, I know, Miriam Webster, right? — a Hero is *the chief male character in a book, play, or movie*. And the first example is *a war hero.* Which… I was in a fight once. Like a physical… altercation. In middle school. A kid slapped me, and I fell down. That's the whole story, really. I cried for a while, and everyone laughed at me. The other… boys. I was a boy, then… Or we all thought…
+But there is a thing — does this happen to you? When people hear I’m trans — see me on stage or whatever — they tell me that I'm *brave*. Like my existence is some heroic feat. I know they mean well, but it's weird, right?
 
-*[to Josie]* Did I tell you? I ran into my ex over the holidays?
+**Josie:**
+I always hear that movie cliche. *You've got a lot of nerve, showing your face after what you've done.*
+
+**Mia:**
+Or maybe they mean *I'm sorry for what we'll do to you.* Like they see us already as a sacrifice — tragic, but unavoidable?
+
+**Josie:**
+Wait, is this a show about being trans?
+
+**Mia:**
+What? No… I hope not. I don’t want to tell that same old transition story, you know? “I was born in the wrong body, but I always _felt like a girl_” — whatever that means. Have you ever *felt like a girl*?
+
+**Josie:**
+Only when men talk over me.
+
+**Mia:**
+I just… I felt *frustrated*.
+
+**Josie:**
+Girls do feel frustrated, sometimes.
+
+**Mia:**
+Right? Oh, did I tell you, I ran into my ex?
 
 **Josie:**
 Your ex-wife?
 
 **Mia:**
-Yeah, she asked “is that’s why we didn’t work out?”
+Yeah, she wanted to get together. So we did, but basically just so she could ask “is that’s why we didn’t work out?”
 
 **Josie:**
 Because you’re trans?
@@ -360,22 +380,28 @@ Because you’re trans?
 Yeah.
 
 **Josie:**
-What did you say?
+Didn’t she, like, throw potted plants at your head, or beat you, or whatever?
 
 **Mia:**
-Well I wasn’t going to say “you threw potted plants at my head.” So I was just like… I don’t know… “It probably didn’t help?”
+I don’t know… I mean, yeah. I guess so.
 
 **Josie:**
-Yeah but, doesn’t that just let her off the hook?
+You guess so?
 
 **Mia:**
-Maybe? I don’t know. I just felt like: Tell yourself whatever you need. I’m not your therapist. I guess that’s the real tragedy, tho, isn’t it?
+Well it’s like… The gaslighting was worse right? Like harder to see? More… familiar? Thank god she hit me, so I could leave…
+
+**Josie:**
+Yikes. So what did you say?
+
+**Mia:**
+“It probably didn’t help.” I just felt like, I don’t know — tell yourself whatever you need. I’m not your therapist. I guess that’s the real tragedy, tho, isn’t it?
 
 **Josie:**
 You should have been a therapist?
 
 **Mia:**
-No. No, the transition. It’s a change of fortune, maybe? Brought on by… some flaw in my character? Once a married man, with valor — or *valor potential* — but over the next 90 minutes I’m revealed as… just this? *Unscrupulous in my cleverness?*
+No. No, the transition. It’s a reversal of the situation, maybe? Brought on by… some flaw in my character? Once a married man, with valor — or *valor potential* — but over the next 90 minutes I’m revealed as… just this? *Unscrupulous in my cleverness?*
 
 I mean, that story has everything, doesn’t it? *Peripity and Pathos.* A moment of recognition, a reversal of the situation, and then the “tragic act”! The blood letting. Oedipus stabs out his own eyes, but I’m like: raise the stakes! My ex once said that she wouldn’t be happy until I was dead or gay or castrated.
 
@@ -383,7 +409,7 @@ I mean, that story has everything, doesn’t it? *Peripity and Pathos.* A moment
 Two out of three ain’t bad.
 
 **Mia:**
-But it’s a tragedy, right? Let’s go for the hat trick! See if it makes her happy. There’s potential for a tragedy in that, right? Or is it just *travesty*? A poor imitation, a parody. From the Latin *transvestire* — to cross-dress.
+But it’s a tragedy, right? Let’s go for the hat trick! See if it makes her happy!
 
 Sorry, where were we? I guess a “Hero” is also… a submarine sandwich, right? Have you eaten? We should order something.
 
@@ -397,7 +423,7 @@ Oh, good question. Wait have you seen — I thought this was funny — Wikipedia
 Was that Wikipedia, or Tinder?
 
 **Mia:**
-Right? And then Jucy Lucy, with the cheese baked in — that’s me, I’m Lucy… Turkey Devonshire,
+Right? And then Juicy Lucy, with the cheese baked in — that’s me, I’m Lucy… Turkey Devonshire,
 Veggie Burger…
 
 **Josie:**
@@ -418,15 +444,15 @@ Maybe finish your prologue, and we can eat when they leave?
 ### [Mia - Words, Words, Words]
 
 **Mia:**
-Yeah ok. Sorry, am I talking too much? It feels like a lot. How long is a prologue supposed to be? Are you timing this, Josie? I hate it when theater is just like words words words, you know? There should be spectacle! Helicopters landing on stage!
+Yeah ok. Sorry, am I talking too much? It feels like a lot. How long is a prologue supposed to be? Are you timing this, Josie? I hate it when theater is just like words words words, you know? People want spectacle! Helicopters landing on stage!
 
 *[Mia tries some awkward movement? She concludes talking is better for now?]*
 
 I guess I’m just too close to it. If I could see it from out there… But then would you be up here…? Would you play me? People talk about that all the time, right? Who would play you in a movie? Or… Does Jamie Clayton do theater? I feel like there should be auditions, tho. Maybe we still can? If any of you are actors… or you know someone…
 
-I guess the program’s already printed, but we can make an insert? Or just announce it before the show, like: *For tonight’s performance, the role of Miriam will be played by an understudy.* Something like that. It’s not hard to play me. Just, you know, cheat out? Project? Otherwise… Act natural or whatever? You do you.
+I guess the program’s already printed, but we can make an insert? Or just announce it before the show, like *For tonight’s performance, the role of Miriam will be played by an understudy.* Something like that. It’s not hard to play me. Just, you know, cheat out? Project? Otherwise… Act natural or whatever? You do you.
 
-## Chorus: My Friends Call Me Happiness
+## Chorus: An Authentic Song
 
 **Josie:**
 Live your truth.
@@ -440,7 +466,7 @@ Live your *authentic* life.
 What are you doing?
 
 **Josie:**
-That was my cue! I said *Live your truth*, and you said *Live your authentic life.* I was following along in the script here and it says, uh… “*Josie starts a song, TBD”*
+That was my cue! I said *Live your truth*, and you said *Live your authentic life.* I was following along in the script here and it says, uh… *Josie starts a song, TBD.*
 
 **Mia:**
 There’s a script?!
@@ -449,13 +475,7 @@ There’s a script?!
 Yeah, it was right here, with all my lines highlighted. But it doesn’t say what song to play, just TBD, like we’ll come back to it?
 
 **Mia:**
-Well I’m not going to write your songs for you.
-
-**Josie:**
-You could give me something to work with!
-
-**Mia:**
-You had a whole prologue to figure it out! I want the songs to be *authentic Josie*, not just something I told you to play.
+Well I’m not going to write your songs for you. I want the songs to be *authentic Josie*, not just something I told you to play.
 
 **Josie:**
 Bullshit. I looked ahead. There’s a whole Sappho poem just copied and pasted into the script, like you don’t trust me to write lyrics at all.
@@ -470,7 +490,7 @@ I think they just call that *in-authentic*.
 It’s collaborative! I set you up, and then you come in like *yes, AND here’s a beautiful song I wrote.*
 
 **Josie:**
-Ok, sure. But your setup is just Aristotle, Sappho, Thesipis, Heraclitus, here’s what the dictionary has to say. How am I supposed to write songs about that? You know my style is more… raw and honest. Where do I even fit in this?
+Ok, sure. But your setup is just a list of definitions and philosophers. How am I supposed to write songs about that? You know my style is more… raw and honest. Where do I fit in?
 
 *[pause]*
 
@@ -503,29 +523,23 @@ Ok so, according to this script — and I’m just skimming here, I didn’t hav
 
 Whatever, I’ll just tell you what I know about Agraulos. Aglauros? Aglaulus? I don’t know how you say it. Different translations just swap out letters… It means *Country Woman*, I think. Agraulos… like Agriculture, I guess? Or maybe *Clear Water?*
 
-I’ve been trying to write about her for… well I guess it started in 2010. But I’m not sure how she fits in here. I did grow up on a farm. Are we going for a *country woman* connection? But she’s a city girl, from Athens. The eldest daughter of the king — a princess, not a farm girl! She’s one of the Kekropidae. Children of Kecrops. Three “virgin sisters”.
+I’ve been trying to write about her since… 2010? But I’m not sure how she fits in here. I grew up on a farm. Are we going for a *country woman* connection? But she’s from Athens, the eldest daughter of the king — a princess, not a farm girl! She’s one of three “virgin sisters”.
 
-I don’t know if that’s important? Virginity isn’t even a real. I mean, I get that some things *are sex*, and some things *are not sex*. But then there’s all this stuff that… I don’t know… with like hands and… *[various gestures]*
+I don’t know why that’s important? Virginity isn’t even… Like, I get that some things *are sex*, and some things *are not sex*. But then there’s all this stuff with like hands and… *[various gestures]*
 
-I had a roommate once, who said that it counts as sex if anyone in the room cums. But that seems, too simple? Does everyone need to be aware it happened? Shouldn’t we account for, like, consent, or something?
+Anyway, these three sisters, they’re all just *dripping* with water names. Agraulos, *clear water*. And then her younger sister — middle sister — Pandrosas, *all-dewy*. And the youngest is called Herse — Herse? Herse? — I’ll have to look up how all these names are pronounced — Herse just means *the dew*. Clear water, all dewey, the dew.
 
-So these three sisters, they’re all just *dripping* with water names. Agraulos, *clear water*. And then her younger sister — middle sister — Pandrosas, *all-dewy*. And the youngest is called Herse — Herse? Herse? — I’ll have to look up how all these names are pronounced — Herse just means *the dew*. Clear water, all dewey, and just the dew. And there’s a festival, called The Festival of The Dew Carriers, and it’s named after them, I think? I don’t know if that’s important either.
+There’s also a butterfly common to the southern states, Texas and Florida. It’s called the *gulf fritillary*, or the *passion butterfly*, or (get this) *Agraulis vanillae*. I can’t find anything about how it got that name, but they’re beautiful creatures. And they transform, you know? A hungry caterpillar, but then it forms a shell, where it becomes *gelatinous* — *clear water, maybe? —* and eventually emerges with long narrow wings. Deep orange, with spots of black — like dew on wet ink, maybe?
 
-There’s also a butterfly common to the southern states, Texas and Florida. It’s called the *gulf fritillary*, or the *passion butterfly*, or (get this) *Agraulis vanillae*. I can’t find anything about how it got that name, but they’re beautiful, fragile creatures. And they transform, you know? A hungry caterpillar, but then it forms a shell, where it becomes *gelatinous* — *clear water, maybe?* — and eventually emerges with long narrow wings. Deep orange, with spots of black — like dew on wet ink, maybe? I don’t know.
+For context, this is all Greek mythology, but it predates Greece — and then, it’s also Roman? Because the Romans come along later, and just, like… take all the same stories. The same people. Some of them have different names, a different context… It’s a whole different language. Is it still the same story if you take out all the words, and put in new words? I guess that’s just translation, right? But what’s the story, if it’s not the words?
 
-For context, this is all Greek mythology, but also, then, Roman? Because the Romans came along later, and just, like… took all the same stories. The same people, but some of them have different names, and a different context, different language.
-
-Is it still the same story if you take out all the words, and put in new words? I guess that’s just translation, right? But what’s the story, if it’s not the words?
-
-And you might think mythology is somehow different from, you know, religion. Like some gods are actually gods, and other gods are less god-like? But this was a religion. These gods are a part of everyday life — culture, rituals, love, war, everything. Until Aristotle, I guess. He’s one of the first to step back, and write about these gods… detached. Not religious, but *academic*. A literary critic.
-
-So Agraulos shows up in a bunch of these myths, but she’s always a bit part. She just appears here and there, to fill in some plot holes. And then… she dies. Over and over. Like, oh my god, they killed Agraulos again!
+So Agraulos shows up in a bunch of these myths, but she’s always a bit part. She just appears here and there, to fill in some plot holes. And then… she dies. Every time. Over and over. Like, oh my god, they killed Agraulos again!
 
 **Josie:**
 You bastards!
 
 **Mia:**
-I mean, sure, she’s a myth, right? So she can die as often as she needs to. But she’s supposed to be the same person every time — same name, same parents and siblings. Is that what it means to be the same person? I guess I don’t know. I’ve had several names.
+I mean, sure, it’s fiction, right? So she can die as often as she needs to. But she’s supposed to be the same person every time — same name, same parents and siblings. Is that what it means to be the same person? I guess I don’t know. I’ve had several names.
 
 It’s just… None of her stories actually *fit together*! Like she’s only there so that she can be killed? Some kind of… tragic utility player? I think that’s a sports thing. Like she can play in the outfield, but then she’s a linebacker, and then… I don’t know sports. I guess, either way she’s gonna die?
 
@@ -564,7 +578,7 @@ Maybe that’s her connection, though, right? Tragedy? Pathos? Pity & Fear? Mayb
 
 Is that what Aristotle means? Make her story *serious, and complete, and of a certain magnitude* — so you can take it all in, and understand it? Find the truth in it? Coax truth out of her well, and into the light?
 
-## Chorus: Truth Emerging from Her Well
+### [Dialogue - Truth Emerging from Her Well]
 
 **Mia *[to Josie]*:**
 Have you seen that painting?
@@ -579,46 +593,33 @@ It was going around online. You should look it up! It was called something like�
 Oh sure, I’ve seen that. It’s in the program. I think it’s on the website too? Basically all the marketing. We’ve all seen it.
 
 **Mia:**
-What?! Wait, really? You’ve all seen it?
+What?! Wait, really? You’ve all seen it? Yeah, there she is, just naked.
 
-**Josie:**
-Sure. Yeah, I even wrote a song about it.
-
-**Mia:**
-Can I see that? Yeah, there she is, just naked.
-
-*[Josie sings a song for truth]*
-
-Erin thinks this painting looks like me. That’s funny, right? Erin’s my partner. One of my partners. *The naked truth*, I guess. That’s a phrase. Oh, shit! That’s private! You don’t need to see me like that. Gross. It’s not that kind of a show.
+Erin thinks she looks like me. That’s funny, right? Erin’s my partner. One of my partners. *The naked truth*, I guess. That’s a phrase. Oh, shit! That’s private! You don’t need to see me like that. Gross. It’s not that kind of a show.
 
 **Josie:**
 Maybe Erin just thinks you’re angry all the time?
 
 **Mia:**
-Yeah, maybe. Aaarrrrrr. I need a whip, though. Oh, put that in the notes. Who’s doing props? We should find someone for that. Oh, also *nudity*. Add that to the program.
+Yeah, maybe. Aaarrrrrr. I need a whip, though. Who’s doing props? We should find someone for that. Oh, also *nudity*. Add that to the program.
 
-## Episode: Killed by Liars & Actors
+### [Mia - Killed by Liars & Actors]
 
-**Mia:**
-My ex-wife used to claim that all theater is pornography. And not in a good way, she was not getting off to it! I mean, I think she liked theater ok, when I wasn’t doing it? But then, you know, when I was at rehearsal late, with *other women*? Doing *god knows what*… *[repeat gestures from earlier?]*
+My ex used to say that all theater is pornography. And not in a good way, she was not getting off to it! Maybe that was a bad sign, actually? Since I was running a theater company at the time? When that fell apart I had a real crisis, you know. Who am I, if I don’t do theater anymore? Just a writer, I guess? A web developer? Yikes. *Multimedia artist* just sounds pretentious.
 
-You just can’t trust actors. Maybe that was a bad sign, actually? Since I was running a theater company at the time? When that fell apart I had a real crisis, you know? Who am I, if I don’t do theater anymore? A writer, maybe? A web developer? *Multimedia artist* just sounds pretentious.
+I mean, I think she liked theater fine, when I wasn’t doing it? But then I’d be at rehearsal, with other women… Actors… Plato has a whole thing about how you can’t trust actors, because they really are *trained to lie*, just all the time. Not me, though. I’m not an actor. I’m… just Miriam, but on a stage.
 
-Oh, that same guy, the painter, he has another one where Truth is dead at the bottom of her well — I don’t know if it’s supposed to be before or after — but the title is like: *Truth lies in a well, having been killed by liars and actors!* Plato has a whole thing about that, too. How you can’t trust actors, because they really are *trained to li*e, just all the time.
+Oh, that same guy, the painter, he has another one where Truth is dead at the bottom of her well — I don’t know if it’s supposed to be before or after — but the title is like: *Truth lies in a well, having been killed by liars and actors!*
 
-Not me, though. I’m not an actor. I’m… just Miriam, but on a stage. A writer, maybe? Poet? Sometimes…
-
-Plato *was* a poet, before he became *obsessed* with *Pure Reason.* And then he just… burned all his old poems — all his notebooks from high-school, his emo phase — and became a philosopher instead. He starts teaching, and writes this book — *The Republic* — which is supposed to be a utopia, but it sounds miserable. First off, philosophers are in charge, which is lucky for Plato I guess. But then the rest of us… are either soldiers or farmers, basically.
+Plato was a poet, before he became *obsessed* with *Pure Reason.* And then he just… burned all his old poems — all his notebooks from high-school, his emo phase — and became a philosopher instead. He starts teaching, and writes this book — *The Republic* — which is supposed to be a utopia, but it sounds miserable. First off, philosophers are in charge, which is lucky for Plato I guess. But then the rest of us… are either soldiers or farmers, basically.
 
 And I think it’s generational? A caste system? Like I grew up on a farm, so I guess that’s where I *belong*? I also grew up Mennonite — a pacifist — so, I’m not gonna be a soldier.
 
-Oh, you’re probably thinking of the Amish, or like old-order Mennonites? Head coverings and whatever? Buggies? It wasn’t like that. It was pretty normal, I guess, just with four part harmony before every meals.
+You’re probably thinking of the Amish, or like old-order Mennonites? Head coverings and whatever? Buggies? It wasn’t like that. It was pretty normal, I guess, just with four part harmony before every meal.
 
-They started together — the Amish and Mennonites — back in 1520-whatever. But then the church just split every couple years. Right from the start they were fighting over stupid shit like; should there be buttons on clothes, or rubber on tires? Is it ok to grow a mustache? They even split over the right way to shun people! Excommunication. Do you actually have to stop talking to someone, or can you just make them sit at a different table? The bad table. The whole church split over that. You you can’t kick us out, we kicked *you* out!
+They started together — the Amish and Mennonites. But then the church just split every couple years. Right from the start they were fighting over who’s in and who’s out. The church is the body of Christ — or maybe the bride — either way it has to remain perfect! And, you know… I guess that’s what happens with purity movements, no one can agree what *perfection* looks like, so they splinter off into these different fragments of church, different sects.
 
-I guess that’s what happens with purity movements, no one can agree what *perfection* looks like, so they splinter off into different fragments of church, different sects.
-
-## Chorus: Sects with Goats
+## Chorus: Sects with Goats / Sappho’s Country Girl
 
 **Josie:**
 Different Sex?
@@ -653,7 +654,7 @@ Oh wait, I’ve got a perfect song for that.
 Nice. That’s hot.
 
 **Josie:**
-Thanks, it’s from a Sappho fragment *[air quotes?]* “that I happened to come across totally naturally” you know, as part of my “authentic research?”
+Thanks, it’s from a Sappho fragment *[air quotes?]* “that I happened to come across” as part of my “authentic research?”
 
 **Mia:**
 Oh my, what a coincidence! (What’s next? What does the script say?)
@@ -666,7 +667,7 @@ I think you were talking about Plato.
 ### [Mia - The Benefit of Real Chairs]
 
 **Mia:**
-Oh, right! So Plato doesn’t like *art*. Well he enjoys it, but he says it’s bad for us. Art is just a poor imitation of life — a travesty, I guess — but he also thinks that life itself is just a poor imitation, a shadow of… something… else. Like on a cave wall, or whatever.
+Oh, right! So Plato doesn’t like *art*. Well he enjoys it, but he says it’s bad for us. Art is just a poor imitation of life — a travesty, I guess. From the Latin *transvestire —* to cross-dress. But he also thinks that life itself is just a poor imitation, a shadow of… something… else. Like on a cave wall, or whatever.
 
 Plato thinks this physical world — flesh and blood and broken bones — is too unreliable to be *really* real. It’s not rational enough! Things change too much. Entropy and whatever. So there must be some more *real* reality, somewhere else.
 
@@ -676,11 +677,11 @@ So then that means that the chairs we have, here in a warehouse off Santa Fe, ar
 
 And those Real Things — real chairs, real… women — must all be somewhere we can’t see, can’t touch. We can only *reason* about them. Pure Reason, right? And he calls that the *Realm of Forms.* It’s like an Amazon warehouse somewhere, full of Ideals. Hidden truths. The platonic form of Truth at the bottom of her platonic well, with a platonic whip.
 
-It’s why truth has to be naked! Otherwise she’s probably hiding something under her skirt. Or are things more true when you hide them? If not *under our clothes,* then maybe *between our ears*? Somewhere deep inside, a true self, hidden away? Does that make a truth more extra *real*? More pure and immaculate — free from any contamination of the body.
+It’s why truth has to be naked! Otherwise she’s probably hiding something under her skirt! Or are things more true when they’re hidden? If not *under our clothes,* then maybe *between our ears*? Does that make a truth more extra *real*? More pure and immaculate — free from any contamination of the body.
 
 Bodies are messy… All these desires. Fluids. Blood and… Bodies can break… Bodies… ruin everything.
 
-What happens if your chair breaks? Chairs break all the time! Are they still chairs? Are they even chair-like? What the hell? Time is irrational! People grow old, metal rusts, and fruit rots. Is it still an apple, once it's rotten? I wouldn’t eat it! But I don’t like apples. Does my character like apples? But that’s the point, right? Taste is *unreliable*! Our senses are fickle & temporary, irrational. In order to be *real*, things have to be reliable! Insistent, persistent, and consistent. *The facts can’t possibly care about your feelings!*
+What happens if your chair breaks? Chairs break all the time! Are they still chairs? Are they even chair-like? What the hell? Time is irrational! People grow old, metal rusts, and fruit rots. Is it still an apple, once it's rotten? I wouldn’t eat it! But I don’t like apples. Does my character like apples? Taste is *unreliable*! Our senses are fickle & temporary, irrational. In order to be *real*, things have to be reliable! Insistent, persistent, and consistent. *The facts can’t possibly care about your feelings!*
 
 Don’t even get Plato started on feelings. That’s another problem. Poetry makes you *feel* all these emotions, like *pity* & *fear* — Plato mentions those specifically. Poets love to wallow in these emotions. But then they’re just, you know, *bad emotions*.
 
@@ -692,13 +693,13 @@ And anyway! Poets aren't experts, what do they know? Poets will just say whateve
 It’s a good joke, though.
 
 **Mia:**
-But Plato’s not *happy* about that conclusion. He *likes* poetry, and he’s sad that he has to throw it out. So there's a line in there, near the end of his book. He challenges someone, anyone who’s not a fucking poet, to prove him wrong. *For it will be clear gain for us if it can be shown that (poetry) bestows not only pleasure but a benefit.* Plato’s a fucking downer.
+But Plato’s not *happy* about that conclusion. He *likes* poetry, and he’s sad that he has to throw it out. So there's a line in there, near the end of his book. He challenges someone, anyone who’s not a fucking poet, to prove him wrong. *For it will be clear gain for us if it can be shown that [poetry] bestows not only pleasure but a benefit.* Plato’s a fucking downer.
 
-And Aristotle is a student at Plato’s academy, so he accepts this challenge — to defend poetry. To prove that poetry — which at the time is mostly performed, so we’re talking about theater and music as well. Both Thespis and Sappho are on the chopping block, unless Aristotle can *prove* that *all their shitty performance art* is *not only a pleasure, but a benefit!*
+And Aristotle is a student at Plato’s academy, so he accepts this challenge — to defend poetry. To prove that poetry — which at the time is mostly performed, so we’re talking about theater and music as well. Both Thespis and Sappho are on the chopping block, unless Aristotle can *prove* that *a*ll their *shitty performance art* is *not only a pleasure, but a benefit!*
 
 And that’s the whole book. Aristotle’s Poetics. A defense of poetry. I guess the best offense of poetry, is a good defense of poetry?
 
-But in order to prove that something *has a benefit*, you need to define it. What counts as poetry, and what’s the *singular purpose for all poetics*. You need a single metric to measure against, so you can quantify all poetry, and rank it from least to most *beneficial*. Successful. Perfect! Maybe even find, or write (if you’re lucky), that one perfect poem, perfect play, perfect song — the one we’ve all been working towards. And it’s a race to see who gets there first.
+But in order to prove that something *has a benefit*, you need to define it. What *counts* as poetry, and what’s the *singular purpose for all poeti*cs. You need a way to quantify all poetry, and rank it from least to most *beneficial*. Perfect! Maybe even find, or write (if you’re lucky), that one perfect poem, perfect play, perfect song — the one we’ve all been working towards.
 
 ### [Dialogue - The Best Words]
 
@@ -706,13 +707,11 @@ But in order to prove that something *has a benefit*, you need to define it. Wha
 My strategy — writing lyrics I mean — is just to take all the best words, and put them in the best order.
 
 **Mia:**
-That’s clever. But are lyrics even poetry? How do we know?
+But are lyrics even poetry? How do we know?
 
 ### [Mia - Catharsis]
 
-The definition Aristotle lands on, the purpose of all poetry, is *catharsis* — and only Tragedy achieves this, through Pity & Fear. Tragedy is perfect, and everyone else can go jump off a cliff with their love poems or whatever — *Sappho*.
-
-And so this supposed “defense” of poetry — by attempting to define it — becomes, in reality, a defense of only *some* poetry, and a weapon against the rest.
+The definition Aristotle lands on, the purpose of all poetry, is *catharsis* — and only Tragedy achieves this, through Pity & Fear. Tragedy is perfect, and everyone else can go jump off a cliff with their love poems or whatever — *Sappho*. And so this supposed “defense” of poetry — by attempting to define it — becomes, in reality, a defense of only *some* poetry, and a weapon against the rest.
 
 But he never defines that word. *Catharsis.* It’s usually, like, *a cleansing*? But what kind, exactly? I mean, words mean things, right? But some words mean *too many* things, all at once, or they mean the wrong thing, and you have to untangle the metaphor.
 
@@ -793,13 +792,13 @@ Ok. Death number one, the first death of Agraulos. Well, the first one tonight. 
 
 Athens has been at war, and it’s dragging on for years. The city is under siege, and they’re losing. So they call on the Oracle at Delphi. The temple of Apollo.
 
-The Oracle is just some woman, a priestess, sitting on a three-legged stool over a chasm. The inner sanctum of the temple. Fumes rise up below her seat, supposedly a decomposing python — the great serpent, killed by Apollo himself. And she would fall into a trance, intoxicated by these vapors, allowing Apollo to possess her spirit. And the result is some nonsense experimental poetry — she’s tripping on fumes, right? But then it’s translated by the priests into elegant, cryptic, hexameters. Prophesies.
+The Oracle is just some woman, a priestess, sitting on a three-legged stool over a chasm. The inner sanctum of the temple. Fumes rise up below her seat, supposedly a decomposing python — killed by Apollo himself. And she would fall into a trance, intoxicated by these vapors, allowing Apollo to possess her spirit. And the result is some nonsense experimental poetry — she’s tripping on fumes, right? But then it’s translated by the priests into elegant, cryptic, hexameters. Prophesies.
 
 Which is great. Greek Tragedies often start with like: Oedipus is going to kill his father and marry his mother, all in the next 80 minutes! We’ve got father killing and mother fucking! Just sit back and enjoy! I guess Macbeth starts with a prophesy, too, right? That’s what the witches are for? All that toil and trouble? I wish I had a prophesy.
 
 ### [Dialogue - A Prophesy]
 
-That’s how we should start the show, you know? You could be the witches, and tell me what’s gonna happen?
+That’s how we should start the show! You could be the witches, and tell me what’s gonna happen?
 
 **Josie:**
 You will stand on a stage and talk a lot. *[Evil witch laugh]*
@@ -811,61 +810,176 @@ Thanks, I guess? Prophesies are great, because it’s a story just waiting for y
 You mean, this show?
 
 **Mia:**
-Or… life? Like we’re all just… making it up as we go? Searching for some hidden purpose, some truth we can’t see? And sometimes, the story suddenly shifts around me. Things I thought I knew, but now I’m not sure… How am I supposed to build a narrative out of that — serious, complete, and certain?
+Or… life? Like we’re all just making it up as we go? Searching for some hidden purpose, some truth we can’t see? But then, sometimes the story just… shifts, without warning? How am I supposed to build a narrative out of that — serious, complete, and certain?
 
-### [Mia - Knowledge of Self]
+### [Mia - A Scale of Being]
 
-When my mom was pregnant for the first time, she had a dream that the child would be a boy — and he was… or is. That’s my brother. But when mom was pregnant with her second child (that’s me) she had no such premonitions. No prophesy, no oracle, no ultrasound clues… So she bought a beautiful little dress, *on the off-chance*, she tells me. And picked out my name, Miriam Suzanne. After I was born, they gave it all away. The dress, the name, the narrative.
+When my mom was pregnant for the first time, she had a dream that the child would be a boy — and he was… or is. That’s my brother. But when mom was pregnant with her second child (that’s me) she had no such premonitions. No prophesy, no oracle, no ultrasound clues… So she bought a beautiful little dress, *on the off-chance*, *s*he tells me. And picked out my name, Miriam Suzanne. After I was born, they gave it all away. The dress, the name, the narrative.
 
-But the Oracle at Delphi, you can just go there and ask, you know: who am I, really? Why am I here? Or, *how do I end this goddamn war*? And then the oracle goes through the whole process — shitty first draft, and a round of edits — to get you some beautiful aphorism, like… *you are what you eat* or *step on a crack* or *all that we are, is the result of what we have thought*. I got that one from a fortune cookie.
+But the Oracle at Delphi, you can just go there and ask, you know: who am I, really? Why am I here? Or, *how do I end this goddamn war?* And then the oracle goes through the whole process — shitty first draft, and a round of edits — to get you some beautiful aphorism, like… *you are what you eat* or *step on a crack* or *all that we are, is the result of what we have thought*. I got that one from a fortune cookie.
 
-Or also like the one inscribed on the forecourt of the temple — whatever that is. I guess you see it when you enter? It says *Nosce te ipsum. Know thyself!*
+Or also like the one inscribed on the forecourt of the temple — whatever that is. I guess you see it when you enter? It says *Gnothi Seautom. Know thyself!*
 
-Which probably just meant, like, know your place before the gods. Stay humble. But then Socrates says that a man should *look himself in the mouth*, the same way he would a horse for sale (but not a gift horse, that’s rude). It becomes a self-help trend. Know your strengths, your weaknesses, opportunities and threats. Your Meyers Briggs. Your Enneagram, and dianetics. Whatever it takes. But starting with your teeth, I guess. Teeth are important.
+Which probably just meant, like, *know your place* before the gods. Stay humble. But then Socrates says that a man should *look himself in the mouth*, the same way he would a horse for sale (but not a gift horse, that’s rude). It becomes a self-help trend. Know your strengths, your weaknesses, opportunities and threats. Your Meyers Briggs. Your Enneagram, and dianetics. Whatever it takes. But starting with your teeth, I guess. Teeth are important.
 
-Shakespeare makes it about personal authenticity: *To thine own self be true.* But then, eventually Carl Linnaeus — the *father of modern taxonomy* — he’s putting all the animals into categories, and he uses that same Latin phrase to describe us. Humans. *Homo sapiens*, our whole species. It means *wise and knowledgeable men*. But then, as a description: *Nosce te ipsum. Know thyself*.
+Shakespeare makes it about personal authenticity: *To thine own self be true.* But then, eventually Carl Linnaeus — the *father of modern taxonomy* — he’s putting all the animals into categories, and he uses that same phrase in Latin to describe us. Humans. *Homo sapiens*, our whole species. *Wise and knowledgeable men*. But then, as a description, *nosce te ipsum. Know thyself*.
 
-And this is still our favorite way to sort and rank life. Size everything up by it’s *knowledge of self*. We study this in dogs. Make a dog look in the mirror, but there’s something on its nose. Does it understand that nose as connected to a self? Reflected back? Does it try to brush something off? Or does it see… just another dog?
+So our species is masculine, knowledgeable men. But then our class — what makes us *animal* — is feminine. *Mammalia.* Not just suckling, which we all do, but *providing suckle*. Which is *a bit* less universal. Because Carl Linnaeus has a mission in life to convince European mothers that they should breast feed their own children. It’s not just the right thing to do, it’s the natural thing! *Mammalian.*
+
+And this is still our favorite way to sort and rank life. Size everything up by it’s *knowledge of self*. Make a dog look in the mirror, but there’s something on its nose. Does it understand that nose as connected to a self? Reflected back? Does it try to brush something off?
 
 What is this infinite feedback loop of memory and story that leaves us mesmerized by our own reflections in the pool, but also… makes us feel so alone. Are we alone? Are we the only ones who do this? Are we, the *best animals ever*?
 
-### [Dialogue - A Father For Everything]
+All these categories, genres, species… Why does it always end up with a single *essential condition* that must be met, a single path to perfection, to poetry, to humanity? *Are some of us more human than others?* More *sapien*, more self-aware? Obviously, some of us are more *homo…*
 
-Carl may be the father of taxonomy, but his work builds directly on Aristotle: the father of biology. There’s just a father for everything, isn’t there? Someone to define all the terms, the rules of the game, and then point out where we come up short…?
-
-**Josie:**
-Whoa, daddy issues?
-
-**Mia:**
-How could I have issues with someone who has never been wrong even once in his life?!
+And Carl’s work builds directly on Aristotle: *the father of biology*, who did all his research (by the way) on the Isle of Lesbos! Where he concludes that humans, like the air, are *hot* and *wet*.
 
 **Josie:**
-Obviously. Forget I said anything.
+Wet Hot Lesbian Summer!
 
 **Mia:**
-Anyway, Aristotle did his biological research on the Isle of Lesbos. Where he concludes that humans, like the air, are *hot* and *wet*.
+And Aristotle also arranges the world into a fixed *scale of perfection* — *the great chain of being*! With cold, dry minerals at the bottom, up thru plants and animals, to humans — the hottest, and wettest — just below the gods!
+
+Anyway, the prophesy for Athens — the Oracle at Delphi — is something like *a sacrifice of one, to save the city*. A personal sacrifice will end this ongoing war. What Athens needs is a martyr.
+
+### [Dialogue - The Bloody Theater]
+
+The Mennonites have this big thick book, ca*lled The Martyr’s Mirror (or) The Bloody Theater.*
 
 **Josie:**
-Hell yeah! Wet Hot Athenian Summer!
-
-### [Mia - A Scale of Being Hot & Wet]
+Now that’s a good title.
 
 **Mia:**
-In fact: everything around us can be arranged into a fixed *scale of perfection* — the great chain of being — based on your intrinsic hotness and wetness. A scale that starts with cold, dry minerals up thru plants and animals of varying elemental construction, to humans — the hottest, and wettest animals on the planet!
+Gets right to the point for a tragedy.
 
-And just like his defense of poetry, this proof — with humans just below the gods in perfection — comes with a height requirement. Once you define us, *human*, around some supposedly *essential* condition of self-knowledge, a line is drawn. You must be at least this tall — this *self-aware* — to ride with the Homo Sapiens. *Nosce te ipsum. Are some of us more human than others?* More *sapien*. Obviously, some of us are a lot more *homo…*
+**Josie:**
+Or a punk band.
 
-So our species is masculine, *homo sapiens.* What makes us *unique* from other hairy warm-bloods is the wisdom and reason associated with men. But then our class — what makes us *animal* — the group as a whole, *mammalia —* is the feminine.
+**Mia:**
+It’s like a memorial of dead Christians. Names and dates and stories — anyone who was killed for their faith. Starting with Jesus, up through the early Mennonites. Like this one guy, Dirk something — fleeing the god police across a frozen river. But then he stops, and turns back to pull them out, when they fall through the ice behind him. And, of course, they kill him anyway. He’s in this book, he’s a martyr.
 
-Not just suckling, which we all do at some point, but *providing suckle*. Which is *a bit* less universal. All because Carl Linnaeus, as a doctor, has this mission in life — to ensure that all mothers breast feed their own kids. A moral act in his mind, but sold to us as *natural*, our animal instinct. Consistent and persistent. *Mammalian.*
+But then that story helps define the whole community. Not just faith but action — pure and selfless action. What could be more Christ-like, than self-sacrifice? And I think, do all communities have stories like this? Maybe not always so bloody? But stories that tell us what it means to be a part of the group? Stories that inspire, and stories we can try to live into? Not conditions, but aspirations?
 
-But maybe the dog just looks in the mirror and thinks what Plato thinks. That image in the mirror is only dog-*like*. But the actual dog — the one true, real dog form — is just somewhere else. I used to look in the mirror and feel that way. See someone Miriam-*like*, but just a shadow of the real thing.
+## Chorus: Groundhog Day, for Trauma
+
+### [Story/Song- Groundhog Day, for Trauma]
+
+I don’t know. My ex had her whole life planned out. Married early. Two kids by the age of thirty. She was on track until… I ruined it all.
+
+*[Josie stanza?]*
+
+At some point, I’m sitting alone in couples therapy — such a classic trope in movies. And I tell the counselor, I don’t know what to do. How many times am I going to replace the broken remote, after it hits the wall behind me? How do I…
+
+*[Josie stanza?]*
+
+And the counselor says, like it’s obvious… You know you don’t have to go home, right? What? So I dive to a friend’s house instead, and move into the basement. Separated. But we start seeing a different counselor together. Try and make this work? Turn back onto the ice…
+
+*[Josie stanza?]*
+
+And somewhere in all of it, I start painting my nails. It’s relaxing. But my wife sees it, and asks if I’m having an identity crisis. I’m not, I think. Or… I am, but, that’s what a divorce is, right? Divorce *is* an identity crisis. But these… these are just colors that make me smile.
+
+*[Josie stanza?]*
+
+Still, it’s a small college, small town. Everyone knows me — knows us, our story. And the demand a re-write, to clarify this unexpected twist in the plot. The tragedy of divorce, messy and complicated, but over time… the telling of it becomes almost whole and complete, with a magnitude that is almost certain, contained. Beginning, middle, and end.
+
+*[Josie stanza?]*
+
+Everyone has an opinion, has to take a side. *She can’t really hurt you, can she?* Dad pulls out the DSM 4 to read me the definition of *abuse* — surely not for a case like this — more of a misunderstanding. A lack of *patience* on my part. There’s always middle ground, you just have to try harder… turn back onto the ice.
+
+*[Josie stanza? Music ends]*
+
+And it’s clear, every time, that I’m being cross-examined. Asked to prove, in prose without meter, that this divorce would provide *not only a pleasure but a benefit*.
+
+### [Mia - Kekropodai]
+
+Agraulos and her sisters are sometimes called the Kekropodai — daughters of Kekrops — which is, I think, also the genus of cicadas? Because women and cicadas both crop up every once in while, or fall from the trees and the cliffs, screaming — for reasons you might not understand. Because sometimes nothing changes until you climb to the top of the Acropolis, and give yourself over to the wind. To the cliffs. To the will of the gods. Which is what Agraulos does.
+
+And I wonder, when she heard that prophesy — a sacrifice of one to save the city — and she’s able to see herself in that story, in that role, the martyr. Was she confident about her choice? A destiny buried deep inside, or was she simply willing to risk it all, and hope for the best?
+
+We’ll never know, and maybe it doesn’t matter? Either way, she throws herself off the ledge, over the cliff. And she dies on the rocks below.
+
+### [Dialogue - Success]
+
+**Josie:**
+Does it work?
+
+**Mia:**
+I mean, she’s dead. There’s a temple for her there, where she fell.
+
+**Josie:**
+So it worked, then? She saved the city?
+
+**Mia:**
+Well, I guess they won the war. I mean, Athens is still there right?
+
+**Josie:**
+Because she was willing to sacrifice herself?
+
+**Mia:**
+I don’t know. Maybe?
+
+**Josie:**
+Ok, so that’s one story. How does Agraulos die next?
+
+## Episode: Athena & Erichthonius
+
+### [Mia - The Rape of a Goddess]
+
+**Mia:**
+This story starts with Athena — Minerva, if you’re Roman — The goddess of wisdom and war (which is an interesting combination). She’s in need of new weapons, and new armor. So she goes to her half-brother, the blacksmithing god Hephaestus. Which is wise, I guess, if you’re going to war. But Hephaestus decides, instead of making anything at all he’s going to… pursue Athena, his sister. Sexually. Against her will.
+
+And Athena hasn’t got time for this! She’s the goddess of wisdom and war for fucks sake! A goddamn feminist icon! She has places to be. Or according to some authors, she’s just *determined to maintain her virginity* — not like, *determined to not be fucking raped, by her fucking brother, for fucks sake!* So she pulls away from him, and he (like some Louis CK motherfucker), just shoots his shot — his all-dewey, clear water — just like, in her general direction, as she’s walking away?
+
+The text isn’t clear about their exact movements, or relation in space, but Athena is a fucking warrior goddess, *unscrupulous in her cleverness* — and she dodges her brother’s divine prick, and just, like, brushes the dew from her leg with a piece of wool, which she tosses to the ground.
+
+And ok. I warned you about sexual violence, but when Ovid gets here in his telling, he just… moves on. And I don’t know… That’s too… Easy? But also… I get it? Not all violence stops you. In the moment, at least? There’s no explosions, no blood. Rape isn’t always a fucking car crash. Sometimes it’s not even…
+
+It’s foggy, and I… his hands… gentle, like a lover, but… All I can do is… step out? I wasn’t… I’ve learned how to leave this body. Become stone. But then, eventually, you… I… stand up, and wash off, maybe. Go back to work? Back to class? Because… what? There’s no time to… Or your heart just isn’t… You still need new weapons, and new armor, for fucks sake!
+
+Even the rape of a goddess is only one moment in a life full of moments. Divine moments of wisdom and war! The violence of it is just too… human?
+
+But for Athena — or maybe all of us — the story doesn’t end there. The gods are virile, and the earth is fertile, and at some point, that trauma — that wet wool thrown to the ground — produces a son. Ericthonius, the serpent child. Cherub up top, but snake down below. Two-shaped, a monster.
+
+And so this goddess, just another divine day, picks up the child, and walks away. She puts him in a box, and closes the lid, and locks him up… For safe keeping? His or hers, I’m not… And she gives that box to (who else), to the three sisters, the daughters of the king, the dew carriers — and she instructs them never to look inside. Just never open the box.
+
+Does the child need to be fed? Can you do that without opening the lid? Ovid doesn’t say. And he never asks, what’s that like? To be two-shaped, and uncertain. Locked away for safe keeping? What kind of a life…
+
+Her sisters are not sure what to do, but Agraulos opens the box — without so much as a trigger warning. And there they behold the serpent child.  And either they are *driven mad* (I don’t think that’s a real diagnoses) at the sight. Or Athena, angry, sends the furies to punish their treason. Either way, they throw themselves from the cliffs — fall to their death on the rocks below.
+
+## Chorus: A Song for Heraclitus
+
+### [Story/Song - Two-Shaped, Uncertain]
+
+I remember her — boy Miriam. Cherub up top, but serpent below. She’s fuzzy and distant, a shadow that disappears when you turn and look. Always just Miriam, all the way back. Is that what it means to be the same person? To have a memory?
+
+*[Josie stanza?]*
+
+Biology isn’t a static event, but a process that takes a lifetime — a serpent eating its tail. I discover as I grow — desires, passions, and unfulfilled longing. I make choices! Not always consistent or persistent, complete or certain. But alive!
+
+*[Josie stanza?]*
+
+And years later — I’m digging through an old box in the attic. This is a metaphor. I open this box, and something catches my eye. So I reach in and pull, and… It’s a name, discarded since birth. I try it on…
+
+*[Josie stanza?]*
+
+And everything is new. This one moment ripples out. The past should be safe, but even what’s done won’t stay put. And I’m looking back at my life like a comic book writer. What can be salvaged, a retroactive continuity — and what will get left behind, no longer canon?
+
+*[Music ends?]*
+
+### [Mia - A Sea of Bitterness]
+
+Now I’m here, on stage. There’s a violence just in choosing what to say, and what to leave out? Who am I protecting, and who gets left behind? I’m so scared to say anything real, that I spend all my time hiding behind Aristotle, Agraulos, and Sappho.
+
+They say hindsight is 20/20, but they also say that the winner writes the history book. And, either way… I am the one on stage, telling the story, aren’t I? I never promised the truth! But I know the rules for making queer art. The more pain I suffer, the more applause I get for my honesty. Authenticity. Evoking pity & fear so that you might be cleansed… of what? Your own discomfort? About my rape? My… body? My gender?
+
+I remember talking to my aunt, after the divorce. We were sitting around her kitchen table late at night, and she says *you’ll know you’re ready to start dating again once the stories you tell every day don't involve your ex.* Which is awkward. Here I am 15 years later, standing on stage, talking about her again. I guess I’m not ready to date yet… Sorry Erin. Sorry Rae.
+
+It's not a perfect rule, of course — you should date whenever you want — but I still love something about that. The stories that I tell about myself, reflect *something* about who I am, who I want to be. And as I live new material, I shape it into these stories, and the stories also shape me, what I do next. Like pointing a camera at its own image, or standing between mirrors. Like my center of gravity. It doesn’t exist anywhere, but it describes something real… pulling me down…
 
 The origin of the name Miriam isn’t known for certain, but there are several theories, like *sea of bitterness*, or *beloved*, or *wished-for child*.
 
-## Chorus: Irregular In Her Ways, and A Woman-Lover
+### [Dialogue: Irregular In Her Ways, and A Woman-Lover]
 
-**Mia:**
 That has a certain ring, right? Wistful, desired maybe, but also sad…
 
 **Josie:**
@@ -887,246 +1001,40 @@ Sorry. Pansexual?
 Sure. Pan. Lesbian. Queer? I guess I’m not picky. Tags not folders, right? What about you?
 
 **Josie:**
-I think it’s well established that I’m *irregular in my ways, and a woman-lover.*
-
-*[A tragic love song]*
-
-So what happens with Agraulos? What does the Oracle say about the siege of Athens?
-
-## Episode: The Martyr, Agraulos
-
-**Mia:**
-Oh yeah, the prophesy is something like *a sacrifice of one, to save the city*. A personal sacrifice will end this ongoing war. What Athens needs is a martyr.
-
-The Mennonites have this big thick book, ca*lled The Martyr’s Mirror (or) The Bloody Theater.* Now there’s a good title for a tragedy.
-
-**Josie:**
-Or a punk band.
-
-**Mia:**
-It’s like a memorial for Christian martyrs, full of names and dates and stories — anyone who was killed for their faith. Starting with Jesus, up through the early Mennonites.
-
-Like this one guy, Dirk something, fleeing his persecutors across a frozen river. But then he stops, and turns back to pull them out, when they fall through the ice behind him. And, of course, they kill him anyway. But then that story helps define the community. Not just faith but action — pure and selfless action. What could be more christ-like, than self-sacrifice?
-
-I think all communities have stories like this, right? Maybe not always so bloody? But stories that tell us what it means to be a part of the group? Stories that inspire, and stories we can try to live into, like a prophesy?
-
-I’ve always felt felt like I was floating… Somewhere between… Watching from the outside. Preparing, maybe. Rehearsing… My wife was confused about why I hated wearing a suit and tie. But I couldn’t really say. And now that… things are different, I love a nice suit. I don’t know. It’s not about the suit.
-
-The night before our wedding she yelled ‘I hate you!’. And then the next day we changed reality with our words, and went home, and ordered take-out. And a year later I’m sitting alone in couples therapy, and I tell the counselor: I don’t know what to do. How do I go home? How many times am I going to replace the broken remote, after it’s thrown at me? How do I… And she says, like it’s obvious, you know you don’t have to go home, right?
-
-And so I don’t. I pack a bag and move into a friend’s basement. Separated. And everyone around us starts picking sides. Interrogating. *She can’t really hurt you, can she?* Well… yeah. But Dad insists that I can’t call it *abuse*, and pulls out the DSM 4 to read me the definitions. It must just be a misunderstanding. There’s always a middle ground, you just have to try harder.
-
-And somewhere in all of it, I start painting my nails. It’s relaxing, it feels nice. A moment of solitude. Calm. But when my wife sees it, she asks if I’m having an identity crisis. And… I’m not? Or… I am, but, that’s what a divorce is, right? There are lawyers involved. *That’s* the crisis. These… I just like these colors. The way they shimmer, make me smile.
-
-It would be years, still, before I could see anything else in those colors. Not a certainty, but… an opportunity? A choice to turn back, step out onto the ice… not for someone else, but for myself. No matter the cost.
-
-During the divorce, I remember talking to my aunt. We were sitting around her kitchen table late at night, and she says *You’ll know you’re ready to start dating again once the stories you tell every day don't involve your ex.* Which is awkward. Here I am 15 years later, standing on stage, talking about her again. I guess I’m not ready to date yet… Sorry Erin. Sorry Rachel.
-
-It's not a perfect rule, of course — you should date whenever you want — but I still love something about that. The stories that I tell about myself, reflect *something* about who I am, how I understand my place in the world. And as I live new material, I shape it into these stories, and the stories also shape me, shape what I do next. An infinite and strange feedback loop — like pointing the camera at its own image, or standing between mirrors. Or having a body. Like my center of gravity, a useful fiction. It doesn’t exist, but it describes something real, and I can feel it pulling me down.
-
-But back then, living in that small community, small Mennonite college town, everyone knows me — knows us. Everyone wants to hear the story, so I tell it over and over for months — perfecting it. The tragedy of divorce, messy and complicated, but over time the telling of it becomes almost whole and complete, with a magnitude that is almost certain, contained. With a beginning, middle, and end. Because it’s clear, every time, that I’m being cross-examined. Asked to prove once and for all, in prose without meter, that this divorce would provide *not only a pleasure but a benefit*.
-
-A clear narrative arc. A hero, a villain, and a cathartic end. To purge you of your emotion, your discomfort as you watch me suffer. But I don’t know. I can’t give you that. It was bad, and I left. I’m not sure what else to say.
-
-Agraulos and her sisters are sometimes called the Kekropodai — daughters of Kekrops — which is, I think, also the genus of cicadas? Or a family, or some other biological taxonomy. Because women and cicadas both crop up every once in while, or fall from the trees and the cliffs, screaming — for reasons you might not understand. Because sometimes nothing changes until you climb to the top of the Acropolis, and give yourself over to the wind. To the cliffs. To the will of the gods. Which is what Agraulos does.
-
-And I wonder, when she heard that prophesy — a sacrifice of one to save the city — and she’s the eldest daughter of the king. She’s a public figure, with public duties. And she’s able to see herself in that story, in that role, the martyr. Was she confident about her choice? A destiny buried deep inside, or was she simply willing to risk it all and hope for the best?
-
-We’ll never know, and maybe it doesn’t matter? Either way, she throws herself off the ledge, over the cliff. And she dies on the rocks below.
-
-## Chorus: One for Pity, One for Fear
-
-**Josie:**
-Does it work?
-
-**Mia:**
-I mean, she’s dead. There’s a temple there, where she fell. Still — you can go visit if you want — the temple in her honor.
-
-**Josie:**
-So it worked, then? She saved the city?
-
-**Mia:**
-Well, I guess they won the war. I mean, Athens is still there right?
-
-**Josie:**
-Because she was willing to sacrifice herself?
-
-**Mia:**
-I don’t know. Maybe? When people hear I’m trans — does this happen to you? They see you on stage or whatever — people tell me that I'm *brave*. Like my existence is some heroic feat. I know they mean well, but it's weird, right?
-
-**Josie:**
-I always hear that movie cliche: *You've got a lot of nerve, showing your face after what you've done.*
-
-**Mia:**
-Or maybe they mean *I'm sorry for what we'll do to you.* Like they see us already as a sacrifice — tragic, but unavoidable?
-
-**Josie:**
-Wait, is this a show about being trans?
-
-**Mia:**
-What? No… I hope not…
-
-**Josie:**
-I’m trans, you’re trans. It’s an all-trans production.
-
-**Mia:**
-Well, sometimes that just happens, right? I thought we were going with the Agraulos thing? She’s not trans, is she?
-
-**Josie:**
-I don’t know, she might be.
-
-**Mia:**
-It’s just… I don’t want to tell the same old bullshit transition story, the one we all learn to recite for skeptical doctors, you know? “I was born in the wrong body, but I always *felt like a girl” —* whatever that means. I just felt *frustrated*.
-
-**Josie:**
-Girls do feel frustrated, sometimes, I think.
-
-**Mia:**
-Have *you* ever *felt like a girl*?
-
-**Josie:**
-Only when men talk over me.
-
-**Mia:**
-But then one day, if we’re lucky, and if we promise to do our makeup and look sexy for all the boys — perform our gender up to some impossible standard — we can get approval for *The Surgery!* As though there’s one simple procedure, snip snip, that turns us from an ugly caterpillar into a beautiful butterfly!
-
-*[Somehow this becomes a song? Or there’s a song after this?]*
-
-**Josie:**
-Agraulis vanillae. *After the process of emerging from the chrysalis is completed, the transgender female dries its wings and eventually flies for the first time.*
-
-**Mia:**
-Although here the stories diverge a bit, don’t they? First the *Temptress Transsexual,* the *trap*, successful in her deceptive transformation, totally fuckable, she can lure unsuspecting men into suckling at her ladydick like a gay boy. While her less fortunate cousin, grotesque and pathetic — a *Travesty Perverse* —emerges from chrysalis as a mere imitation, a parody of the female form.
-
-**Josie:**
-The two kinds of woman: the virgin and the whore. One to Pity, and the other to Fear?
-
-**Mia:**
-Oh, that’s clever. I should write that down.
-
-*[If that’s not converted into song, maybe this is where the song lives?]*
-
-**Josie:**
-How does Agraulos die next?
-
-## Episode: Athena & Erichthonius
-
-**Mia:**
-Ok, the second death of Agraulos! This story starts with Athena — Minerva, if you’re nasty — The goddess of wisdom and war, which is an interesting combination. She’s in need of new weapons, and new armor. So she goes to her half-brother, the blacksmithing god Hephaestus. Which is wise, I guess, if you’re going to war. But Hephaestus decides, instead of making anything at all he’s going to… pursue Athena, his sister. Sexually. Against her will.
-
-And Athena hasn’t got time for this! She’s the goddess of wisdom and war for fucks sake! A goddamn feminist icon! She’s on the move. She has places to be. Or according to some authors, she’s just “Determined to maintain her virginity” Not like, “Determined to not be fucking raped, by her fucking brother, for fucks sake!”
-
-So she pulls away from him — Hephaestus, her brother, her fucking rapist — and he (like some Louis CK motherfucker), just shoots his shot — his all-dewey, clear water — just like, in her general direction, as she’s walking away! The text isn’t clear about their exact movements, or relation in space, but Athena is deft — she’s a fucking warrior goddess, unscrupulous in her cleverness — and she dodges her brother’s divine prick, and just, like, brushes the dew from her leg with a piece of wool, which she tosses to the ground.
-
-And ok. I warned you about sexual violence, but when Ovid gets here in his telling, he just… moves on. And I don’t know… That’s too… Easy? But also… I get it? Not all violence stops you? In the moment, at least. There’s no explosions, no blood. You’re not rushed to the ER, for skin grafts and organ transplants. Rape isn’t always a fucking car crash. Sometimes it’s not even…
-
-It’s foggy, and I… his hands… gentle, like a lover, but… All I can do is… step out? I wasn’t… I’ve learned how to leave this body. Become stone. But then, eventually, you… I… stand up, and wash off, maybe. Go back to work? Back to class? Because… what? There’s no time to… Or your heart just isn’t… You still need new weapons, and new armor, for fucks sake!
-
-Even the rape of a goddess is only one moment in a life full of moments. Important moments, divine moments of fucking wisdom and war! The violence of it is just too… human? And… thoughtless? Sometimes, there’s nothing to do but grab a towel and brush the unwanted dew onto the ground.
-
-But for Athena — or maybe all of us — the story doesn’t end there. The gods are virile, and the earth is fertile, and at some point, that trauma — that wet wool thrown to the ground — produces a son. Ericthonius, the serpent child. Cherub up top, but snake down below. If you know what I mean. Monstrous.
-
-And so this goddess, just another divine day, picks up the child, and… walks away. She puts him in a box, and closes the lid, and locks it. Locked away… For safe keeping? His or hers, I’m not sure… And she gives that box to (who else), to the three sisters, the daughters of the king, the dew carriers — and she instructs them never to look inside. Just never open the box.
-
-Later that week, I got engaged. I mean later the week that I was raped? My ex and I, traveling. We had an argument in a hotel room, and then — we had planned this in advance, picked out our own rings the night before…
-
-But the virgin sisters, with this mystery box. Does the child need to be fed? Can you do that without opening the lid? Ovid doesn’t say. The younger sisters *observe their charge without any treachery in their hearts*. But Agraulos takes it upon herself to see what’s inside — without so much as a trigger warning. And there they behold the serpent child. Two-shaped. Uncertain.
-
-And you can imagine, years later — I’m digging through an old box in the attic. We didn’t have an attic, but you get the idea. I’m digging through… I don’t know. My past? And something catches my eye. So I reach in and pull, and… glint of light through the window — chorus singing, maybe, (Josie?) — *[music]* I discover this name. Discarded at birth. And I try it on for the first time.
-
-A moment of recognition, perhaps? Reversal of my situation? Peripity and pathos all around? It’s strange at first, like a new word on the tongue. But also, it fits?
-
-In the US there is no such thing as a *legal name*. Any name you sign to is legally binding, so it just depends who’s asking, and what documents they trust for verification. In Colorado, my new name had to sue my old one. I had to testify against my former self in court. No, your honor. *I’m as confused as you are.* But the result is only a court order, a piece of paper. There’s no central database to be updated. No legal name, only legal proof. Documentation that I exists, and can be named.
-
-But then it changes everything… There are ripples. The past should be safe, but even what’s done won’t stay put. And I’m looking back at my life like a comic book writer. What can be salvaged, a retroactive continuity — and what will get left behind, no longer canon?
-
-And now I’m on stage. There’s a violence in telling the story. What am I willing to say, and what will I leave out? Who am I protecting, and who will play the villain? I’m so scared to say anything real, that I spend all my time hiding behind Aristotle and Sappho.
-
-Because I know the number one rule of making queer art. The more pain I suffer, the more applause I get for my honesty. Authenticity. So honest that it’s painful. Evoking your pity & fear in order to cleanse you… of what? Your own discomfort?
-
-They say say hindsight is 20/20, but they also say that the winner writes the history book. And, either way… I am the one on stage, telling the story, aren’t I? I never promised the truth. This isn’t my confession, and it’s not you passion play. No one is leaving here purified!
-
-I *wanted* this. I wasn’t force-femmed by the gods, against my will. There’s no prophesy driving me, I wasn’t born this way. I was born small and afraid, but full of desires. Passions. Unfulfilled longing. And then I made choices! Not always consistent, not always persistent — my story is filled with twists, and plot holes. False-starts. Incomplete, and uncertain.
-
-I remember being a boy. She’s fuzzy and distant now — boy Miriam — but she existed at a point in time. Or maybe she never did. because I also remember, at the same time and in the same memories, not being that boy that I was. Only Miriam, all the way back. And neither story is possible without the other — only the blurring of both shadows as the move across the cave wall. Is that what it means to be the same person? To have a memory?
-
-I was born in this body, and I only exist with this body. We’re one, and alive. Biology isn’t a static event, but a constant process. And for Plato, for many of us, that’s a problem. Proof that this world is flawed, and we need a better one. A world where categories *exist*, and *persist* through time.
-
-Anyway, Agraulos does open the box, and sees this beautiful monster child inside. And either…she’s “driven mad” (I don’t think that’s a real diagnoses) at the sight of a half-serpent child. Or The Raven with prattling tongue, reports her “treason” — her broken oath — to Athena. Who, angry, sends the furies after her. The results are the same. Agraulos, either alone or with her sisters beside her, throws herself from the cliffs, and falls to her death on the rocks below.
-
-That’s the story. According to Ovid, it’s a story about the Raven.
-
-## Chorus: A Song for Hericlitus?
-
-**Josie:**
-I hope he learned his lesson.
-
-**Mia:**
-The Raven? Don’t worry, he also gets punished.
-
-**Josie:**
-Well that’s good. I wrote a little song for Heraclitus. Seemed like she could use some cheering up.
-
-**Mia:**
-Wait. you can’t just make historic people trans, retroactively. Can you?
-
-**Josie:**
-Sure, why not? I’m the one telling the story. Of course, I prefer to get out ahead of it, you know? Make people trans in advance, while they still have a chance to enjoy it.
-
-**Mia:**
-Oh, that’s so thoughtful. Does it work?
-
-**Josie:**
-Sometimes.
-
-*[a song for Heraclitus?]*
-
-So, does Agraulos have to die again? One more time?
+I think it’s well established that I’m *irregular in my ways, and a woman-lover.* Does Agraulos have to die again? One more time?
 
 ## Episode: Hermes & Herse
 
 **Mia:**
-Yeah, she does. So this one starts with The Festival of the Dew Carriers. It’s a time when many young women are out in the streets, including our dewey-named, and dewey-eyed sisters. But also Hermes — a god on winged sandals, floating above the parade, watching the festivities below.
+Yeah, she does. This one starts with The Festival of the Dew Carriers. It’s a time when many young women are out in the streets, including our three dewy sisters. But also Hermes, a god on winged sandals — floating above, watching the festivities below.
 
-The girls would gather, and a priestess would place baskets on each of their heads, to carry across town. Baskets with unknown contents, a secret carried for the goddess Athena. It's a reenactment of sorts. The serpent child, hidden away.
+The women would gather, and a priestess would place baskets with unknown contents on each of their heads. A secret, carried across town for the goddess Athena. It's a reenactment of sorts. The serpent child in a box.
 
-And I like that metaphor. The physical strain of it. Sometimes you don’t even know the secrets you carry, you only feel their weight in your body. Suddenly you’re crying in the shower, or the dressing room at a thrift store on South Broadway — because your hips are too narrow and your shoulders are too wide. Thirty-two years and it all feels wrong.
+And I like the physical strain of it. Sometimes you don’t know the secrets you carry, you just feel their weight in your body. Suddenly you’re crying in the shower, or a thrift store on South Broadway — because your hips are too narrow and your shoulders are too wide. Thirty-two years and it all feels wrong.
 
-All these fathers of philosophy insisting *it’s our thoughts that make us real.* Our *reason* that makes us human. But the body has little regard for theory, and some secrets can’t be carried in the mind alone. Some secrets have to be lived, and experienced. Felt! In our bloodstream, and in the dew that gathers between our legs — but also in a big fucking parade through town.
+All these fathers of philosophy, taxonomy, insisting *it’s our thoughts that make us real. Pure reason* that makes us human. But some things have to be lived to be understood. Felt in our bloodstream, and in the dew between our legs. The body has little regard for theory. Not a mind riding a carcass, but a body that carries a story. *I feel, therefore I can be free.* Audre Lorde said that.
 
-*I feel, therefor I can be free.* Audre Lorde said that.
+But as the women carry their secrets across town, Hermes is circling above, and fixes his attention on the youngest, Herse. And so, of course, he follows her home — where Agraulos is there to great him, standing in the door, blocking his way. Protective, or maybe jealous? It’s not clear, and at this point, I don’t trust Ovid to get the details right. She asks for money maybe, a bribe? To let the god through. Which is a mistake, of course. This unscrupulous cleverness will be her undoing!
 
-But as the sisters carry their secrets across town, Hermes is circling above, and fixes his attention on the youngest, Herse. And so, of course, he follows her home — where Agraulos is there to great him, standing in the door, blocking his way. Protective, or maybe jealous? It’s not clear, and at this point, I don’t trust Ovid to get the details right. She asks for money maybe, a bribe? To let the god through. Which is a mistake, of course. Who does she think she is? *Nosce te ipsum*. This unscrupulous cleverness will be her undoing.
+Hermes turns her to stone, a statue. The end. Agraulos is dead for the last time.
 
-Hermes turns her to stone, a statue. The end. Agraulos is dead for the last time. Or the first, if you tell these stories the other way around, I guess. It still won’t make any sense. How can Agralous die at a yearly festival that reenacts her own story? The other story, where she also died, after opening a box full of secrets.
+Or the first, if you tell these stories the other way around, I guess. It still won’t make any sense. How can Agralous die at a yearly festival that reenacts her own story? The other story, where she also died, after opening a box full of secrets.
 
-Aristotle says the beginning is what comes before everything else — no setup required. And then the middle comes after the beginning. Like cause and effect, right? Not just proximity, but correlation. The beginning leads to the middle, and then, at the end, there’s an ending. Because there has to be, right? This can’t go on forever? So that end is required by the middle, and then… doesn’t require anything else. It’s over. Which… sounds nice.
+Aristotle says the beginning is what comes before everything else — no setup required. And then the middle comes after the beginning. Like cause and effect, right? Not just proximity, but correlation. The beginning leads to the middle, and then, at the end, there’s an ending. Because there has to be, right? It’s over. Which… sounds nice.
 
-A tragedy that is serious and complete and of a certain magnitude. One moment in a life, one fragment, a turning point — peripity — a reversal of fortune. But Agraulos… her whole life… Many lives… It might all just be… all middle bits? Unscientific? There are some correlations, but I’m not sure about any causation.
+But Agraulos… her whole life… Three different lives… It’s all just… Unscientific? There are some correlations, but I’m not sure about any causation. It doesn’t matter how many times she dies, she’ll never be tragic. Never serious or complete. Always uncertain.
 
-It doesn’t matter how many times she dies, or how she lives in those brief stories, she’ll never be tragic. Never serious or complete. Always uncertain. The gift of her story is not a cathartic resolution, but a mess… That I carry with me, like a worry stone. All the possible lives, possible deaths.
-
-Sappho too, of course. All we have are the poems she wrote, and most of those only from fragments of papyrus — often stolen off a body, the remains of a person who lived and died, but now… What we keep is the poetry. Wedding songs from the Lesbian poet. *Eros the melter of limbs (now again) stirs me / Sweetbitter unmanageable creature who steals in —*
-
-After her death, she becomes a stock character. First a slut, a prostitute, an expert in fellatio, and then a tragic lover, scorned by her man. In some accounts, she’s married to Kerkylas of Andros, *Penis All-Cock, from Man Island*! Others say her lust is for the ferryman, Phaon, and she dies at his rejection. Throws herself from the Leucadian cliffs! A familiar end for a mad woman. But why didn’t she write about either one of them?
-
-Eventually her desires become a problem, and she’s re-cast as a school teacher. *Anaktoria* and *Atthis* and the *other women* — the actual subjects of her songs — were not lovers but students.
+Sappho too, of course. All we have are the poems she wrote, fragments of papyrus. After her initial fame, she becomes a stock character — the butt of the joke. An expert at fellatio. In some accounts, she’s married to Kerkylas of Andros — *Penis All-Cock, from Man Island*! Or she dies rejected by a ferryman, Phaon — throws herself from the cliffs! More recently she’s been re-cast as a school teacher — the women in her poems, not lovers but students.
 
 **Josie:**
 Just gals being pals.
 
 **Mia:**
-But there’s no evidence for any of it! She seems to be… just another woman from the isle of Lesbos, writing about women who she loved. Poems of longing and desire. All pleasure, but not enough benefit.
-
-I remember moving to Denver — driving in on ‘76 for the first time. The sun was setting over the mountains due west, and storm clouds rolling in from the southwest — lightning flashing behind a city skyline. The scale of it! The expanse. To see that storm from a distance, between a skyline and a mountain range. It felt like space and possibility. So much room for something new. So much more to the world than *right here* or *right now* or *just me*.
-
-It felt like home. Driving home. A home I'd never been to? Where mountain and sky blur together on the horizon? In that instant I changed. Suddenly I’m *from* a new place. A process that is instant, and takes years. A transition without a start or end.
-
-Stories are defined by their boundaries, and a landscape only becomes *art* once it’s been captured and framed.
+But there’s no evidence for any of it! She seems to be… just another woman from the isle of Lesbos, writing about women who she loved. Poems of longing and desire.
 
 Anyway, this Festival of the Dew Carriers is still honored on 3rd of Skirophorion, which is June or maybe July. It’s a day to finish unfinished projects, and to clear away debris and what is no longer needed, to make room for the new.
 
-## Chorus: A Death
+### [Dialogue - Someone Has To Die]
 
 **Josie:**
 That seems a bit *on the nose* for an ending.
@@ -1135,86 +1043,58 @@ That seems a bit *on the nose* for an ending.
 Why would we end there?
 
 **Josie:**
-Well, it’s been… 75 minutes, and I’m getting hungry.
+Well, it’s been about 80 minutes, and there’s only about a page left, so… Pitter patter. I’m getting hungry.
 
 **Mia:**
-Ok, but… I haven’t finished writing it yet. I still don’t know how to pull this all together. It’s a tale told by an idiot, full of sound and…
+Ok, but… I don’t even know where to *start*, how am I supposed to end it?
 
 **Josie:**
-Someone has to die, right? Is that it? I’m surprised I made it this long. I thought I’d be dead by page 35.
+Someone has to die, right?
 
 **Mia:**
 Well I’m not going to kill you off!
 
 **Josie:**
-Is it a tragedy or isn’t it? *All our yesterdays have lighted fools the way to dusty death…* right?
-
-**Mia:**
-I don’t know… What page are we on?
-
-**Josie:**
-There’s only a few pages left, so… Pitter patter. It’s time to out out that brief candle!
+I thought I’d be dead by page 35. Is it a tragedy or isn’t it?
 
 **Mia:**
 There’s a french phrase — *La petit mort?* — which means *the little death*. It usually refers to an orgasm.
 
 **Josie:**
-Oh, are we circling back to *all theater is pornography*? That could work. This “rising action,” so “serious, and complete, and of a certain magnitude,” brings us to a “climax” and then denouement.
+A *happy ending*, you might say? This “rising action,” so “serious, and complete, and of a certain magnitude,” brings us to a “climax” and then denouement.
 
 **Mia:**
-Denouement means “the untying”. The untying of our limbs?
+Denouement means “the untying”. The untying of our limbs? I just can’t make all the pieces fit. What’s the script say?
 
 **Josie:**
-A *happy ending*, you might say?
+The script just ended, but I have an idea.
 
 **Mia:**
-I wanted to write a tragedy, but here we are, and I just can’t make all the pieces fit.
+What? What are you doing?
 
-**Josie:**
-Well… You don’t have to, right?
+*[Josie has a remote control, and lands a tiny helicopter on stage]*
 
-**Mia:**
-What?
+What is this? Is that… a helicopter? We can’t just…
 
-**Josie:**
-you’ve heard that phrase, Deus Ex Machina?
-
-**Mia:**
-Sure: God from a machine. Aristotle hates that shit.
-
-**Josie:**
-Aristotle’s just some dead guy, what does he know? Check this out.
-
-*[she has a remote control, and lands a tiny helicopter on stage. It’s carrying a fortune cookie. Josie starts playing, then over top of it…]*
+**Josie *[starts playing a song]*:**
+It’s carrying something!
 
 **Mia *[reading]*:**
-That’s it? A fortune cookie? *“All that we are, is the result of what we have done.”*
+A fortune cookie? “Deus Ex Machina” *[turns it over]* “Your lucky numbers are…”
 
 **Josie:**
-It’s a callback!
+God From a Machine! It’s classic, right? This is the finale, we should play it together!
 
 **Mia:**
-You’re not taking this seriously! I want this show to effect people — change them somehow! If we don’t get the ending right… what was the point?!
+The finale?! I’m not ready!
 
 **Josie:**
-It’s just theater! There is no *right* ending, there’s just the last thing we do! Let’s make it something we enjoy!
+Neither am I!
 
-**Mia:**
-But what’s the point?! When we walk off this stage, we both die! Or… our characters…
+*[a song that combines Josie’s Blame It On The Rodeo, with Mia’s poetry. Stuff like…]*
 
-**Josie:**
-It has to happen sometime! I’m already playing the finale! Are you going to join me, or am I doing it alone?
+*The essential condition for a kiss is that lips meet. There is no special technique required. All the places that can be kissed can also be bitten: her shoulder, breast, her upper lip, interior mouth, and eyes. And in the absence of other forces we experience weightlessness.*
 
-**Mia:**
-In the end, don’t we all die alone?
+*Not a mind inside a carcass, but a body with a story… full of blood and memories…*
 
-**Josie:**
-Not if you pick up that bass, and play with me! The lights are already starting to change!
-
-**Mia:**
-I don’t know my part!
-
-**Josie:**
-You’ll figure it out!
-
-*[lights change, big music finale, lights out, the end]*
+*Eros the melter of limbs (now again) stirs me / Sweetbitter unmanageable creature who steals in —*

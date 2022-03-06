@@ -1,10 +1,6 @@
-const nav = require('@11ty/eleventy-navigation');
 const yaml = require('js-yaml');
 const { DateTime } = require("luxon");
 const util = require('util')
-
-const page = require('./filters/page');
-const image = require('./filters/image');
 
 const md = require('markdown-it')({
   html: true,
@@ -13,16 +9,16 @@ const md = require('markdown-it')({
   typographer: true,
 }).disable('code');
 
+const page = require('./filters/page');
+const image = require('./filters/image');
+const img = require('./filters/img');
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPlugin(nav);
-
+  eleventyConfig.addFilter('lowercase', content => content.toLowerCase());
   eleventyConfig.addFilter('md', content => md.render(content));
   eleventyConfig.addFilter('mdi', content => md.renderInline(content));
   eleventyConfig.addFilter('getPage', page.getPage);
-  eleventyConfig.addFilter('imgSrc', (src) =>
-    images.image(src, null, null, null, true),
-  );
+  eleventyConfig.addFilter('img', img.responsiveImage);
 
   eleventyConfig.addFilter("debug", function(value) {
     return util.inspect(value, {compact: false})

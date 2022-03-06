@@ -7,9 +7,6 @@ image:
     one in a gray dress, the other in a black suit
     trailing a long pink scarf
     as they walk along a dirt canyon path
-eleventyNavigation:
-  key: about
-  order: 3
 ---
 
 ## A performance laboratory

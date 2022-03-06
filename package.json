@@ -23,6 +23,7 @@
     "accoutrement": "^4.0.0-beta.3",
     "cssremedy": "^0.1.0-beta.2",
     "dotenv": "^16.0.0",
+    "eleventy-plugin-sanity-image": "^0.1.1",
     "groq": "^2.15.0",
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",

@@ -9,13 +9,13 @@
 
   {% set metatitle = [title, company.title]|join(' | ') if title else company.title %}
   <title>{{ metatitle }}</title>
-  <meta name="description" content="{{ description or company.description }}">
+  <meta name="description" content="{{ description or company.body }}">
   <meta name="author" content="Grapefruit Lab">
 
   <meta property="og:title" content="{{ metatitle }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.grapefruitlab.com/">
-  <meta property="og:description" content="{{ description or company.description }}">
+  <meta property="og:description" content="{{ description or company.body }}">
   {# <meta property="og:image" content="image.png"> #}
 
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -26,7 +26,16 @@
     <a href="/" rel="home">
       <b>Grapefruit</b> Lab
     </a>
-    {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+    <ul>
+      {% for item in nav %}
+        {% set itemPage = collections.all | getPage(item.url) %}
+        <li>{{ utility.link_if(
+          item.title or itemPage.data.title | lowercase,
+          item.url,
+          'active' if (item.url == page.url) else none
+        ) }}</li>
+      {% endfor %}
+    </ul>
   </nav>
 
   {% if image %}
@@ -75,7 +84,7 @@
 
   <footer>
     <div>
-      <p class="description">{{ company.description | mdi | safe }}</p>
+      <p class="description">{{ company.body | mdi | safe }}</p>
       <p class="legal">
         Copyright &copy; {{ page.date.getUTCFullYear() }}
         <strong>{{ company.title }}</strong>

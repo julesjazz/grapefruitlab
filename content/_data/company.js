@@ -2,7 +2,7 @@ const groq = require('groq');
 const client = require('../../utils/sanityClient');
 const toMarkdown = require('@sanity/block-content-to-markdown')
 
-module.exports =  async function() {
+module.exports = async function() {
   return await client.fetch(groq`
     *[_type == "company"
       && slug.current == "grapefruit-lab"
@@ -10,5 +10,8 @@ module.exports =  async function() {
     ][0]{
       title, body, image,
     }
-  `)
+  `).then(data => {
+    data.body = toMarkdown(data.body);
+    return data;
+  });
 };
