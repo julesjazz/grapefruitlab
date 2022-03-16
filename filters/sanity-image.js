@@ -21,11 +21,13 @@ const croppedUrl = (image, width, height) => urlFor(image)
   .auto('format');
 
 const responsiveImage = (image, alt, attrs, sizes, srcs="480,960,1200") => {
+  const imageDetails = image.details;
   const sizeArray = srcs.split(',');
   const firstSize = sizeArray[0];
+  const src = urlFor(imageDetails).width(firstSize).auto('format').url();
   const lastSize = sizeArray[sizeArray.length - 1];
   const srcSetContent = sizeArray.map((size) => {
-      const url = urlFor(image)
+      const url = urlFor(imageDetails)
           .width(size)
           .auto('format')
           .url()
@@ -39,9 +41,9 @@ const responsiveImage = (image, alt, attrs, sizes, srcs="480,960,1200") => {
 
   const imageAttrs = _.merge(
     {
-      src: urlFor(image).width(firstSize),
+      src,
       srcset: srcSetContent,
-      alt: alt || '',
+      alt: alt || image.alt || image.origin.alt || '',
       sizes: imgSizes,
       loading: 'lazy',
       decoding: 'async',
@@ -54,7 +56,7 @@ const responsiveImage = (image, alt, attrs, sizes, srcs="480,960,1200") => {
     const value = imageAttrs[key];
     const html = value ? `${key}="${value}"` : null;
     return all && html ? `${all} ${html}` : all || html;
-  })
+  }, '');
 
   return `<img ${attrsHtml}>`;
 }

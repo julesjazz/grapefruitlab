@@ -1,6 +1,6 @@
 {%- import "utility.macros.njk" as utility -%}
 {%- set feature = collections.features[0] if (collections.features.length > 0) and (page.url == '/') else none -%}
-{%- set image = feature.data.image if feature else image or site.image -%}
+{%- set image = feature.data.image if feature else image or company.hero -%}
 <!doctype html>
 <html lang="en">
 <head>
@@ -14,7 +14,7 @@
 
   <meta property="og:title" content="{{ metatitle }}">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.grapefruitlab.com/">
+  <meta property="og:url" content="{{ company.url }}">
   <meta property="og:description" content="{{ description or company.body }}">
   {# <meta property="og:image" content="image.png"> #}
 
@@ -40,7 +40,11 @@
 
   {% if image %}
   <div id="hero">
-    {% image image.src, image.alt %}
+    {% if image.sanity %}
+      {{ image.sanity | safe }}
+    {% else %}
+      {% img11ty image.src, image.alt %}
+    {% endif %}
   </div>
   {% endif %}
 

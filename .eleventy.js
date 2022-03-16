@@ -10,8 +10,8 @@ const md = require('markdown-it')({
 }).disable('code');
 
 const page = require('./filters/page');
-const image = require('./filters/image');
-const img = require('./filters/img');
+const img11ty = require('./filters/11ty-image');
+const img = require('./filters/sanity-image');
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('lowercase', content => content.toLowerCase());
@@ -19,6 +19,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('mdi', content => md.renderInline(content));
   eleventyConfig.addFilter('getPage', page.getPage);
   eleventyConfig.addFilter('img', img.responsiveImage);
+  eleventyConfig.addFilter('img11ty', img11ty.image);
 
   eleventyConfig.addFilter("debug", function(value) {
     return util.inspect(value, {compact: false})
@@ -39,7 +40,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./content/favicon.svg');
 
   // shortcodes
-  eleventyConfig.addNunjucksShortcode('image', image.image);
+  eleventyConfig.addNunjucksShortcode('img', img.responsiveImage);
+  eleventyConfig.addNunjucksShortcode('img11ty', img11ty.image);
   eleventyConfig.addPairedShortcode('md', content => md.render(content));
   eleventyConfig.addPairedShortcode('mdi', content => md.renderInline(content));
 
