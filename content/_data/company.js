@@ -1,8 +1,7 @@
-const EleventyFetch = require("@11ty/eleventy-fetch");
 const groq = require('groq');
 const client = require('../../utils/sanityClient');
-const toMarkdown = require('@sanity/block-content-to-markdown');
-const { responsiveImage } = require('../../filters/sanity-image');
+// const toMarkdown = require('@sanity/block-content-to-markdown');
+// const { responsiveImage } = require('../../filters/sanity-image');
 
 module.exports = async function() {
   return await client.fetch(groq`
