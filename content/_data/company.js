@@ -28,7 +28,7 @@ module.exports = async function() {
       }
     }
   `).then(data => {
-    data.body = toMarkdown(data.body);
+    data.body = data.body ? toMarkdown(data.body) : '';
     data.hero = { 'sanity': responsiveImage(data.image) };
     return data;
   });
