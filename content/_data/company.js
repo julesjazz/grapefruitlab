@@ -1,3 +1,4 @@
+const EleventyFetch = require("@11ty/eleventy-fetch");
 const groq = require('groq');
 const client = require('../../utils/sanityClient');
 const toMarkdown = require('@sanity/block-content-to-markdown');
@@ -28,8 +29,8 @@ module.exports = async function() {
       }
     }
   `).then(data => {
-    data.body = data.body ? toMarkdown(data.body) : '';
-    data.hero = { 'sanity': responsiveImage(data.image) };
+    // data.body = data.body ? toMarkdown(data.body) : '';
+    // data.hero = { 'sanity': responsiveImage(data.image) };
     return data;
   });
 };
