@@ -1,7 +1,7 @@
 const groq = require('groq');
 const client = require('../../utils/sanityClient');
-// const toMarkdown = require('@sanity/block-content-to-markdown');
-// const { responsiveImage } = require('../../filters/sanity-image');
+const toMarkdown = require('@sanity/block-content-to-markdown');
+const { responsiveImage } = require('../../filters/sanity-image');
 
 module.exports = async function() {
   return await client.fetch(groq`
@@ -28,8 +28,8 @@ module.exports = async function() {
       }
     }
   `).then(data => {
-    // data.body = data.body ? toMarkdown(data.body) : '';
-    // data.hero = { 'sanity': responsiveImage(data.image) };
+    data.body = data.body ? toMarkdown(data.body) : '';
+    data.hero = data.image ? { 'sanity': responsiveImage(data.image) } : null;
     return data;
   });
 };

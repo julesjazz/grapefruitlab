@@ -88,7 +88,7 @@
 
   <footer>
     <div>
-      <p class="description">{{ company.body | dump }}</p>
+      <p class="description">{{ company.body | mdi | safe }}</p>
       <p class="legal">
         Copyright &copy; {{ page.date.getUTCFullYear() }}
         <strong>{{ company.title }}</strong>
