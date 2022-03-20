@@ -36,11 +36,6 @@ summary: |
 
 {{ summary | md | safe }}
 
-What does it mean to be a person --
-to have a body, and live in it --
-to make choices, and change over time --
-to tell the truth?
-
 **Pity+Fear**
 is a comic attempt at a one-woman tragedy,
 featuring two women and a guitar.

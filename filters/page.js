@@ -8,6 +8,13 @@ const getPage = (collection, url, keys, test) => {
   return test ? _.filter(data, test) : data;
 };
 
+const fromCms = (data, slug) => {
+  return (Object.keys(data[0]).length !== 0)
+    ? _.find(data, { slug })
+    : null;
+}
+
 module.exports = {
   getPage,
+  fromCms,
 };
