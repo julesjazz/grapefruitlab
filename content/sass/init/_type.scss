@@ -3,6 +3,8 @@
 
 html {
   --large: calc(1.2em + 0.25vw);
+  font-size: calc(1em + 0.25vmin);
+  line-height: 1.4;
 }
 
 h1 {
@@ -14,11 +16,19 @@ h1, h2, h3, h4, h5 {
   font-weight: 600;
 }
 
+h2, h3, h4, h5 {
+  margin-block-start: var(--gutter);
+}
+
 ul,
 ol {
   @include config.above(40em) {
     padding-inline-start: 0;
   }
+}
+
+main li + li {
+  margin-block-start: var(--half-shim);
 }
 
 strong, b {
@@ -49,4 +59,9 @@ blockquote {
   p:last-child em:only-child {
     font-size: max(0.75em, 0.75rem);
   }
+}
+
+hr {
+  border: 0 dotted var(--border);
+  border-block-end-width: thin;
 }

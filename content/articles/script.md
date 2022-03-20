@@ -10,4 +10,4 @@ eleventyComputed:
   summary: '{{ article.summary }}'
 ---
 
-{{ article.body }}
+{{ article.body | typogr | safe }}

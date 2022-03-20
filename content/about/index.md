@@ -2,12 +2,17 @@
 partial: about
 ---
 
-{{ cms.body }}
+{{ cms.body | typogr | safe }}
 
 ## Who we are
 
 {%- import "utility.macros.njk" as utility -%}
 
 {% for person in members %}
-- **{{ utility.link_if(person.name, person.url) }}** » {{ person.bio | md | safe }}
+<article class='h-card'>
+{{ person.image | img(none, none, 'page') | safe }}
+<h3>{{ utility.link_if(person.name, person.social.url) }} [{{ person.pronouns }}]</h3>
+{{ person.bio | md | safe }}
+</article>
+{% if not loop.last %}<hr />{% endif %}
 {% endfor %}

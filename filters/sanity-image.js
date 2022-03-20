@@ -4,9 +4,7 @@ const sanityClient = require('../utils/sanityClient');
 
 const defaultSizes = {
   'default': '100vw',
-  'media': '(min-width: 80em) 15vw, (min-width: 40em) 30vw, 100vw',
-  'card': '(min-width: 95em) 30vw, (min-width: 56em) 45vw, 100vw',
-  'gallery': '(min-width: 95em) 30vw, 50vw',
+  'page': '(min-width: 95em) 50vw, (min-width: 60em) 75vw, 100vw',
 };
 
 const urlFor = (source) => sanityImg(sanityClient).image(source);
