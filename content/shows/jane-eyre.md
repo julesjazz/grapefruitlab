@@ -1,6 +1,6 @@
 ---
 title: Jane/Eyre
-sub: Feb -- March 2918 @ The Bakery
+sub: Feb -- March 2018 @ The Bakery
 date: 2018-02-23
 image:
   src: shows/jane/poster.jpg
