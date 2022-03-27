@@ -6,7 +6,7 @@ const getDateObj = (date) => {
   }
 
   return (typeof date === 'string')
-    ? DateTime.fromISO(date)
+    ? DateTime.fromISO(date, {zone: 'utc'})
     : DateTime.fromJSDate(date, {zone: 'utc'});
 };
 
