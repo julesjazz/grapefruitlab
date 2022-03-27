@@ -1,0 +1,90 @@
+{% import "forms.macros.njk" as form %}
+
+{#
+  tickets:
+    type: object
+    note: |
+      keys are used for the option value,
+      and values are used for display
+#}
+{% macro flexible(
+  tickets,
+  suggested=none
+) %}
+  <form action="/api/checkout" method="POST">
+    {%- set available = tickets.all | filter('seats') | filter('ticket') -%}
+    {%- set seats = available | getOptions('ticket.id', 'seats') -%}
+    {%- set shows = available | getOptions('ticket.id', 'event') -%}
+    {%- set max = available[0]['seats'] -%}
+    {%- set selected = available[0]['event'] -%}
+
+    {{- form.input(
+      id='max',
+      type='hidden',
+      value=max
+    ) -}}
+    {{- form.input(
+      id='event',
+      type='hidden',
+      value=selected
+    ) -}}
+    {{- form.field(
+      label='Reservation Name',
+      type='text',
+      required=true,
+      name='name'
+    ) -}}
+    {{- form.field(
+      label='Show Date',
+      type='select',
+      required=true,
+      name='product',
+      options=available | getOptions('ticket.id', 'display')
+    ) -}}
+    {{- form.field(
+      label='Number of Tickets',
+      type='number',
+      required=true,
+      name='count',
+      value=1,
+      input_attrs={
+        min: 1,
+        max: max or 20
+      }
+    ) -}}
+    {{- form.field(
+      label='Price Per Ticket (USD)',
+      type='number',
+      required=true,
+      name='price',
+      value=suggested,
+      input_attrs={
+        min: 1
+      }
+    ) -}}
+    {{- form.field(
+      label='Notes',
+      type='textarea',
+      name='note'
+    ) -}}
+    <div class="form-actions">
+      <button type="submit">Checkout</button>
+    </div>
+  </form>
+  <script type='module'>
+    const seats = {{ seats | jsonify | safe }};
+    const events = {{ shows | jsonify | safe }};
+
+    const eventSelect = document.getElementById('field-product');
+    const countInput = document.getElementById('field-count');
+    const maxInput = document.getElementById('max');
+    const eventInput = document.getElementById('event');
+
+    eventSelect.addEventListener('change', () => {
+      const max = seats[eventSelect.value];
+      countInput.setAttribute('max', max);
+      maxInput.setAttribute('value', max);
+      eventInput.setAttribute('value', events[eventSelect.value]);
+    });
+  </script>
+{% endmacro %}

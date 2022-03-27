@@ -59,31 +59,13 @@
         {{ title }}
       {% endif %}
     </h1>
-    {% if sub or feature.data.sub %}
-      <p class="subtitle">{{ (feature.data.sub or sub) | mdi | safe }}</p>
+    {% if subtitle or feature.data.subtitle %}
+      <p class="subtitle">{{ (feature.data.subtitle or subtitle) | mdi | safe }}</p>
     {% endif %}
   </header>
 
   <main>
     {{ content | safe }}
-
-    {% for location in run %}
-      <section class="run">
-        <h2 class="venue">{{ location.venue }}</h2>
-        <p class="adr">{{ location.adr }}</p>
-        <ul>
-          {% for show in location.shows %}
-            <li>
-              <time datetime="{{ show.date.toISOString() }}">
-                {{ show.date.toLocaleDateString('en-US') }}
-                @ {{ show.time }}
-              </time>
-              {{ (show.note or '') | md | safe }}
-            </li>
-          {% endfor %}
-        </ul>
-      </section>
-    {% endfor %}
   </main>
 
   <footer>

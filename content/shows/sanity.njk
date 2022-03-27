@@ -1,0 +1,31 @@
+---
+pagination:
+    data: shows
+    size: 1
+    alias: show
+    addAllPagesToCollections: true
+permalink: 'shows/{{ show.slug or show.title | slug }}/'
+tags:
+  - show
+eleventyComputed:
+  title: '{{ show.title }}'
+  summary: '{{ show.summary }}'
+  date: '{{ show.opening | htmlDate }}'
+---
+
+{{ show.body | md | safe }}
+
+{# performance dates ----------------------- #}
+{% import "list.macros.njk" as list %}
+{{ list.events(show.run) }}
+
+{# ticket sales ----------------------- #}
+{% import "checkout.macros.njk" as checkout %}
+{% set tickets = show.run | showTickets(products) %}
+{% if tickets.some %}
+  <section class="show-sales">
+    <h2>Purchace Tickets</h2>
+    <p>All tickets are name-your-price.</p>
+    {{ checkout.flexible(tickets) }}
+  </section>
+{% endif %}

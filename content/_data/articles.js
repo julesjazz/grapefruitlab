@@ -10,6 +10,7 @@ module.exports = async function() {
       && !(_id in path("drafts.**"))
     ]{
       title,
+      subtitle,
       summary,
       body,
       "slug": slug.current,

@@ -1,5 +1,4 @@
 const yaml = require('js-yaml');
-const { DateTime } = require("luxon");
 const util = require('util')
 const _ = require('lodash');
 const typogr = require('typogr');
@@ -11,7 +10,9 @@ const md = require('markdown-it')({
   typographer: true,
 }).disable('code');
 
+const time = require('./filters/time');
 const page = require('./filters/page');
+const forms = require('./filters/forms');
 const img11ty = require('./filters/11ty-image');
 const img = require('./filters/sanity-image');
 
@@ -21,28 +22,23 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('mdi', content => md.renderInline(content));
   eleventyConfig.addFilter('getPage', page.getPage);
   eleventyConfig.addFilter('fromCms', page.fromCms);
+  eleventyConfig.addFilter('getOptions', forms.getOptions);
+  eleventyConfig.addFilter('showTickets', forms.showTickets);
   eleventyConfig.addFilter('img', img.responsiveImage);
   eleventyConfig.addFilter('img11ty', img11ty.image);
   eleventyConfig.addFilter('find', _.find);
+  eleventyConfig.addFilter('filter', _.filter);
+  eleventyConfig.addFilter('merge', _.merge);
+  eleventyConfig.addFilter('groupBy', _.groupBy);
   eleventyConfig.addFilter('typogr', typogr.typogrify);
+  eleventyConfig.addFilter("date", time.date);
+  eleventyConfig.addFilter('htmlDate', time.htmlDate);
+
+  eleventyConfig.addFilter('jsonify', (obj) => JSON.stringify(obj));
 
   eleventyConfig.addFilter("debug", function(value) {
     return util.inspect(value, {compact: false})
-   });
-
-   eleventyConfig.addFilter("readableDate", dateObj => {
-    return new Date(dateObj).toDateString()
   });
-
-  // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-  eleventyConfig.addFilter('htmlDateString', (dateObj) => {
-    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
-  });
-
-  eleventyConfig.addWatchTarget('./content/sass/');
-  eleventyConfig.addPassthroughCopy('./content/css');
-  eleventyConfig.addPassthroughCopy('./content/fonts');
-  eleventyConfig.addPassthroughCopy('./content/favicon.svg');
 
   // shortcodes
   eleventyConfig.addNunjucksShortcode('img', img.responsiveImage);
@@ -52,13 +48,18 @@ module.exports = function(eleventyConfig) {
 
   // collections
   eleventyConfig.addCollection('features', (collection) =>
-    collection
-      .getFilteredByTag('show')
-      .filter((item) => item.data.feature)
-      .sort((a, b) => a.date - b.date),
+  collection
+  .getFilteredByTag('show')
+  .filter((item) => item.data.feature)
+  .sort((a, b) => a.date - b.date),
   );
 
   // config
+  eleventyConfig.addWatchTarget('./content/sass/');
+  eleventyConfig.addPassthroughCopy('./content/css');
+  eleventyConfig.addPassthroughCopy('./content/fonts');
+  eleventyConfig.addPassthroughCopy('./content/favicon.svg');
+
   eleventyConfig.setLibrary('md', md);
   eleventyConfig.addDataExtension('yaml', yaml.load);
   eleventyConfig.setQuietMode(true);

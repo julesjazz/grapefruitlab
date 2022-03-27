@@ -46,6 +46,10 @@ a:active {
   color: var(--focus);
 }
 
+p:empty {
+  display: none;
+}
+
 blockquote {
   border-inline-start: var(--half-shim) solid var(--border);
   font-style: italic;
@@ -64,4 +68,5 @@ blockquote {
 hr {
   border: 0 dotted var(--border);
   border-block-end-width: thin;
+  margin-block: var(--spacer);
 }

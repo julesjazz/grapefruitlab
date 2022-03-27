@@ -7,6 +7,5 @@ image:
     standing in the door of a cabin at night
 ---
 
-{% for show in collections.show | reverse %}
-- **[{{ show.data.title }}]({{ show.url }})** » {{ show.data.sub | mdi | safe }}
-{% endfor %}
+{% import "list.macros.njk" as list %}
+{{ list.shows(collections.show) }}
