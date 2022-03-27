@@ -12,30 +12,27 @@ exports.handler = async function (event, context) {
   const referer = event.headers.referer;
   // JSON.parse doesn't work here
   const params = new URLSearchParams(event.body);
-  const productID = params.get("product");
+  const product = params.get("product").split('@event@');
   const name = params.get("name");
   const note = params.get("note");
   const price = parseInt(params.get("price"), 10);
   const count = parseInt(params.get("count"), 10);
-
-  const eventID = params.get("event");
   const max = parseInt(params.get("max"), 10);
 
-  const prodEvent = await stripe.products.retrieve(productID).then((prod) => {
-    return prod.metadata.sanity_id;
-  });
+  const productID = product[0];
+  const eventID = product[1];
 
   const productMax = await client.fetch(groq`
-    *[_id == "${prodEvent || eventID}"][0]{
+    *[_id == "${eventID}"][0]{
       seats,
       "tickets": *[_type == "ticket"
         && !(_id in path("drafts.**"))
         && references(^._id)
-      ]{ "sold": numberOfTickets }
+      ]{ "sold": numberOfTickets }[].sold
     }
   `).then((event) => {
     const seats = event.seats || 25;
-    const sold = event.tickets.reduce((sold, tix) => sold + tix.sold, 0);
+    const sold = event.tickets.reduce((sold, tix) => sold + tix, 0);
     return seats - sold;
   });
 

@@ -12,10 +12,10 @@ module.exports = async function() {
       subtitle,
       summary,
       body,
-      "opening": premierDate,
+      featured,
       "slug": slug.current,
       "tags": tags[]->title,
-      "date": _createdAt,
+      "date": premierDate,
       "run": performance[]->{
         date, title, notes, seats,
         "id": _id,
@@ -23,7 +23,7 @@ module.exports = async function() {
         "tickets": *[_type == "ticket"
           && !(_id in path("drafts.**"))
           && references(^._id)
-        ]{ "sold": numberOfTickets }
+        ]{ "sold": numberOfTickets }[].sold
       } | order(date asc),
       "image": {
         "details": image,
@@ -33,7 +33,7 @@ module.exports = async function() {
           _id == ^.image.asset._ref
         ][0]{ alt, tags }
       }
-    } | order(premierDate desc)
+    } | order(premierDate asc)
   `).then(data => {
     return data.map(show => {
       show.body = show.body ? toMarkdown(show.body) : '';
@@ -44,7 +44,7 @@ module.exports = async function() {
         show.run = show.run.map((perf) => {
           // hard-coded for now
           perf.seats = perf.seats || 25;
-          perf.sold = perf.tickets.reduce((sold, tix) => sold + tix.sold, 0);
+          perf.sold = perf.tickets.reduce((sold, tix) => sold + tix, 0);
           return perf;
         });
       }

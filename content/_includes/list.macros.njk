@@ -15,9 +15,9 @@
   {% set adr = venue.address %}
   <div class="h-adr">
     {%- if adr.address1 -%}
-      <div class="p-street-address">
-        {{- utility.link_if(adr.address1, venue.mapurl) -}}
-      </div>
+      <span class="p-street-address">
+        {{ utility.link_if(adr.address1, venue.mapurl) }}
+      </span>
     {%- endif -%}
     {%- if adr.address2 -%}
       <div class="p-extended-address">{{ adr.address2 }}</div>
@@ -30,14 +30,14 @@
 
 {% macro shows(all) %}
   <section class="show-list">
-    {% for show in all %}
+    {% for show in all | sortBy('data.opening') | reverse %}
       <article class="show">
         {{ show.data.show.image | img(none, none, 'page') | safe }}
         <h3>
           {{ utility.link_if(show.data.title, show.url) }}
         </h3>
         {{ datetime(
-          date=show.opening,
+          date=show.data.opening,
           format='list'
         ) }}
         {{ (show.summary or '') | md | safe }}
@@ -50,7 +50,7 @@
   {%- if run -%}
     {% set groups = value %}
     <section class="show-run">
-      <h2>Performance Venues & Dates</h2>
+      <h2>Performance Venue & Dates</h2>
 
       {%- for group, dates in run | groupBy('venue.title') -%}
         <section class="h-card">

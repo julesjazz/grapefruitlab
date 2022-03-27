@@ -15,26 +15,21 @@ const getOptions = (collection, key, value) => {
 };
 
 const showTickets = (run, products) => {
-  let some = false;
-  if (!run || !run.length) { return { some }; }
+  if (!run || !run.length) { return null; }
 
-  const all = run.map((perf) => {
+  return run.map((perf) => {
     const ticket = _.find(products, ['metadata.sanity_id', perf.id]);
     let seats = perf.seats - perf.sold;
     seats = seats > 0 ? seats : null;
-    some = (ticket && seats) ? true : some;
 
     return {
       ticket,
       seats,
       event: perf.id,
+      value: ticket ? `${ticket.id}@event@${perf.id}` : null,
       display: `${date(perf.date, 'show')} (${seats} remaining)`,
     };
-  });
-
-  return {
-    all, some,
-  }
+  }).filter((perf) => perf.seats && perf.ticket);
 }
 
 module.exports = {

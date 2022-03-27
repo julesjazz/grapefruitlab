@@ -12,21 +12,13 @@
   suggested=none
 ) %}
   <form action="/api/checkout" method="POST">
-    {%- set available = tickets.all | filter('seats') | filter('ticket') -%}
-    {%- set seats = available | getOptions('ticket.id', 'seats') -%}
-    {%- set shows = available | getOptions('ticket.id', 'event') -%}
-    {%- set max = available[0]['seats'] -%}
-    {%- set selected = available[0]['event'] -%}
+    {%- set seats = tickets | getOptions('value', 'seats') -%}
+    {%- set max = tickets[0]['seats'] -%}
 
     {{- form.input(
       id='max',
       type='hidden',
       value=max
-    ) -}}
-    {{- form.input(
-      id='event',
-      type='hidden',
-      value=selected
     ) -}}
     {{- form.field(
       label='Reservation Name',
@@ -39,8 +31,9 @@
       type='select',
       required=true,
       name='product',
-      options=available | getOptions('ticket.id', 'display')
+      options=tickets | getOptions('value', 'display')
     ) -}}
+    <div data-fieldgroup>
     {{- form.field(
       label='Number of Tickets',
       type='number',
@@ -62,6 +55,7 @@
         min: 1
       }
     ) -}}
+    </div>
     {{- form.field(
       label='Notes',
       type='textarea',
@@ -73,18 +67,15 @@
   </form>
   <script type='module'>
     const seats = {{ seats | jsonify | safe }};
-    const events = {{ shows | jsonify | safe }};
 
     const eventSelect = document.getElementById('field-product');
     const countInput = document.getElementById('field-count');
     const maxInput = document.getElementById('max');
-    const eventInput = document.getElementById('event');
 
     eventSelect.addEventListener('change', () => {
       const max = seats[eventSelect.value];
       countInput.setAttribute('max', max);
       maxInput.setAttribute('value', max);
-      eventInput.setAttribute('value', events[eventSelect.value]);
     });
   </script>
 {% endmacro %}

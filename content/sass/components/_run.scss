@@ -2,10 +2,12 @@
   margin-block-end: 0;
 }
 
-.venue + .adr {
-  margin-block-start: 0;
+.h-adr {
+  font-style: italic;
 }
 
-.adr {
-  font-style: italic;
+.show-run,
+.show-sales {
+  border-block-start: thin dotted var(--border);
+  margin-block-start: var(--spacer);
 }
