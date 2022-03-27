@@ -21,7 +21,7 @@ const date = (dateObj, format) => {
     show: DateTime.DATE_HUGE,
   }
   const useFormat = formats[format] || DateTime[format] || DateTime.DATE_MED;
-  return getDateObj(dateObj).toLocaleString(useFormat);
+  return getDateObj(dateObj).setZone("utc", { keepLocalTime: true }).toLocaleString(useFormat);
 };
 
 module.exports = {
