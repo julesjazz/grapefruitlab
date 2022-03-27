@@ -6,8 +6,8 @@ const getDateObj = (date) => {
   }
 
   return (typeof date === 'string')
-    ? DateTime.fromISO(date, {zone: 'utc'})
-    : DateTime.fromJSDate(date, {zone: 'utc'});
+    ? DateTime.fromISO(date)
+    : DateTime.fromJSDate(date);
 };
 
 // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
