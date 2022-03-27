@@ -3,9 +3,9 @@
 {% macro datetime(date, format=none) %}
   <time datetime="{{ date | htmlDate }}">
     {%- if format -%}
-      {{ date | date(format) }}
+      {{ date | date(format, 'America/Denver') }}
     {%- else -%}
-      {{ date | date('show') }}
+      {{ date | date('show', 'America/Denver') }}
       @ {{ date | date('TIME_SIMPLE') }}
     {%- endif -%}
   </time>

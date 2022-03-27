@@ -27,7 +27,7 @@ const showTickets = (run, products) => {
       seats,
       event: perf.id,
       value: ticket ? `${ticket.id}@event@${perf.id}` : null,
-      display: `${date(perf.date, 'show')} (${seats} remaining)`,
+      display: `${date(perf.date, 'show', 'America/Denver')} (${seats} remaining)`,
     };
   }).filter((perf) => perf.seats && perf.ticket);
 }
