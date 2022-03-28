@@ -30,19 +30,22 @@
 
 {% macro shows(all) %}
   <section class="show-list">
-    {% for show in all | sortBy('data.opening') | reverse %}
+    {%- for show in all | sortBy('data.opening') | reverse -%}
       <article class="show">
-        {{ show.data.show.hero | img('list') | safe }}
+        {{- utility.link_if(
+          show.data.show.hero | img('list'),
+          show.url
+        ) -}}
         <h3>
-          {{ utility.link_if(show.data.title, show.url) }}
+          {{- utility.link_if(show.data.title, show.url) -}}
         </h3>
-        {{ datetime(
+        {{- datetime(
           date=show.data.opening,
           format='list'
         ) }}
-        {{ (show.summary or '') | md | safe }}
+        {{ show.data.summary | md | safe -}}
       </article>
-    {% endfor %}
+    {%- endfor -%}
   </section>
 {% endmacro %}
 

@@ -13,9 +13,9 @@
   object-fit: cover;
   place-self: stretch;
   scale: 1.1;
-  width: 100%;
 }
 
 .hero-img {
   filter: brightness(var(--bright, 80%)) sepia(50%);
+  width: 100%;
 }
