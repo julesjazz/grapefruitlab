@@ -1,10 +1,5 @@
 ---
-title: Our Shows
-image:
-  src: shows/between/doorway.jpg
-  alt: |
-    julie in an apron,
-    standing in the door of a cabin at night
+partial: home
 ---
 
 {% import "list.macros.njk" as list %}

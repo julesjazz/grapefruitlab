@@ -5,6 +5,6 @@ module.exports = {
     summary: data => data.show.summary,
     feature: data => data.show.featured,
     date: data => data.show.date,
-    image: data => data.show.hero,
+    hero: data => data.show.hero,
   }
 };

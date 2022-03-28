@@ -1,7 +1,7 @@
 const groq = require('groq');
 const client = require('../../utils/sanityClient');
+const { hero, heroAlt } = require('../../utils/imageGroq');
 const toMarkdown = require('@sanity/block-content-to-markdown');
-const { responsiveImage } = require('../../filters/sanity-image');
 
 module.exports = async function() {
   return await client.fetch(groq`
@@ -24,22 +24,13 @@ module.exports = async function() {
           && !(_id in path("drafts.**"))
           && references(^._id)
         ]{ "sold": numberOfTickets }[].sold
-      } | order(date asc),
-      "image": {
-        "details": image,
-        "alt": imageAlt,
-        "origin": *[
-          _type == "sanity.imageAsset" &&
-          _id == ^.image.asset._ref
-        ][0]{ alt, tags }
-      }
-    } | order(premierDate asc)
+      },
+      ${hero},
+    } | order(date desc)
   `).then(data => {
     return data.map(show => {
       show.body = show.body ? toMarkdown(show.body) : '';
-      show.hero = show.image.details
-        ? { 'sanity': responsiveImage(show.image) }
-        : null;
+      show.hero = heroAlt(show.hero);
       if (show.run) {
         show.run = show.run.map((perf) => {
           // hard-coded for now

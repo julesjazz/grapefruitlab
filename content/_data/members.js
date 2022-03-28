@@ -1,8 +1,7 @@
 const groq = require('groq');
 const client = require('../../utils/sanityClient');
+const { hero, heroAlt } = require('../../utils/imageGroq');
 const toMarkdown = require('@sanity/block-content-to-markdown');
-const { responsiveImage } = require('../../filters/sanity-image');
-const _ = require('lodash');
 
 module.exports = async function() {
   return await client.fetch(groq`
@@ -15,21 +14,12 @@ module.exports = async function() {
       "social": {
         url, email, facebook, instagram, twitter
       },
-      "image": {
-        "details": image,
-        "alt": imageAlt,
-        "origin": *[
-          _type == "sanity.imageAsset" &&
-          _id == ^.image.asset._ref
-        ][0]{
-          alt, tags
-        }
-      }
+      ${hero},
     }
   `).then(data => {
     return data.map(member => {
       member.bio = member.bio ? toMarkdown(member.bio) : '';
-      member.hero = member.image.details ? { 'sanity': responsiveImage(member.image) } : null;
+      member.hero = heroAlt(member.hero);
       return member;
     });
   });

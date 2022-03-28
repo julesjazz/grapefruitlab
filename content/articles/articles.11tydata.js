@@ -5,6 +5,6 @@ module.exports = {
     subtitle: data => data.article.subtitle,
     summary: data => data.article.summary,
     date: data => data.article.date,
-    image: data => data.article.hero,
+    hero: data => data.article.hero,
   }
 };

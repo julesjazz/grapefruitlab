@@ -13,7 +13,6 @@ const md = require('markdown-it')({
 const time = require('./filters/time');
 const page = require('./filters/page');
 const forms = require('./filters/forms');
-const img11ty = require('./filters/11ty-image');
 const img = require('./filters/sanity-image');
 
 module.exports = function(eleventyConfig) {
@@ -26,8 +25,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('getOptions', forms.getOptions);
   eleventyConfig.addFilter('showTickets', forms.showTickets);
 
-  eleventyConfig.addFilter('img', img.responsiveImage);
-  eleventyConfig.addFilter('img11ty', img11ty.image);
+  eleventyConfig.addFilter('img', img.img);
 
   eleventyConfig.addFilter('find', _.find);
   eleventyConfig.addFilter('filter', _.filter);
@@ -48,8 +46,7 @@ module.exports = function(eleventyConfig) {
   });
 
   // shortcodes
-  eleventyConfig.addNunjucksShortcode('img', img.responsiveImage);
-  eleventyConfig.addNunjucksShortcode('img11ty', img11ty.image);
+  eleventyConfig.addNunjucksShortcode('img', img.img);
   eleventyConfig.addPairedShortcode('md', content => md.render(content));
   eleventyConfig.addPairedShortcode('mdi', content => md.renderInline(content));
 

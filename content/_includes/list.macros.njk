@@ -32,7 +32,7 @@
   <section class="show-list">
     {% for show in all | sortBy('data.opening') | reverse %}
       <article class="show">
-        {{ show.data.show.image | img(none, none, 'page') | safe }}
+        {{ show.data.show.hero | img('list') | safe }}
         <h3>
           {{ utility.link_if(show.data.title, show.url) }}
         </h3>
