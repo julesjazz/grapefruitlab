@@ -5,7 +5,7 @@ const toMarkdown = require('@sanity/block-content-to-markdown');
 const _ = require('lodash');
 
 module.exports = async function() {
-  return await client.fetch(groq`
+  const data = await client.fetch(groq`
     *[_type == "article"
       && !(_id in path("drafts.**"))
     ]{
@@ -19,13 +19,13 @@ module.exports = async function() {
       "category": category->title,
       ${hero},
     }
-  `).then(data => {
-    data.map(page => {
-      page.body = page.body ? toMarkdown(page.body) : '';
-      page.hero = heroAlt(page.hero);
-      return page;
-    });
+  `);
 
-    return _.groupBy(data, item => item.category);
+  const pages = data.map(page => {
+    page.body = page.body ? toMarkdown(page.body) : '';
+    page.hero = heroAlt(page.hero);
+    return page;
   });
+
+  return _.groupBy(pages, page => page.category);
 };
