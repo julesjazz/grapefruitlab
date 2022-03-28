@@ -22,7 +22,7 @@ exports.handler = async function (event, context) {
   const productID = product[0];
   const eventID = product[1];
 
-  const productMax = await client.fetch(groq`
+  const eventData = await client.fetch(groq`
     *[_id == "${eventID}"][0]{
       seats,
       "tickets": *[_type == "ticket"
@@ -30,11 +30,11 @@ exports.handler = async function (event, context) {
         && references(^._id)
       ]{ "sold": numberOfTickets }[].sold
     }
-  `).then((event) => {
-    const seats = event.seats || 25;
-    const sold = event.tickets.reduce((sold, tix) => sold + tix, 0);
-    return seats - sold;
-  });
+  `)
+
+  const seats = eventData.seats || 25;
+  const sold = eventData.tickets.reduce((sold, tix) => sold + tix, 0);
+  const productMax = seats - sold;
 
   const session = await stripe.checkout.sessions.create({
     line_items: [

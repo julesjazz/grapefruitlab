@@ -59,9 +59,7 @@ exports.handler = async function (event, context) {
         price: order.price.unit_amount / 100,
       }
 
-      client.createOrReplace(doc).then((res) => {
-        console.log(`Tickets sold, document ID is ${res._id}`);
-      });
+      client.createOrReplace(doc);
     }
 
     return {

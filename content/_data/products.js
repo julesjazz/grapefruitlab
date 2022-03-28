@@ -9,7 +9,9 @@ const api_key = environment !== "production"
 const stripe = require("stripe")(api_key);
 
 module.exports = async function() {
-  return await stripe.products.list({
+  const list = await stripe.products.list({
     active: true,
-  }).then(list => list.data);
+  });
+
+  return list.data;
 };

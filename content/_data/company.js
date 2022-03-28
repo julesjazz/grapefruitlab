@@ -4,7 +4,7 @@ const { hero, heroAlt } = require('../../utils/imageGroq');
 const toMarkdown = require('@sanity/block-content-to-markdown');
 
 module.exports = async function() {
-  return await client.fetch(groq`
+  const data = await client.fetch(groq`
     *[_type == "company"
       && slug.current == "grapefruit-lab"
       && !(_id in path("drafts.**"))
@@ -18,9 +18,10 @@ module.exports = async function() {
       },
       ${hero},
     }
-  `).then(data => {
-    data.body = data.body ? toMarkdown(data.body) : '';
-    data.hero = heroAlt(data.hero);
-    return data;
-  });
+  `);
+
+  data.body = data.body ? toMarkdown(data.body) : '';
+  data.hero = heroAlt(data.hero);
+
+  return data;
 };
