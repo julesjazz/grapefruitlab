@@ -22,7 +22,7 @@ eleventyComputed:
 {# ticket sales ----------------------- #}
 {% import "checkout.macros.njk" as checkout %}
 {% set tickets = show.run | showTickets(products) %}
-{% if tickets %}
+{% if tickets and onsale %}
   <section class="show-sales">
     <h2>Purchace Tickets</h2>
     <p>All tickets are name-your-price.</p>

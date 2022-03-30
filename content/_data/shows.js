@@ -13,6 +13,7 @@ module.exports = async function() {
       summary,
       body,
       featured,
+      onsale,
       "slug": slug.current,
       "tags": tags[]->title,
       "date": premierDate,
