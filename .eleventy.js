@@ -1,6 +1,7 @@
 const yaml = require('js-yaml');
-const { DateTime } = require("luxon");
 const util = require('util')
+const _ = require('lodash');
+const typogr = require('typogr');
 
 const md = require('markdown-it')({
   html: true,
@@ -9,6 +10,7 @@ const md = require('markdown-it')({
   typographer: true,
 }).disable('code');
 
+const time = require('./filters/time');
 const page = require('./filters/page');
 const image = require('./filters/image');
 const img = require('./filters/img');
@@ -19,6 +21,17 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('mdi', content => md.renderInline(content));
   eleventyConfig.addFilter('getPage', page.getPage);
   eleventyConfig.addFilter('img', img.responsiveImage);
+
+  eleventyConfig.addFilter('find', _.find);
+  eleventyConfig.addFilter('filter', _.filter);
+  eleventyConfig.addFilter('merge', _.merge);
+  eleventyConfig.addFilter('groupBy', _.groupBy);
+  eleventyConfig.addFilter('sortBy', _.sortBy);
+
+  eleventyConfig.addFilter('typogr', typogr.typogrify);
+
+  eleventyConfig.addFilter("date", time.date);
+  eleventyConfig.addFilter('htmlDate', time.htmlDate);
 
   eleventyConfig.addFilter("debug", function(value) {
     return util.inspect(value, {compact: false})

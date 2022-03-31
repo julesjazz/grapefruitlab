@@ -1,5 +1,5 @@
 ---
-# feature: true
+feature: true
 title: Pity+Fear (a travesty)
 sub: May 2022 @ Buntport Theater
 date: 2022-05-13
@@ -36,11 +36,6 @@ summary: |
 
 {{ summary | md | safe }}
 
-What does it mean to be a person --
-to have a body, and live in it --
-to make choices, and change over time --
-to tell the truth?
-
 **Pity+Fear**
 is a comic attempt at a one-woman tragedy,
 featuring two women and a guitar.
@@ -57,5 +52,10 @@ Designed & developed with Julie Rada, Kenny Storms,
 and Erin Rollman.
 Thanks to Buntport Theater for
 generously providing us a space to perform.
+
+> There are no new ideas.
+> There are only new ways of making them felt.
+>
+> _---Audre Lorde_
 
 _Tickets on sale soon!_

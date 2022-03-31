@@ -5,7 +5,7 @@
 }
 
 #hero img {
-  filter: blur(3px) brightness(50%) sepia(50%);
+  --bright: 50%;
   height: 0;
   min-height: 100%;
   overflow: hidden;
@@ -13,4 +13,9 @@
   object-fit: cover;
   place-self: stretch;
   scale: 1.1;
+}
+
+.hero-img {
+  filter: brightness(var(--bright, 80%)) sepia(50%);
+  width: 100%;
 }

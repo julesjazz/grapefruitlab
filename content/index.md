@@ -11,8 +11,5 @@ sub: A performance laboratory
 
 ## Our Shows
 
-<ul>
-{% for show in collections.show | reverse %}
-- **[{{ show.data.title }}]({{ show.url }})** » {{ show.data.sub | mdi | safe }}
-{% endfor %}
-</ul>
+{% import "list.macros.njk" as list %}
+{{ list.shows(collections.show) }}
