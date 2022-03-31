@@ -49,7 +49,7 @@ Written by Miriam Suzanne,
 with original music & lyrics
 by Josselyn Cool (Better Selfs, Teacup Gorilla).
 Designed & developed with Julie Rada, Kenny Storms,
-and Erin Rollman.
+Ben Meyer Reimer, and Erin Rollman.
 Thanks to Buntport Theater for
 generously providing us a space to perform.
 
