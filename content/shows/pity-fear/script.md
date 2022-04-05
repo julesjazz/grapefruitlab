@@ -401,7 +401,7 @@ I think I just said… “It probably didn’t help?” I just felt like, I don�
 You should have been a therapist?
 
 **Mia:**
-No. No, the transition. It’s a reversal of the situation, maybe? Brought on by… some flaw in my character? Once a married man, with valor — or *valor potential* — but over the next 90 minutes I’m revealed as… just this? *Unscrupulous in my cleverness?*
+No. No, the transition. It’s a change of fortune, maybe? Brought on by… some flaw in my character? Once a married man, with valor — or *valor potential* — but over the next 90 minutes I’m revealed as… just this? *Unscrupulous in my cleverness?*
 
 I mean, that story has everything, doesn’t it? *Peripity and Pathos.* A moment of recognition, a reversal of the situation, and then the “tragic act”! The blood letting. Oedipus stabs out his own eyes, but I’m like: raise the stakes! My ex once said that she wouldn’t be happy until I was dead or gay or castrated.
 
@@ -422,8 +422,6 @@ She’s engaged now. Big ring on her finger. Some cis girl. A graphic designer w
 
 **Mia:**
 Oh shit, I guess she has a type! My ex married a farm boy…
-
-*[a spell?]*
 
 Sorry, where were we? I guess a “Hero” is also… a submarine sandwich, right? Wikipedia has a whole list of Sandwiches. Like a whole page just for that. But then there’s a disclaimer at the top that it *might* not be a “complete” list. It’s like… American sub, and Beef on Weck, and… There’s a Manwich in the middle…
 
@@ -514,7 +512,9 @@ Fine.
 
 ### [Song - Fuck It, I’m a Ghost]
 
-**Josie *[sings]*:**
+**Josie:**
+_Yes, and_… here's a beautiful song I wrote. _[sings]_
+
 ```
 It all just seemed so overwhelming
 Staring at that empty page
@@ -529,7 +529,7 @@ But probably not more, poor, or torn)
 Tears are forming in my eyes
 "What do they expect from me?"
 My pain on main, my pound of flesh
-Maybe some cursed transexual symphony?
+Maybe some cursed transsexual symphony?
 The Ugly Organ about a surgery?
 Tru-trans soul rebel in a minor key?"
 
@@ -612,7 +612,7 @@ I might! You don’t know. Poop. Poop. Walnuts! Fine. I get it. Stop!
 ### [Mia - Why Agraulos?]
 
 **Mia:**
-So, Aglauros, right? Who is she? Daughter, sister, country woman, princess? Clear water? There’s just some gravity, pulling her down… Falling, turned to stone, and falling again. There’s a *pathos* to her. Sorry that’s Greek again. *Pathos*, it’s like… *emotion*s, but… spicier? Pain and suffering. Pity and fear. *[to Josie]* I think *and* sounds better. Pity *and* Fear.
+So, Aglauros, right? Who is she? Daughter, sister, princess, country woman? Clear water? There’s just some gravity, pulling her down… Falling, turned to stone, and falling again. There’s a *pathos* to her. Sorry that’s Greek again. *Pathos*, it’s like… *emotion*s, but… spicier? Pain and suffering. Pity and fear. *[to Josie]* I think *and* sounds better. Pity *and* Fear.
 
 Maybe that’s her connection, though, right? Tragedy? Pathos? Pity & Fear? Maybe she can tie this all together? Her three deaths? We can make this show about *her*? I’m into that. Maybe we can lay her story out, all the pieces — fit them back together, and see the *whole* picture?
 
@@ -641,7 +641,7 @@ Erin thinks she looks like me. That’s funny, right? Erin’s my partner. One o
 Maybe Erin just thinks you’re angry all the time?
 
 **Mia:**
-Yeah, maybe. Aaarrrrrr. I need a whip, though. Who’s doing props? We should find someone for that. Oh, also *nudity*. Add that to the program.
+Yeah, maybe. Grrrrrrrr. I need a whip, though. Who’s doing props? We should find someone for that. Oh, also *nudity*. Add that to the program.
 
 ### [Mia - Killed by Liars & Actors]
 
@@ -692,10 +692,13 @@ A Mennonite tragedy in *one act of lust*.
 **Josie:**
 Oh wait, I’ve got a perfect song for that.
 
+**Mia:**
+Of course you do!
+
 ### [Song - Can I buy you Taco Paintbrush?]
 
+**Josie _[sings]_:**
 ```
-(Verse 1)
 All I need is an Autumn breeze
 Lazy evenings in a field of green
 You twirling your hair and staring up at me
@@ -705,7 +708,6 @@ And your Chelsey mullet meant to subvert
 Your grace and charm come naturally
 Enhanced by a lack of vanity
 
-(Chorus)
 And what country girl seduces wits
 In a country dress and a can of Schlitz?
 No hubris, no glam no glitz
@@ -716,7 +718,6 @@ But maybe that is what I find exciting
 Oh, Darlin’, You might not be Aphrodite
 But I want you to suffer in myself with me.
 
-(Verse 2)
 Your Halloween head in my lap
 A horror movie, take a nap
 Some curs-ed YouTube videos
@@ -726,13 +727,11 @@ Are those bedroom eyes or sleepy ones
 Some morning I will buy you brunch,
 Will I see you in another month?
 
-(Bridge)
 What would a cowgirl ever see
 in a middle-aged professional like me
 Is my hair queer enough, Is my spirit free?
 Can I provide you some stability?
 
-(Chorus)
 And what country girl seduces wits
 In a country dress and a can of Schlitz?
 No hubris, no glam no glitz
@@ -799,7 +798,7 @@ But Plato’s not *happy* about that conclusion. He *likes* poetry, so he challe
 I guess the best offense of poetry, is a good defense of poetry?
 
 **Mia:**
-And at the time, poetry is mostly performed as either theater or song. So both Thespis and Sappho are on the chopping block, unless Aristotle can *prove* that all their *shitty performance art* is *not only a pleasure, but a benefit!* And that’s the whole book. Aristotle’s Poetics.
+And at the time, poetry is mostly performed as either theater or song. So both Thespis and Sappho are on the chopping block, unless Aristotle can *prove* (in prose without meter) that all their *shitty performance art* is *not only a pleasure, but a benefit!* And that’s the whole book. Aristotle’s Poetics.
 
 But in order to prove that something *has a benefit*, you need to define it — give it clear boundaries. You need a way to quantify all poetry, and rank it from least to most *beneficial*. Most perfect! Something for us all to work towards — that one perfect poem, perfect play, perfect song.
 
@@ -829,7 +828,7 @@ Yeah, *or gender is performed*. It doesn’t mean fake — not a theatrical faca
 
 Like… a promise, or a threat — the words are the action. Or a vow, the phrase *I do.* Those two words don’t mean much on their own, but if you say them in the right context, they create a new legal reality — the institution of marriage — forever joined into one flesh, or whatever. I guess it doesn’t always *stick*, but that’s the idea. Words can perform actions that change the world around us.
 
-So Tragedy is not a mere reflection of the shadows on Plato’s cave wall — one step farther from Plato’s hidden truth — but active. Creating a new reality. Cleansed of your filthy emotions. Purified in a tide of blood.
+So Tragedy is not a mere reflection of the shadows cast by Plato's Ideal Forms — one step farther from Plato’s hidden truth — but active. Creating a new reality. Cleansed of your filthy emotions. Purified in a tide of blood.
 
 *[a spell?]*
 
@@ -873,7 +872,47 @@ Well, I didn’t write *that*.
 **Josie:**
 Please stop digging, and just let me play a song?
 
-### [Song - TBD]
+### [Song - “Warm, Cool, & French - The 3 genders”]
+
+**Josie _[sings]_:**
+```
+I was classified since I was young
+Intellectual, Guitarist, artist, & son
+And those silos all seem so goddamn binary
+Was punk trying to expose or cement that divide to me?
+
+Cause ‘bad is always bad’ and ‘good is always good’
+And caricatures of both are found in your neighborhood
+Nuance is hard in screamed out rhyming stanzas
+And very few expansive narrative extravaganzas
+
+But what life actually turn out that way
+People telling me who I am and what I outta say
+And what I’ll like and what I’ll hate, no land between the coasts
+Branded for life in column A, Column B is full of ghosts
+
+Did evil somehow lead the good astray
+Is the hero always worthy of our praise
+Is it set for life or can your story change
+Everyone is living day-to-day
+Somewhere in the shades of grey
+
+No Coasts to bring us down, no borders wall us in.
+No interest all-consuming, all defining, full of sin
+Being queer’s not an all defining trait, to my chagrin
+No labels tell us who we are, no pasts can tell us who we've been.
+
+Who you are is what they can’t take away.
+No one to tell me who I am and what I outta say
+And what I’ll like and what I’ll hate, or what I oughta weigh
+I’ll be the mess I wanna be, that mess is fucking great.
+
+Did evil somehow lead the good astray
+Is the hero always worthy of our praise
+Is it set for life or can your story change
+Everyone is living day-to-day
+Somewhere in the shades of grey
+```
 
 ### [Dialogue - Make it a Concert]
 
@@ -930,33 +969,37 @@ How am I supposed to build a narrative out of that — serious, complete, and ce
 
 ### [Mia - A Scale of Being]
 
-When my mom was pregnant for the first time, she had a dream that the child would be a boy — and he was… or is. That’s my brother. But when mom was pregnant with her second child (that’s me) she had no such premonitions. No prophesy, no oracle, no ultrasound clues… So she bought a beautiful little dress, *on the off-chance*, *s*he tells me. And picked out my name, Miriam Suzanne. After I was born, they gave it all away. The dress, the name, the narrative.
+When my mom was pregnant for the first time, she had a dream that the child would be a boy — and he was… or is. That’s my brother. But when mom was pregnant with her second child (that’s me) she had no such premonitions. No prophesy, no oracle, no ultrasound clues… So she bought a beautiful little dress, *on the off-chance*, she tells me. And picked out my name, Miriam Suzanne. After I was born, they gave it all away. The dress, the name, the narrative.
 
 But the Oracle at Delphi, you can just go there and ask, you know: who am I, really? Why am I here? Or, *how do I end this goddamn war*? And then the oracle goes through the whole process — shitty first draft, and a round of edits — to get you some beautiful aphorism, like… *you are what you eat* or *step on a crack* or *all that we are, is the result of what we have thought*. I got that one from a fortune cookie.
 
-Or also like the one inscribed on the forecourt of the temple — whatever that is. I guess you see it when you enter? It says *Gnothi Seautom. Know thyself!*
+Or also like the one inscribed on the forecourt of the temple — whatever that is. I guess you see it when you enter? It says *gnōthi seauton. Know thyself!*
 
-Which probably just meant, like, *know your place* before the gods. Stay humble. But then Socrates says that a man should *look himself in the mouth*, the same way he would a horse for sale (but not a gift horse, that’s rude). It becomes a self-help trend. Know your strengths, your weaknesses, opportunities and threats. Your Meyers Briggs. Your Enneagram, and dianetics. Whatever it takes. But starting with your teeth, I guess. Teeth are important.
+Which probably just meant *know your place* before the gods. Stay humble. But then Socrates says that a man should *look himself in the mouth*, the same way he would a horse for sale (but not a gift horse, that’s rude). It becomes a self-help trend. Know your strengths, your weaknesses, opportunities and threats. Your Meyers Briggs. Your Enneagram, and dianetics. Whatever it takes. But starting with your teeth, I guess. Teeth are important.
 
-Shakespeare makes it about personal authenticity: *To thine own self be true.* But then, eventually Carl Linnaeus — the *father of modern taxonomy* — he’s putting all the animals into categories, and he uses that same phrase in Latin to describe us. Humans. *Homo sapiens*, our whole species. *Wise and knowledgeable men*. But then, as a description: *Nosce te ipsum. Know thyself*.
+Shakespeare makes it about personal authenticity: *To thine own self be true*. But then, eventually Carl Linnaeus — the *father of modern taxonomy* — he’s putting all the animals into categories. And it's a messy process, grouping traits that seem to be related. Warm blood, hairy bodies, four limbs, live birth, and... What the fuck is a platypus? Fine, add it the list.
+
+We can't even agree on what it means to be alive, let alone _mammalian_. What, you don't all have milk-producing mammary glands? Well, people got pissed when he tried calling us _quadrupeds_, and as a doctor he's obsessed with breast feeding, so _suck it up_. These tits make (some of) us animals, but what makes us unique? Human? *Homo sapiens*? That means *wise and knowledgeable men* (which is debatable). But then, below that, as a description, he uses the Latin phrase: *Nosce te ipsum. Know thyself*.
 
 And this is still our favorite way to sort and rank life. Size everything up by it’s *knowledge of self*. Make a dog look in the mirror, but there’s something on its nose. Does it understand that nose as connected to a self? Reflected back? Does it try to brush something off?
 
 What is this infinite feedback loop of experience…memory…story…experience…memory… that leaves us mesmerized by our own reflections in the pool, but also… makes us feel so alone. Are we alone? Are we the only ones who do this? Are we, the *best animals ever*?
 
-Maybe! Carl’s work builds directly on Aristotle: *the father of biology* — who did all his research (by the way) on the Isle of Lesbos! Aristotle arranges the world into a fixed *scale of perfection* — *the great chain of being*! With cold, dry minerals at the bottom, up thru plants and animals, to humans who — like the air of Lesbos — are *hot* and *wet*.
+Maybe! Carl’s work builds directly on Aristotle: *the father of biology* — who did all his research (by the way) on the Isle of Lesbos! And Aristotle has already arranged the world into a fixed *scale of perfection* — *the great chain of being*! With cold, dry minerals at the bottom, up thru (tepid, moist) plants and animals, to humans who — like the air of Lesbos — are *hot* and *wet*.
 
 **Josie:**
 Wet Hot Lesbian Summer!
 
 **Mia:**
-All these categories, genres, species… Why does it always end up with a single *essential condition*, a single path to perfection, to poetry, gender, humanity? Are some of us more real than others? More *sapien*, more self-aware? Obviously, some of us are more *homo…*
+But all these categories, genres, species… Why does it always end up with a single *essential condition*, a single path to perfection, to poetry, gender, humanity? Are some of us more human than others? More *sapien*, more self-aware? Obviously, some of us are more *homo…*
 
 Anyway, Agraulos. The prophesy for Athens — the Oracle at Delphi — is something like *a sacrifice of one, to save the city*. A personal sacrifice will end this ongoing war. What Athens needs is a martyr.
 
+_[a spell?]_
+
 ### [Dialogue - The Bloody Theater]
 
-The Mennonites have this big thick book, ca*lled The Martyr’s Mirror (or) The Bloody Theater.*
+The Mennonites have this big thick book, called *The Martyr’s Mirror (or) The Bloody Theater.*
 
 **Josie:**
 Now that’s a good title.
@@ -980,100 +1023,69 @@ I don’t know. My ex had her whole life planned out. Married early. Two kids by
 
 **Josie *[sings]*:**
 ```
-I stalked your insta on the second only to find
-I would be reliving this pain for what feels like all time.
-A new ring on your finger A fox on the box.
-A new girl makes you happy and I've been crying a lot.
+I snooped on your instagram to find
+A new girl is taking up your time
+A ring on your finger A fox on the box.
+I’m glad that you’re happy, so am I
 ```
 
 **Mia:**
 At some point, I’m sitting alone in couples therapy — such a classic trope in movies. And I tell the counselor, I don’t know what to do. How many times am I going to replace the broken remote, after it hits the wall behind me? How do I…
 
-**Josie *[**sings**]*:**
+**Josie *[sings]*:**
 ```
-Her name starts with a ‘J’ and she's a graphic designer
-without a wake of death and destruction behind her.
-You had told me before how you wanted your person.
-I'm glad that you found her (tempo change)
-but the pain in my chest…
+The pain of losing you still hurts
+The fact I’m the reason makes it worse
+I want to move on and get past it
+But I seem to be moving in reverse
 ```
 
 **Mia:**
-And the counselor says, like it’s obvious…
+And the counselor says, like it’s obvious… You know you don’t have to go home, right? And I… What? I don't… So I drive to a friends house, but we stay in counseling. Maybe we can make this work? Somehow…
 
 **Josie *[sings]*:**
-and at the base of my neck…
+```
+Why do we do this to ourselves
+We promise that we will not just dwell
+But here we are wallowing in pain
+As gratification gets withheld
+```
 
 **Mia:**
-You know you don’t have to go home, right? … What? I’m in free-fall.
+And somewhere in all of it, I start painting my nails. It’s relaxing. Until my wife asks if I’m having an identity crisis. I’m not, I think. Or I am, but, that’s what a divorce is, right? _Divorce_ is an identity crisis. These are just colors that make me smile. Distract me from…
 
 **Josie *[sings]*:**
-This ringing of my wrists…
+```
+So I’m reliving this trauma over and over
+Rather than trying to get some closure
+Like picking a scab things are gonna get grosser
+But I don’t know how to stop myself from scratching
+```
 
 **Mia:**
-So I drive to a friend’s house instead, move into the basement. Separated.
+Still, it’s a small town, small Mennonite college. And divorce is… Everyone has an opinion, has to take a side. *She can’t really hurt you, can she?* Dad pulls out the DSM 4 to read me the definition of *abuse* — surely not for a case like this. It's really a lack of *patience* on my part. There’s always middle ground, you just have to try harder…
 
 **Josie *[sings]*:**
-and my hands balled in fists…
+```
+And doing so only makes things worse
+4 billion girls in this universe
+But I’m hung up on you like it’s some kind of curse
+I’m cursed to never stop hurting.
+```
 
 **Mia:**
-And we start seeing a different counselor, try and make this work? Turn back onto the ice…
+Everyone wants an explanation. This story -- the tragedy of a marriage and divorce -- it's too messy, too complicated. was the love real, or fake all along? They demand a re-write, to make the pieces fit. And slowly, over time, the narration becomes almost whole and complete, with a magnitude that is almost certain.
 
 **Josie *[sings]*:**
-the pain in my chest, it continues to worsen.
-
-*[chorus]*
-
 ```
-So here I am reliving this - trauma over and over
-And each day I get just a little bit closer
-To taking a nice bubble bath with my toaster
-Cause in your eyes
-I was always a consolation prize
-Till a cute girl could come along
-That your mom wouldn't deride
-And my heart breaks wishing you the best
-I hope she gives you what I can't, I guess
-So may that new ring on your finger forever shine
-I promised forever and now it feels like I'm dying
+So I’m reliving this trauma over and over
+Rather than trying to get some closure
+Like picking a scab things are gonna get grosser
+But I don’t know how to stop myself from scratching
 ```
 
 **Mia:**
-And somewhere in all of it, I start painting my nails. It’s relaxing. But my wife sees it, and asks if I’m having an identity crisis. I’m not, I think. Or… I am, but, that’s what a divorce is, right? Divorce *is* an identity crisis. But these… these are just colors that make me smile.
-
-**Josie *[**sings**]*:**
-```
-I feel like I'm caught in that Bill Murray movie,
-but time, she just keeps marching on.
-and the only thing repeating is my mind's constant screaming
-of all the things that I have done wrong.
-```
-
-**Mia:**
-Still, it’s a small town, small Mennonite college. Everyone knows me — knows us, our story. And they demand a re-write, to clarify this unexpected twist in the plot. The tragedy of divorce, messy and complicated, but over time… the telling of it becomes almost whole and complete, with a magnitude that is almost certain, contained.
-
-**Josie *[sings chorus]*:**
-```
-So here I am reliving this - trauma over and over
-And each day I get just a little bit closer
-To taking a nice bubble bath with my toaster
-And in the end
-I was always just putty in your hand
-Till a cis girl could come along
-Your mom wouldn't call a man
-My heart breaks wishing you the best
-I hope she gives you what I can't, I guess
-So may that new ring on your finger forever shine
-I promised forever and now it feels like I'm dying
-```
-
-**Mia:**
-Everyone has an opinion, has to take a side. *She can’t really hurt you, can she?* Dad pulls out the DSM 4 to read me the definition of *abuse* — surely not for a case like this — more of a misunderstanding. A lack of *patience* on my part. There’s always middle ground, you just have to try harder… turn back onto the ice.
-
-And it’s clear, every time, that I’m being cross-examined. Asked to prove, in prose without meter, that this divorce would provide *not only a pleasure but a benefit*.
-
-**Josie *[sings]*:**
-I promised forever and now it feels like I'm dying.
+But it’s clear that I’m being asked to prove (in prose without meter) that this divorce would provide *not only a pleasure but a benefit*.
 
 ### [Mia - Kekropodai]
 
@@ -1154,11 +1166,7 @@ Or all the things a marketer
 convinced us to believe
 Or all the ways a poet makes us feel
 Are any of our feelings even real?
-```
 
-*[chorus]*
-
-```
 So here comes the truth in a nutshell
 “Of truth, we all know nothing, because truth is in a well”
 ```
@@ -1173,11 +1181,7 @@ Was it a liar who said
 Lil Saint John the Beloved
 Sure the fuck never met me
 Why should I give any weight to his decrees?
-```
 
-*[chorus]*
-
-```
 So here comes the truth in a nutshell
 “Of truth, we all know nothing, because truth is in a well”
 ```
@@ -1197,6 +1201,7 @@ My worldview was formed in my youth by
 
 ### [Mia - A Sea of Bitterness]
 
+**Mia:**
 Now I’m here, on stage. There’s a violence just in choosing what to say, and what to leave out? Who am I protecting, and who gets left behind? I’m so scared to say anything real, that I spend all my time hiding behind Aristotle, Agraulos, and Sappho.
 
 They say hindsight is 20/20, but they also say that the winner writes the history book. And, either way… I am the one on stage, telling the story, aren’t I? I never promised the truth! But I know the two choices for a trans woman on stage, either pathetic or deceptive — a new twist on the old virgin and whore. One to pity, and the other to fear. And I understand the One Rule for making queer art. The more pain I suffer, the more applause I get for my honesty. Authenticity. Evoking pity & fear so that you might be cleansed… of what? Your own discomfort? About my rape? My… body? My gender?
