@@ -1,16 +1,5 @@
 {% import "utility.macros.njk" as utility %}
 
-{% macro datetime(date, format=none) %}
-  <time datetime="{{ date | htmlDate }}">
-    {%- if format -%}
-      {{ date | date(format, 'America/Denver') }}
-    {%- else -%}
-      {{ date | date('show', 'America/Denver') }}
-      @ {{ date | date('TIME_SIMPLE') }}
-    {%- endif -%}
-  </time>
-{% endmacro %}
-
 {% macro address(venue) %}
   {% set adr = venue.address %}
   <div class="h-adr">
@@ -39,7 +28,7 @@
         <h3>
           {{- utility.link_if(show.data.title, show.url) -}}
         </h3>
-        {{- datetime(
+        {{- utility.datetime(
           date=show.data.opening,
           format='list'
         ) }}
@@ -64,7 +53,7 @@
           <ul>
             {%- for event in dates -%}
               <li>
-                {{ datetime(event.date) }}
+                {{ utility.datetime(event.date) }}
                 {% if event.notes -%}
                   » <em>{{ event.notes | typogr | safe }}</em>
                 {%- endif -%}
