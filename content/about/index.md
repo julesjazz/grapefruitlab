@@ -10,7 +10,7 @@ partial: about
 
 {% for person in members %}
 <article class='h-card'>
-{{ person.image | img | safe }}
+{{ person.hero | img | safe }}
 <h3>{{ utility.link_if(person.name, person.social.url) }} [{{ person.pronouns }}]</h3>
 {{ person.bio | md | safe }}
 </article>

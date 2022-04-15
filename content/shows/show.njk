@@ -24,8 +24,22 @@ eleventyComputed:
 {% set tickets = show.run | showTickets(products) %}
 {% if tickets and onsale %}
   <section class="show-sales">
-    <h2>Purchace Tickets</h2>
-    <p>All tickets are name-your-price.</p>
+    <h2>Reserve Your Tickets</h2>
+    <p>
+      In the interest of making our work accessible
+      and safe for everyone involved:
+    </p>
+    <ul>
+      <li>
+        All tickets are <strong>name-your-price</strong>.
+        Some payment is required to reserve online,
+        but none will be required at the door.
+      </li>
+      <li>
+        <strong>Masks will be required</strong>, and available at the door.
+        We'll be in touch if the situation changes.
+      </li>
+    </ul>
     {{ checkout.flexible(tickets) }}
   </section>
 {% endif %}

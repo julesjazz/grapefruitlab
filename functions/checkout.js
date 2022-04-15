@@ -15,7 +15,7 @@ exports.handler = async function (event, context) {
   const product = params.get("product").split('@event@');
   const name = params.get("name");
   const note = params.get("note");
-  const price = parseInt(params.get("price"), 10);
+  const price = parseFloat(params.get("price"), 10);
   const count = parseInt(params.get("count"), 10);
   const max = parseInt(params.get("max"), 10);
 

@@ -58,7 +58,7 @@ button {
 
 [data-input*='text'] {
   background-color: var(--overlay);
-  border: thin solid var(--border);
+  border: thin solid var(--action);
   border-radius: 0;
   color: var(--text);
   display: block;
@@ -68,9 +68,13 @@ button {
   width: 100%;
 
   &:focus {
-    border-color: var(--action);
-    outline: medium solid var(--action);
+    border-color: var(--focus);
+    outline: medium solid var(--focus);
     outline-offset: 0;
+  }
+
+  &:invalid {
+    border-color: var(--border);
   }
 }
 
@@ -79,8 +83,7 @@ button {
 }
 
 .form-hint {
-  font-style: italic;
-  margin: 0;
+  margin: 0 0 var(--shim);
   opacity: 0.75;
 
   :focus ~ & {
