@@ -1,5 +1,8 @@
 const environment = process.env.CONTEXT;
 
+const base_url = environment !== "production"
+  ? 'http://localhost:8888/'
+  : 'https://grapefruitlab.com/';
 const api_key = environment !== "production"
   ? process.env.STRIPE_TEST_KEY
   : process.env.STRIPE_SECRET_KEY;
@@ -54,7 +57,7 @@ exports.handler = async function (event, context) {
     ],
     mode: "payment",
     metadata: { name, note },
-    success_url: "https://grapefruitlab.com/thanks",
+    success_url: `${base_url}thanks`,
     // go back to page that they were on
     cancel_url: referer,
   });
