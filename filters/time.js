@@ -1,6 +1,6 @@
 const { DateTime } = require("luxon");
 
-const getDateObj = (date, zone) => {
+const getDateObj = (date) => {
   if (!date) {
     return DateTime.now();
   }
@@ -15,13 +15,13 @@ const htmlDate = (dateObj) => {
   return getDateObj(dateObj).toFormat('yyyy-LL-dd');
 };
 
-const date = (dateObj, format, zone) => {
+const date = (dateObj, format) => {
   const formats = {
     list: { month: 'long', year: 'numeric',  },
     show: DateTime.DATE_HUGE,
   }
   const useFormat = formats[format] || DateTime[format] || DateTime.DATE_MED;
-  return getDateObj(dateObj, zone).toLocaleString(useFormat);
+  return getDateObj(dateObj).setZone('America/Denver').toLocaleString(useFormat);
 };
 
 module.exports = {
