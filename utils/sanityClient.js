@@ -1,12 +1,11 @@
-require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV || 'development'}`
-});
+const environment = process.env.CONTEXT;
+
 const sanityClient = require("@sanity/client");
 
 const { sanity } = require('../client-config')
 
 module.exports = sanityClient({
   ...sanity,
-  useCdn: !process.env.SANITY_READ_TOKEN,
+  useCdn: false,
   token: process.env.SANITY_EDIT_TOKEN
 });

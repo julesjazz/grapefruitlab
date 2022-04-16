@@ -59,13 +59,19 @@ exports.handler = async function (event, context) {
         price: order.price.unit_amount / 100,
       }
 
-      client.createOrReplace(doc);
+      const ticket = await client.createOrReplace(doc);
+
+      return {
+        statusCode: 200,
+        body: JSON.stringify({ ticket }),
+      };
     }
 
     return {
-      statusCode: 200,
-      body: JSON.stringify({ received: true }),
-    };
+      statusCode: 400,
+      body: 'Unknown Error',
+    }
+
   } catch (err) {
     console.error(`Stripe webhook failed with ${err}.`);
 
