@@ -49,7 +49,6 @@
 
 {% macro datetime(date, format=none) %}
   <time datetime="{{ date | htmlDate }}">
-    {{ date | log }}
     {%- if format -%}
       {{ date | date(format) }}
     {%- else -%}
