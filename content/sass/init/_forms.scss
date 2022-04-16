@@ -43,7 +43,7 @@ button {
 [data-fieldgroup] {
   display: grid;
   grid-column-gap: var(--gutter);
-  grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
 }
 
 [data-field],
@@ -58,7 +58,7 @@ button {
 
 [data-input*='text'] {
   background-color: var(--overlay);
-  border: thin solid var(--border);
+  border: thin solid var(--action);
   border-radius: 0;
   color: var(--text);
   display: block;
@@ -68,12 +68,29 @@ button {
   width: 100%;
 
   &:focus {
-    border-color: var(--action);
-    outline: medium solid var(--action);
+    border-color: var(--focus);
+    outline: medium solid var(--focus);
     outline-offset: 0;
+  }
+
+  &:invalid {
+    border-color: var(--border);
   }
 }
 
 [data-honey] {
   @include config.is-hidden;
+}
+
+.form-hint {
+  margin: 0 0 var(--shim);
+  opacity: 0.75;
+
+  :focus ~ & {
+    opacity: 1;
+  }
+}
+
+.form-actions {
+  margin-block-start: var(--gutter);
 }

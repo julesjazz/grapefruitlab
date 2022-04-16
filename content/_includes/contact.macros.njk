@@ -1,4 +1,5 @@
 {% import "utility.macros.njk" as utility %}
+{% import "forms.macros.njk" as forms %}
 
 {% macro form(
   next='/contact/thanks/',
@@ -14,30 +15,21 @@
   data-netlify="true"
   {{ utility.show_attrs(attrs) }}>
   <div data-fieldgroup="contact-info">
-    <label data-field="name">
-      <span data-label>Name:</span>
-      <input
-        data-input="text"
-        type="text"
-        name="name"
-        required />
-    </label>
-    <label data-field="email">
-      <span data-label>Email:</span>
-      <input
-        data-input="text"
-        type="email"
-        name="email"
-        required />
-    </label>
+    {{ forms.field(
+      label='Name',
+      required=true
+    ) }}
+    {{ forms.field(
+      label='Email',
+      type='email',
+      required=true
+    ) }}
   </div>
-  <label data-field="message">
-    <span data-label>Message:</span>
-    <textarea
-      data-input="text area"
-      name="message"
-      required></textarea>
-  </label>
+  {{ forms.field(
+    label='Message',
+    type='textarea',
+    required=true
+  ) }}
   <label hidden>
     <span>Don't fill out this field:</span>
     <input name="subject" />

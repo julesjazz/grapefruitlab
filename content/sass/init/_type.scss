@@ -3,6 +3,8 @@
 
 html {
   --large: calc(1.2em + 0.25vw);
+  font-size: calc(1em + 0.25vmin);
+  line-height: 1.4;
 }
 
 h1 {
@@ -10,8 +12,13 @@ h1 {
 }
 
 h1, h2, h3, h4, h5 {
+  font-stretch: condensed;
   font-stretch: var(--cond);
   font-weight: 600;
+}
+
+h2, h3, h4, h5 {
+  margin-block-start: var(--gutter);
 }
 
 ul,
@@ -19,6 +26,10 @@ ol {
   @include config.above(40em) {
     padding-inline-start: 0;
   }
+}
+
+main li + li {
+  margin-block-start: var(--half-shim);
 }
 
 strong, b {
@@ -34,6 +45,10 @@ a:hover,
 a:focus,
 a:active {
   color: var(--focus);
+}
+
+p:empty {
+  display: none;
 }
 
 blockquote {

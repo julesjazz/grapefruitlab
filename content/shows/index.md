@@ -1,12 +1,6 @@
 ---
-title: Our Shows
-image:
-  src: shows/between/doorway.jpg
-  alt: |
-    julie in an apron,
-    standing in the door of a cabin at night
+partial: home
 ---
 
-{% for show in collections.show | reverse %}
-- **[{{ show.data.title }}]({{ show.url }})** » {{ show.data.sub | mdi | safe }}
-{% endfor %}
+{% import "list.macros.njk" as list %}
+{{ list.shows(collections.show) }}

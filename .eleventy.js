@@ -12,15 +12,15 @@ const md = require('markdown-it')({
 
 const time = require('./filters/time');
 const page = require('./filters/page');
-const image = require('./filters/image');
-const img = require('./filters/img');
+const forms = require('./filters/forms');
+const img = require('./filters/sanity-image');
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addFilter('lowercase', content => content.toLowerCase());
   eleventyConfig.addFilter('md', content => md.render(content));
   eleventyConfig.addFilter('mdi', content => md.renderInline(content));
+
   eleventyConfig.addFilter('getPage', page.getPage);
-  eleventyConfig.addFilter('img', img.responsiveImage);
+  eleventyConfig.addFilter('fromCms', page.fromCms);
 
   eleventyConfig.addFilter('find', _.find);
   eleventyConfig.addFilter('filter', _.filter);
@@ -37,34 +37,48 @@ module.exports = function(eleventyConfig) {
     return util.inspect(value, {compact: false})
    });
 
-   eleventyConfig.addFilter("readableDate", dateObj => {
-    return new Date(dateObj).toDateString()
+  eleventyConfig.addFilter('getOptions', forms.getOptions);
+  eleventyConfig.addFilter('showTickets', forms.showTickets);
+
+  eleventyConfig.addFilter('img', img.img);
+
+  eleventyConfig.addFilter('find', _.find);
+  eleventyConfig.addFilter('filter', _.filter);
+  eleventyConfig.addFilter('merge', _.merge);
+  eleventyConfig.addFilter('groupBy', _.groupBy);
+  eleventyConfig.addFilter('sortBy', _.sortBy);
+
+  eleventyConfig.addFilter('typogr', typogr.typogrify);
+
+  eleventyConfig.addFilter("date", time.date);
+  eleventyConfig.addFilter('htmlDate', time.htmlDate);
+
+  eleventyConfig.addFilter('jsonify', (obj) => JSON.stringify(obj));
+  eleventyConfig.addFilter('lowercase', content => content.toLowerCase());
+
+  eleventyConfig.addFilter("debug", function(value) {
+    return util.inspect(value, {compact: false})
   });
 
-  // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-  eleventyConfig.addFilter('htmlDateString', (dateObj) => {
-    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
+  // shortcodes
+  eleventyConfig.addNunjucksShortcode('img', img.img);
+  eleventyConfig.addPairedShortcode('md', content => md.render(content));
+  eleventyConfig.addPairedShortcode('mdi', content => md.renderInline(content));
+
+  // collections
+  eleventyConfig.addCollection('features', (collection) => {
+    return collection
+      .getFilteredByTag('show')
+      .filter((item) => item.data.feature)
+      .sort((a, b) => a.date - b.date);
   });
 
+  // config
   eleventyConfig.addWatchTarget('./content/sass/');
   eleventyConfig.addPassthroughCopy('./content/css');
   eleventyConfig.addPassthroughCopy('./content/fonts');
   eleventyConfig.addPassthroughCopy('./content/favicon.svg');
 
-  // shortcodes
-  eleventyConfig.addNunjucksShortcode('image', image.image);
-  eleventyConfig.addPairedShortcode('md', content => md.render(content));
-  eleventyConfig.addPairedShortcode('mdi', content => md.renderInline(content));
-
-  // collections
-  eleventyConfig.addCollection('features', (collection) =>
-    collection
-      .getFilteredByTag('show')
-      .filter((item) => item.data.feature)
-      .sort((a, b) => a.date - b.date),
-  );
-
-  // config
   eleventyConfig.setLibrary('md', md);
   eleventyConfig.addDataExtension('yaml', yaml.load);
   eleventyConfig.setQuietMode(true);

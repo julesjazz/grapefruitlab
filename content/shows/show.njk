@@ -1,0 +1,45 @@
+---
+pagination:
+    data: shows
+    size: 1
+    alias: show
+    addAllPagesToCollections: true
+permalink: 'shows/{{ show.slug or show.title | slug }}/'
+tags:
+  - show
+eleventyComputed:
+  title: '{{ show.title }}'
+  summary: '{{ show.summary }}'
+  opening: '{{ show.date }}'
+---
+
+{{ show.body | md | safe }}
+
+{# performance dates ----------------------- #}
+{% import "list.macros.njk" as list %}
+{{ list.events(show.run) }}
+
+{# ticket sales ----------------------- #}
+{% import "checkout.macros.njk" as checkout %}
+{% set tickets = show.run | showTickets(products) %}
+{% if tickets and onsale %}
+  <section class="show-sales">
+    <h2>Reserve Your Tickets</h2>
+    <p>
+      In the interest of making our work accessible
+      and safe for everyone involved:
+    </p>
+    <ul>
+      <li>
+        All tickets are <strong>name-your-price</strong>.
+        Some payment is required to reserve online,
+        but none will be required at the door.
+      </li>
+      <li>
+        <strong>Masks will be required</strong>, and available at the door.
+        We'll be in touch if the situation changes.
+      </li>
+    </ul>
+    {{ checkout.flexible(tickets) }}
+  </section>
+{% endif %}

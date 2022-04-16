@@ -1,0 +1,18 @@
+[build]
+command = "yarn deploy"
+functions = "functions"
+publish = "_site"
+
+[dev]
+command = "yarn dev"
+
+[[redirects]]
+from = "/api/*"
+to = "/.netlify/functions/:splat"
+status = 200
+
+[[plugins]]
+package = "netlify-plugin-inline-functions-env"
+
+  [plugins.inputs]
+  include = [ "CONTEXT" ]

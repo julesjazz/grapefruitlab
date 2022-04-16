@@ -1,7 +1,7 @@
 {%- import "utility.macros.njk" as utility -%}
 {%- import "list.macros.njk" as list -%}
 {%- set feature = collections.features[0] if (collections.features.length > 0) and (page.url == '/') else none -%}
-{%- set image = feature.data.image if feature else image or site.image -%}
+{%- set hero = feature.data.hero if feature else (hero or company.hero) -%}
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,14 +10,14 @@
 
   {% set metatitle = [title, company.title]|join(' | ') if title else company.title %}
   <title>{{ metatitle }}</title>
-  <meta name="description" content="{{ description or company.body }}">
+  <meta name="description" content="{{ description or company.summary }}">
   <meta name="author" content="Grapefruit Lab">
 
   <meta property="og:title" content="{{ metatitle }}">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.grapefruitlab.com/">
-  <meta property="og:description" content="{{ description or company.body }}">
-  {# <meta property="og:image" content="image.png"> #}
+  <meta property="og:url" content="{{ company.url }}">
+  <meta property="og:description" content="{{ description or company.summary }}">
+  <meta property="og:image" content="{{ hero | img('og') | safe }}">
 
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
@@ -39,9 +39,9 @@
     </ul>
   </nav>
 
-  {% if image %}
+  {% if hero %}
   <div id="hero">
-    {% image image.src, image.alt, {'class': 'hero-img'} %}
+    {{ hero | img('hero') | safe }}
   </div>
   {% endif %}
 
@@ -56,29 +56,13 @@
         {{ title }}
       {% endif %}
     </h1>
-    {% if sub or feature.data.sub %}
-      <p class="subtitle">{{ (feature.data.sub or sub) | mdi | safe }}</p>
+    {% if subtitle or feature.data.subtitle %}
+      <p class="subtitle">{{ (feature.data.subtitle or subtitle) | mdi | safe }}</p>
     {% endif %}
   </header>
 
   <main>
     {{ content | safe }}
-
-    {% for location in run %}
-      <section class="run">
-        <h2 class="venue">{{ location.venue }}</h2>
-        <p class="adr">{{ location.adr }}</p>
-        <ul>
-          {% for show in location.shows %}
-            <li>
-              {{ list.datetime(show.date, 'show') }}
-              @ {{ show.time }}
-              {{ (show.note or '') | md | safe }}
-            </li>
-          {% endfor %}
-        </ul>
-      </section>
-    {% endfor %}
   </main>
 
   <footer>

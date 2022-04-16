@@ -1,0 +1,101 @@
+{% import "forms.macros.njk" as form %}
+
+{#
+  tickets:
+    type: object
+    note: |
+      keys are used for the option value,
+      and values are used for display
+#}
+{% macro flexible(
+  tickets,
+  suggested=none
+) %}
+  <form action="/api/checkout" method="POST">
+    {%- set seats = tickets | getOptions('value', 'seats') -%}
+    {%- set max = tickets[0]['seats'] -%}
+
+    {{- form.input(
+      id='max',
+      type='hidden',
+      value=max
+    ) -}}
+    {{- form.field(
+      label='Preferred Name',
+      type='text',
+      required=true,
+      name='name'
+    ) -}}
+    {{- form.field(
+      label='Show Date',
+      type='select',
+      required=true,
+      name='product',
+      options=tickets | getOptions('value', 'display')
+    ) -}}
+    <div data-fieldgroup>
+    {{- form.field(
+      label='Number of Tickets',
+      type='number',
+      required=true,
+      name='count',
+      value=1,
+      input_attrs={
+        min: 1,
+        max: max or 20
+      }
+    ) -}}
+    {{- form.field(
+      label='Name Your Price ($ per ticket)',
+      type='number',
+      required=true,
+      name='price',
+      value=suggested,
+      input_attrs={
+        min: 1,
+        step: 0.01
+      }
+    ) -}}
+    </div>
+    <p class="form-hint">
+      <strong>Total Payment:</strong>
+      <output for="field-count field-price" id="total-price-output">n/a</output>
+    </p>
+    {{- form.field(
+      label='Notes',
+      type='textarea',
+      name='note'
+    ) -}}
+    <div class="form-actions">
+      <button type="submit">Checkout</button>
+    </div>
+  </form>
+  <script type='module'>
+    const seats = {{ seats | jsonify | safe }};
+
+    const eventSelect = document.getElementById('field-product');
+    const countInput = document.getElementById('field-count');
+    const maxInput = document.getElementById('max');
+
+    const priceInput = document.getElementById('field-price');
+    const priceTotal = document.getElementById('total-price-output');
+
+    eventSelect.addEventListener('change', () => {
+      const max = seats[eventSelect.value];
+      countInput.setAttribute('max', max);
+      maxInput.setAttribute('value', max);
+    });
+
+    const updateTotal = () => {
+      if (priceInput.value && countInput.value) {
+        const total = Number(priceInput.value * countInput.value).toFixed(2);
+        priceTotal.value = `$${total}`;
+      } else {
+        priceTotal.value = 'n/a';
+      }
+    }
+
+    countInput.addEventListener('change', () => updateTotal());
+    priceInput.addEventListener('change', () => updateTotal());
+  </script>
+{% endmacro %}

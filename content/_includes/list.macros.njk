@@ -1,35 +1,70 @@
 {% import "utility.macros.njk" as utility %}
 
-{% macro datetime(date, format=none) %}
-  <time datetime="{{ date | htmlDate }}">
-    {%- if format -%}
-      {{ date | date(format, 'UTC') }}
-    {%- else -%}
-      {{ date | date('show', 'UTC') }}
-      @ {{ date | date('TIME_SIMPLE', 'America/Denver') }}
+
+{% macro address(venue) %}
+  {% set adr = venue.address %}
+  <div class="h-adr">
+    {%- if adr.address1 -%}
+      <span class="p-street-address">
+        {{ utility.link_if(adr.address1, venue.mapurl) }}
+      </span>
     {%- endif -%}
-  </time>
+    {%- if adr.address2 -%}
+      <div class="p-extended-address">{{ adr.address2 }}</div>
+    {%- endif -%}
+    <span class="p-locality">{{ adr.city }}</span>,
+    <span class="p-region">{{ adr.state }}</span>
+    <span class="p-postal-code">{{ adr.zip }}</span>
+  </div>
 {% endmacro %}
 
 {% macro shows(all) %}
   <section class="show-list">
-    {%- for show in all | sortBy('date') | reverse -%}
+
+    {%- for show in all | sortBy('data.opening') | reverse -%}
       <article class="show">
-        {% set img %}{% image show.data.image.src, show.data.image.alt, false, 'card' %}{% endset %}
         {{- utility.link_if(
-          img,
-          show.url,
-          'hero-img'
+          show.data.show.hero | img('show_list'),
+          show.url
         ) -}}
         <h3>
           {{- utility.link_if(show.data.title, show.url) -}}
         </h3>
-        {{- datetime(
-          date=show.date,
+        {{- utility.datetime(
+          date=show.data.opening,
           format='list'
         ) }}
-        {{ (show.data.summary or '') | md | safe -}}
+        {{ show.data.summary | md | safe -}}
       </article>
     {%- endfor -%}
   </section>
+{% endmacro %}
+
+{% macro events(run) %}
+  {%- if run -%}
+    {% set groups = value %}
+    <section class="show-run">
+      <h2>Performance Venue & Dates</h2>
+
+      {%- for group, dates in run | groupBy('venue.title') -%}
+        <section class="h-card">
+          {%- set venue = dates[0].venue -%}
+          <h3 class="venue p-org">{{ venue.title }}</h3>
+          {{- address(venue) -}}
+
+          <ul>
+            {%- for event in dates -%}
+              <li>
+                {{ utility.datetime(event.date) }}
+                {% if event.notes -%}
+                  » <em>{{ event.notes | typogr | safe }}</em>
+                {%- endif -%}
+              </li>
+            {%- endfor -%}
+          </ul>
+
+        </section>
+      {%- endfor -%}
+    </section>
+  {%- endif -%}
 {% endmacro %}

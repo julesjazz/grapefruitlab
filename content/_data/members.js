@@ -5,23 +5,22 @@ const toMarkdown = require('@sanity/block-content-to-markdown');
 
 module.exports = async function() {
   const data = await client.fetch(groq`
-    *[_type == "company"
-      && slug.current == "grapefruit-lab"
+    *[_type == "member"
       && !(_id in path("drafts.**"))
-    ][0]{
-      title,
-      body,
-      url,
-      summary,
+      && active
+    ]{
+      bio, name, nickname, pronouns, summary,
+      "slug": slug.current,
       "social": {
-        email, facebook, instagram, twitter
+        url, email, facebook, instagram, twitter
       },
       ${hero},
     }
   `);
 
-  data.body = data.body ? toMarkdown(data.body) : '';
-  data.hero = heroAlt(data.hero);
-
-  return data;
+  return data.map(member => {
+    member.bio = member.bio ? toMarkdown(member.bio) : '';
+    member.hero = heroAlt(member.hero);
+    return member;
+  });
 };

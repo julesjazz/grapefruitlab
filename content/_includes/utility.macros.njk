@@ -46,3 +46,14 @@
     </span>
   {%- endif -%}
 {%- endmacro %}
+
+{% macro datetime(date, format=none) %}
+  <time datetime="{{ date | htmlDate }}">
+    {%- if format -%}
+      {{ date | date(format) }}
+    {%- else -%}
+      {{ date | date('show') }}
+      @ {{ date | date('TIME_SIMPLE') }}
+    {%- endif -%}
+  </time>
+{% endmacro %}
