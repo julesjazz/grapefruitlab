@@ -1,6 +1,5 @@
 ---
-layout: script
-title: Pity+Fear (a travesty)
+print: pity-fear
 ---
 
 ## Prologue: Running Lines

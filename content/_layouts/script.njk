@@ -9,7 +9,11 @@
 </head>
 <body>
   <header>
-    <h1><a href="../">{{ title }}</a></h1>
+    {% import "utility.macros.njk" as utility %}
+    {% set fromCMS = collections.all | find(['data.script', print]) %}
+    <h1>
+      {{ utility.link_if(title or fromCMS.data.title, fromCMS.url) }}
+    </h1>
     <label for="print-size">
       <span>Font size (pt):</span>
       <input type="number" value="12" name="print-size" id="print-size" step="0.5">
