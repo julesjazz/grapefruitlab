@@ -19,17 +19,18 @@ const showTickets = (run, products) => {
 
   return run.map((perf) => {
     const ticket = _.find(products, ['metadata.sanity_id', perf.id]);
-    let seats = perf.seats - perf.sold;
-    seats = seats > 0 ? seats : null;
+    const onSale = perf.seats - perf.sold;
 
     return {
-      ticket,
-      seats,
+      ticket: ticket ? ticket.id : null,
       event: perf.id,
+      seats: perf.seats,
+      sold: perf.sold,
+      onSale: onSale > 0 ? onSale : null,
       value: ticket ? `${ticket.id}@event@${perf.id}` : null,
       display: `${date(perf.date, 'show')}`,
     };
-  }).filter((perf) => perf.seats && perf.ticket);
+  }).filter((perf) => perf.onSale && perf.ticket);
 }
 
 module.exports = {

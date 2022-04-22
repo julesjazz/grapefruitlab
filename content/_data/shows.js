@@ -14,6 +14,7 @@ module.exports = async function() {
       body,
       featured,
       onsale,
+      "id": _id,
       "slug": slug.current,
       "tags": tags[]->title,
       "date": premierDate,
@@ -38,6 +39,7 @@ module.exports = async function() {
       show.run = show.run.map((perf) => {
         perf.seats = perf.seats || 25;
         perf.sold = perf.tickets.reduce((sold, tix) => sold + tix, 0);
+        perf.onSale = Math.max(perf.seats - perf.sold, 0);
         return perf;
       });
     }

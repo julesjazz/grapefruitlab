@@ -8,12 +8,12 @@
       and values are used for display
 #}
 {% macro flexible(
+  show_id,
   tickets,
   suggested=none
 ) %}
   <form action="/api/checkout" method="POST">
-    {%- set seats = tickets | getOptions('value', 'seats') -%}
-    {%- set max = tickets[0]['seats'] -%}
+    {%- set max = tickets[0]['onSale'] -%}
 
     {{- form.input(
       id='max',
@@ -71,31 +71,8 @@
     </div>
   </form>
   <script type='module'>
-    const seats = {{ seats | jsonify | safe }};
-
-    const eventSelect = document.getElementById('field-product');
-    const countInput = document.getElementById('field-count');
-    const maxInput = document.getElementById('max');
-
-    const priceInput = document.getElementById('field-price');
-    const priceTotal = document.getElementById('total-price-output');
-
-    eventSelect.addEventListener('change', () => {
-      const max = seats[eventSelect.value];
-      countInput.setAttribute('max', max);
-      maxInput.setAttribute('value', max);
-    });
-
-    const updateTotal = () => {
-      if (priceInput.value && countInput.value) {
-        const total = Number(priceInput.value * countInput.value).toFixed(2);
-        priceTotal.value = `$${total}`;
-      } else {
-        priceTotal.value = 'n/a';
-      }
-    }
-
-    countInput.addEventListener('change', () => updateTotal());
-    priceInput.addEventListener('change', () => updateTotal());
+    const tickets = {{ tickets | jsonify | safe }};
+    const show = '{{ show_id }}';
+    {% include "checkout.js" %}
   </script>
 {% endmacro %}
