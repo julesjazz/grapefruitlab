@@ -8,8 +8,9 @@ command = "yarn dev"
 
 [[redirects]]
 from = "/admin/*"
-role = ["admin"]
+Role = "admin"
 status = 200
+force = true
 
 [[redirects]]
 from = "/admin/"
