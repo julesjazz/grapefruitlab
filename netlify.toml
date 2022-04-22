@@ -8,14 +8,15 @@ command = "yarn dev"
 
 [[redirects]]
 from = "/admin/*"
-Role = "admin"
-status = 200
 force = true
+status = 200
+conditions = {Role = ["admin"]}
 
 [[redirects]]
-from = "/admin/"
+from = "/admin/*"
 to = "/login/"
-status = 404
+force = true
+status = 401
 
 [[redirects]]
 from = "/api/*"
