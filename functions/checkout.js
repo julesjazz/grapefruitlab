@@ -34,7 +34,7 @@ exports.handler = async function (event, context) {
         && references(^._id)
       ]{ "sold": numberOfTickets }[].sold
     }
-  `)
+  `);
 
   const seats = eventData.seats || 25;
   const sold = eventData.tickets.reduce((sold, tix) => sold + tix, 0);
