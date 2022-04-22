@@ -1,0 +1,14 @@
+---
+layout: base
+scripts:
+  - https://identity.netlify.com/v1/netlify-identity-widget.js
+---
+
+<header>
+  <h1>{{ title }}</h1>
+  <div data-netlify-identity-menu></div>
+</header>
+
+<main>
+  {{ content | safe }}
+</main>

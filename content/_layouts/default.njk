@@ -1,0 +1,63 @@
+---
+layout: base
+meta_og: true
+styles:
+  - '/css/style.css'
+---
+
+{%- import "utility.macros.njk" as utility -%}
+{%- import "list.macros.njk" as list -%}
+
+{%- set hero = feature.data.hero if feature else (hero or company.hero) -%}
+
+<nav>
+  <a href="/" rel="home">
+    <b>Grapefruit</b> Lab
+  </a>
+  <ul>
+    {% for item in nav %}
+      {% set itemPage = collections.all | getPage(item.url) %}
+      <li>{{ utility.link_if(
+        item.title or itemPage.data.title | lowercase,
+        item.url,
+        'active' if (item.url == page.url) else none
+      ) }}</li>
+    {% endfor %}
+  </ul>
+</nav>
+
+{% if hero %}
+<div id="hero">
+  {{ hero | img('hero') | safe }}
+</div>
+{% endif %}
+
+<header>
+  {% if feature %}
+    <p class="pretitle">Presenting:</p>
+  {% endif %}
+  <h1>
+    {% if feature %}
+      {{ utility.link_if(feature.data.title, feature.url)}}
+    {% else %}
+      {{ title }}
+    {% endif %}
+  </h1>
+  {% if subtitle or feature.data.subtitle %}
+    <p class="subtitle">{{ (feature.data.subtitle or subtitle) | mdi | safe }}</p>
+  {% endif %}
+</header>
+
+<main>
+  {{ content | safe }}
+</main>
+
+<footer>
+  <div>
+    <p class="description">{{ company.body | mdi | safe }}</p>
+    <p class="legal">
+      Copyright &copy; {{ page.date.getUTCFullYear() }}
+      <strong>{{ company.title }}</strong>
+    </p>
+  </div>
+</footer>
