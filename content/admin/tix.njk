@@ -1,0 +1,42 @@
+---
+pagination:
+    data: admin.perfs
+    size: 1
+    alias: perf
+permalink: 'admin/perfs/{{ perf.show }}/{{ perf.id }}/'
+eleventyComputed:
+  title: '{{ perf.date | date }}'
+  summary: '{{ perf.notes }}'
+---
+
+{{ summary | md | safe }}
+
+{% if perf.tickets %}
+<h2>Tickets</h2>
+
+<dl>
+  <dt>seats</dt>
+  <dd>{{ perf.seats }}</dd>
+  <dt>sold</dt>
+  <dd>{{ perf.sold }}</dd>
+  <dt>remaining</dt>
+  <dd>{{ perf.onSale }}</dd>
+</dl>
+
+<table>
+  <thead>
+    <tr>
+      <th>name</th>
+      <th>count</th>
+      <th>note</th>
+    </tr>
+  </thead>
+{% for ticket in perf.tickets %}
+  <tr>
+    <th>{{ ticket.name }}</th>
+    <th>{{ ticket.numberOfTickets }}</th>
+    <th>{{ ticket.notes }}</th>
+  </tr>
+{% endfor %}
+</table>
+{% endif %}

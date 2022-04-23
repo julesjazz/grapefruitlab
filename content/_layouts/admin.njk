@@ -4,11 +4,14 @@ scripts:
   - https://identity.netlify.com/v1/netlify-identity-widget.js
 ---
 
-<header>
-  <h1>{{ title }}</h1>
+<nav>
+  {% if page.url != '/admin/' %}
+    <a href="/admin/">« Dashboard</a>
+  {% endif %}
   <div data-netlify-identity-menu></div>
-</header>
+</nav>
 
 <main>
+  <h1>{{ title }}</h1>
   {{ content | safe }}
 </main>
