@@ -6,6 +6,17 @@ publish = "_site"
 [dev]
 command = "yarn dev"
 
+[[redirects]]
+from = "/admin/*"
+force = true
+status = 200
+conditions = {Role = ["admin"]}
+
+[[redirects]]
+from = "/admin/*"
+to = "/login/"
+force = true
+status = 401
 
 [[redirects]]
 from = "/api/*"
