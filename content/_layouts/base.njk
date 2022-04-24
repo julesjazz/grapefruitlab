@@ -1,7 +1,5 @@
-{%- import "utility.macros.njk" as utility -%}
-{%- import "list.macros.njk" as list -%}
-{%- set feature = collections.features[0] if (collections.features.length > 0) and (page.url == '/') else none -%}
 {%- set hero = feature.data.hero if feature else (hero or company.hero) -%}
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -11,68 +9,27 @@
   {% set metatitle = [title, company.title]|join(' | ') if title else company.title %}
   <title>{{ metatitle }}</title>
   <meta name="description" content="{{ description or company.summary }}">
-  <meta name="author" content="Grapefruit Lab">
 
-  <meta property="og:title" content="{{ metatitle }}">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ company.url }}">
-  <meta property="og:description" content="{{ description or company.summary }}">
-  <meta property="og:image" content="{{ hero | img('og') | safe }}">
-
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
-</head>
-<body>
-  <nav>
-    <a href="/" rel="home">
-      <b>Grapefruit</b> Lab
-    </a>
-    <ul>
-      {% for item in nav %}
-        {% set itemPage = collections.all | getPage(item.url) %}
-        <li>{{ utility.link_if(
-          item.title or itemPage.data.title | lowercase,
-          item.url,
-          'active' if (item.url == page.url) else none
-        ) }}</li>
-      {% endfor %}
-    </ul>
-  </nav>
-
-  {% if hero %}
-  <div id="hero">
-    {{ hero | img('hero') | safe }}
-  </div>
+  {% if meta_og %}
+    <meta name="author" content="Grapefruit Lab">
+    <meta property="og:title" content="{{ metatitle }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ company.url }}">
+    <meta property="og:description" content="{{ description or company.summary }}">
+    <meta property="og:image" content="{{ hero | img('og') | safe }}">
   {% endif %}
 
-  <header>
-    {% if feature %}
-      <p class="pretitle">Presenting:</p>
-    {% endif %}
-    <h1>
-      {% if feature %}
-        {{ utility.link_if(feature.data.title, feature.url)}}
-      {% else %}
-        {{ title }}
-      {% endif %}
-    </h1>
-    {% if subtitle or feature.data.subtitle %}
-      <p class="subtitle">{{ (feature.data.subtitle or subtitle) | mdi | safe }}</p>
-    {% endif %}
-  </header>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 
-  <main>
-    {{ content | safe }}
-  </main>
+  {% for style in styles %}
+    <link rel="stylesheet" href="{{ style | url }}">
+  {% endfor %}
+</head>
+<body>
+  {{ content | safe }}
 
-  <footer>
-    <div>
-      <p class="description">{{ company.body | mdi | safe }}</p>
-      <p class="legal">
-        Copyright &copy; {{ page.date.getUTCFullYear() }}
-        <strong>{{ company.title }}</strong>
-      </p>
-    </div>
-  </footer>
+  {% for script in scripts %}
+    <script type="text/javascript" src="{{ script | url }}"></script>
+  {% endfor %}
 </body>
 </html>

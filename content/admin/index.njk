@@ -1,0 +1,56 @@
+---
+title: Admin Dashboard
+---
+
+<h2>Tickets</h2>
+
+{% for show in admin.shows | sortBy('date') %}
+  {% if show.run.length > 0 %}
+    <details {% if show.onsale %}open{% endif %}>
+      <summary>
+        {% if show.onsale %}💸{% endif %}
+        {{ show.title }}
+      </summary>
+      <table>
+        <thead>
+          <th>date</th>
+          <th>seats</th>
+          <th>sold</th>
+          <th>remaining</th>
+        </thead>
+        <tbody>
+          {% for perf in show.run | sortBy('date') %}
+            <tr>
+              <th>
+                <a href="perfs/{{ perf.show }}/{{ perf.id }}/">{{ perf.date | date }}</a>
+              </th>
+              <td>{{ perf.seats }}</td>
+              <td>{{ perf.sold }}</td>
+              <td>{{ perf.onSale }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </details>
+  {% endif %}
+{% endfor %}
+
+
+{% md %}
+## Links
+
+- [Site Content](https://gfl-studio.vercel.app/prod/desk/)
+- [Stripe Dashboard](https://dashboard.stripe.com/dashboard)
+- [Github](https://github.com/mirisuzanne/grapefruitlab/)
+- [Netlify](https://app.netlify.com/sites/grapefruitlab/)
+
+## Selling Tickets
+
+To sell tickets for a show:
+
+- Add 'Performances' in the CMS
+- Add 'Products' to Stripe
+  - remove 'prices'
+  - set `sanity_id` to use the CMS performance ID
+- Set CMS 'Show' to be 'on-sale'
+{% endmd %}
