@@ -1,13 +1,16 @@
 ---
 layout: base
+styles:
+  - '/css/admin.css'
 scripts:
   - https://identity.netlify.com/v1/netlify-identity-widget.js
 ---
 
 <nav>
-  {% if page.url != '/admin/' %}
-    <a href="/admin/">« Dashboard</a>
-  {% endif %}
+  <div class="local-nav">
+    <a href="/" rel='home'>Site</a>
+    <a href="/admin/" {% if page.url == '/admin/' %}data-active{% endif %}}>Dashboard</a>
+  </div>
   <div data-netlify-identity-menu></div>
 </nav>
 

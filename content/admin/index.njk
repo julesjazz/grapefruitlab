@@ -11,16 +11,26 @@ title: Admin Dashboard
         {% if show.onsale %}💸{% endif %}
         {{ show.title }}
       </summary>
-      <div>
-        <ul>
+      <table>
+        <thead>
+          <th>date</th>
+          <th>seats</th>
+          <th>sold</th>
+          <th>remaining</th>
+        </thead>
+        <tbody>
           {% for perf in show.run | sortBy('date') %}
-            <li>
-              {% if perf.tickets.length > 0 %}🎫{% endif %}
-              <a href="perfs/{{ perf.show }}/{{ perf.id }}/">{{ perf.date | date }}</a>
-            </li>
+            <tr>
+              <th>
+                <a href="perfs/{{ perf.show }}/{{ perf.id }}/">{{ perf.date | date }}</a>
+              </th>
+              <td>{{ perf.seats }}</td>
+              <td>{{ perf.sold }}</td>
+              <td>{{ perf.onSale }}</td>
+            </tr>
           {% endfor %}
-        </ul>
-      </div>
+        </tbody>
+      </table>
     </details>
   {% endif %}
 {% endfor %}
@@ -29,7 +39,7 @@ title: Admin Dashboard
 {% md %}
 ## Links
 
-- [Content](https://gfl-studio.vercel.app/prod/desk/)
+- [Site Content](https://gfl-studio.vercel.app/prod/desk/)
 - [Stripe Dashboard](https://dashboard.stripe.com/dashboard)
 - [Github](https://github.com/mirisuzanne/grapefruitlab/)
 - [Netlify](https://app.netlify.com/sites/grapefruitlab/)
