@@ -11,6 +11,5 @@ module.exports = {
     summary: data => data.cms ? data.cms.summary : data.summary,
     date: data => data.cms ? data.cms.date : data.page.date,
     image: data => data.cms ? data.cms.hero : data.image,
-    feature: data => (data.url === '/') && (collections.features.length > 0) ? collections.features[0] : null,
   }
 };

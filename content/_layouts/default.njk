@@ -8,7 +8,7 @@ styles:
 {%- import "utility.macros.njk" as utility -%}
 {%- import "list.macros.njk" as list -%}
 
-{%- set hero = feature.data.hero if feature else (hero or company.hero) -%}
+{%- set hero = feature.data.hero if feature.data else (hero or company.hero) -%}
 
 <nav>
   <a href="/" rel="home">
@@ -37,7 +37,7 @@ styles:
     <p class="pretitle">Presenting:</p>
   {% endif %}
   <h1>
-    {% if feature %}
+    {% if feature.data %}
       {{ utility.link_if(feature.data.title, feature.url)}}
     {% else %}
       {{ title }}
@@ -54,7 +54,7 @@ styles:
 
 <footer>
   <div>
-    <p class="description">{{ company.body | mdi | safe }}</p>
+    <p class="description">{{ company.body | md | safe }}</p>
     <p class="legal">
       Copyright &copy; {{ page.date.getUTCFullYear() }}
       <strong>{{ company.title }}</strong>
