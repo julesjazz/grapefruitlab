@@ -6,8 +6,7 @@
   font-style: italic;
 }
 
-.show-run,
-.show-sales {
+[data-section] {
   border-block-start: thin dotted var(--border);
   margin-block-start: var(--spacer);
 }

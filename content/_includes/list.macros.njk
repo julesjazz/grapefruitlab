@@ -19,7 +19,7 @@
 {% endmacro %}
 
 {% macro shows(all) %}
-  <section class="show-list">
+  <section data-section="show-list">
 
     {%- for show in all | sortBy('data.opening') | reverse -%}
       <article class="show">
@@ -43,7 +43,7 @@
 {% macro events(run) %}
   {%- if run -%}
     {% set groups = value %}
-    <section class="show-run">
+    <section data-section="show-run">
       <h2>Performance Venue & Dates</h2>
 
       {%- for group, dates in run | groupBy('venue.title') -%}

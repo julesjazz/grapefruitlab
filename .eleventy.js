@@ -21,6 +21,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter('getPage', page.getPage);
   eleventyConfig.addFilter('fromCms', page.fromCms);
+  eleventyConfig.addFilter('getAssets', page.getAssets);
 
   eleventyConfig.addFilter('find', _.find);
   eleventyConfig.addFilter('filter', _.filter);

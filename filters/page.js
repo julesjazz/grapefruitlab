@@ -14,7 +14,12 @@ const fromCms = (data, slug) => {
     : null;
 }
 
+const getAssets = (assets, tag) => {
+  return assets.filter((asset) => asset.tags.includes(tag));
+}
+
 module.exports = {
   getPage,
   fromCms,
+  getAssets,
 };

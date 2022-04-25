@@ -23,7 +23,7 @@ eleventyComputed:
 {% import "checkout.macros.njk" as checkout %}
 {% set tickets = show.run | showTickets(products) %}
 {% if tickets and onsale %}
-  <section class="show-sales">
+  <section data-section="show-sales">
     <h2>Reserve Your Tickets</h2>
     <p>
       In the interest of making our work
@@ -42,3 +42,17 @@ eleventyComputed:
     {{ checkout.flexible(show.id, tickets) }}
   </section>
 {% endif %}
+
+{% import "media.macros.njk" as media %}
+{% set galleries = assets | getAssets(show.slug) %}
+
+{{ media.section(
+  'Production Photos',
+  galleries | getAssets('show-gallery')
+) }}
+
+{{ media.section(
+  'Press Photos',
+  galleries | getAssets('press-gallery')
+) }}
+

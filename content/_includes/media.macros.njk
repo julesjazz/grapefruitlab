@@ -1,0 +1,26 @@
+{% macro section(title, data, summary='', caption=none) %}
+  {% if data.length > 0 %}
+    <section data-section="gallery">
+      <h2>{{ title }}</h2>
+      {{ summary | md }}
+      {{ gallery(data, caption) }}
+    </section>
+  {% endif %}
+{% endmacro %}
+
+{% macro gallery(data, caption=none) %}
+  {% if data.length > 0 %}
+    <figure>
+      <div class="gallery">
+        {% for asset in data %}
+          {% if asset._type == 'sanity.imageAsset' %}
+            <a href="{{ asset.url }}">{% img asset %}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+      {% if caption %}
+        <figcaption>{{ caption | mdi }}</figcaption>
+      {% endif %}
+    </figure>
+  {% endif %}
+{% endmacro %}
