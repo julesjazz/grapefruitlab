@@ -13,22 +13,37 @@ title: Admin Dashboard
       </summary>
       <table>
         <thead>
-          <th>date</th>
-          <th>seats</th>
-          <th>sold</th>
-          <th>remaining</th>
+          <th>Date</th>
+          <th data-num>Seats</th>
+          <th data-num>Sold</th>
+          <th data-num>Remaining</th>
+          <th data-num>Income</th>
         </thead>
         <tbody>
           {% for perf in show.run | sortBy('date') %}
+            {% set admin_perf = admin.perfs | find(['id', perf.id]) %}
             <tr>
               <th>
                 <a href="perfs/{{ perf.show }}/{{ perf.id }}/">{{ perf.date | date }}</a>
               </th>
-              <td>{{ perf.seats }}</td>
-              <td>{{ perf.sold }}</td>
-              <td>{{ perf.onSale }}</td>
+              <td data-num>{{ perf.seats }}</td>
+              <td data-num>{{ perf.sold }}</td>
+              <td data-num>{{ perf.onSale }}</td>
+              <td data-num>${{ admin_perf.income }}</td>
             </tr>
           {% endfor %}
+          <tfoot>
+            <tr>
+              {% set tix = show.run | getAll('tickets') | concatSelf %}
+              {% set seats = show.run | getAll('seats') | sum %}
+              {% set sold = tix | getAll('numberOfTickets') | sum %}
+              <th>Totals</th>
+              <td data-num>{{ seats }}</td>
+              <td data-num>{{ sold }}</td>
+              <td data-num>{{ seats - sold }}</td>
+              <td data-num>${{ tix | getAll('price') | sum }}</td>
+            </tr>
+          </tfoot>
         </tbody>
       </table>
     </details>

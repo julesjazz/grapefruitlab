@@ -21,11 +21,15 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter('getPage', page.getPage);
   eleventyConfig.addFilter('fromCms', page.fromCms);
+  eleventyConfig.addFilter('getAll', page.getAll);
   eleventyConfig.addFilter('getAssets', page.getAssets);
+  eleventyConfig.addFilter('sum', page.sum);
 
   eleventyConfig.addFilter('find', _.find);
   eleventyConfig.addFilter('filter', _.filter);
   eleventyConfig.addFilter('merge', _.merge);
+  eleventyConfig.addFilter('concat', _.concat);
+  eleventyConfig.addFilter('concatSelf', (array) => _.concat(...array));
   eleventyConfig.addFilter('groupBy', _.groupBy);
   eleventyConfig.addFilter('sortBy', _.sortBy);
 

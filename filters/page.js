@@ -14,12 +14,20 @@ const fromCms = (data, slug) => {
     : null;
 }
 
+const getAll = (collection, path) => {
+  return collection.map(item => _.get(item, path));
+}
+
 const getAssets = (assets, tag) => {
   return assets.filter((asset) => asset.tags.includes(tag));
 }
 
+const sum = (array) => array.reduce((total, item) => total + (item || 0), 0);
+
 module.exports = {
   getPage,
   fromCms,
+  getAll,
   getAssets,
+  sum,
 };

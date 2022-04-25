@@ -2,8 +2,9 @@ table {
   width: 100%;
 }
 
-th {
-  text-align: left;
+th, td {
+  text-align: var(--td-align, left);
+  padding: var(--half-shim) var(--shim);
 }
 
 dt {
@@ -12,4 +13,12 @@ dt {
   &::after {
     content: ':';
   }
+}
+
+[data-num] {
+  --td-align: right;
+}
+
+tfoot {
+  font-weight: bold;
 }

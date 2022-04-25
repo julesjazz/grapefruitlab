@@ -1,6 +1,8 @@
 const groq = require('groq');
 const client = require('../../utils/sanityClient');
 
+const _ = require('lodash');
+
 module.exports = async function() {
   const shows = await client.fetch(groq`
     *[_type == "show"
@@ -29,6 +31,8 @@ module.exports = async function() {
         perf.seats = perf.seats || 25;
         perf.sold = perf.tickets.reduce((sold, tix) => sold + tix.numberOfTickets, 0);
         perf.onSale = Math.max(perf.seats - perf.sold, 0);
+
+        perf.income = perf.tickets.reduce((all, item) => all + (item.price || 0), 0);
         return perf;
       });
 
