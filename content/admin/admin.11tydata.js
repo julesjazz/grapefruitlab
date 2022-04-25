@@ -20,7 +20,10 @@ module.exports = async function() {
         "tickets": *[_type == "ticket"
           && !(_id in path("drafts.**"))
           && references(^._id)
-        ]{ name, email, numberOfTickets, checkedIn, price, notes }
+        ]{
+          name, email, checkedIn, price, notes,
+          "count": numberOfTickets
+        }
       },
     }
   `);
@@ -29,10 +32,10 @@ module.exports = async function() {
     if (show.run) {
       show.run = show.run.map((perf) => {
         perf.seats = perf.seats || 25;
-        perf.sold = perf.tickets.reduce((sold, tix) => sold + tix.numberOfTickets, 0);
+        perf.sold = perf.tickets.reduce((sold, tix) => sold + tix.count, 0);
         perf.onSale = Math.max(perf.seats - perf.sold, 0);
 
-        perf.income = perf.tickets.reduce((all, item) => all + (item.price || 0), 0);
+        perf.income = perf.tickets.reduce((all, item) => all + ((item.price || 0) * item.count), 0);
         return perf;
       });
 

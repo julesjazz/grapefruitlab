@@ -34,14 +34,14 @@ title: Admin Dashboard
           {% endfor %}
           <tfoot>
             <tr>
-              {% set tix = show.run | getAll('tickets') | concatSelf %}
-              {% set seats = show.run | getAll('seats') | sum %}
-              {% set sold = tix | getAll('numberOfTickets') | sum %}
+              {% set perfs = admin.perfs | filter('show', show.id) %}
+              {% set seats = perfs | getAll('seats') | sum %}
+              {% set sold = perfs | getAll('sold') | sum %}
               <th>Totals</th>
               <td data-num>{{ seats }}</td>
               <td data-num>{{ sold }}</td>
               <td data-num>{{ seats - sold }}</td>
-              <td data-num>${{ tix | getAll('price') | sum }}</td>
+              <td data-num>${{ perfs | getAll('income') | sum }}</td>
             </tr>
           </tfoot>
         </tbody>
