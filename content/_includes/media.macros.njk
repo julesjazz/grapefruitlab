@@ -1,6 +1,6 @@
 {% macro section(title, data, summary='', caption=none) %}
   {% if data.length > 0 %}
-    <section data-section="gallery">
+    <section data-section="gallery" id="{{ title | slug }}">
       <h2>{{ title }}</h2>
       {{ summary | md }}
       {{ gallery(data, caption) }}

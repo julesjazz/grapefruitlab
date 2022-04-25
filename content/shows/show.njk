@@ -44,7 +44,7 @@ eleventyComputed:
 {% endif %}
 
 {% import "media.macros.njk" as media %}
-{% set galleries = assets | getAssets(show.slug) %}
+{% set galleries = assets | getAssets(show.slug) | sortBy('metadata.dimensions.aspectRatio') %}
 
 {{ media.section(
   'Production Photos',
