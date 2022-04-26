@@ -8,14 +8,14 @@
 
   {% set metatitle = [title, company.title]|join(' | ') if title else company.title %}
   <title>{{ metatitle }}</title>
-  <meta name="description" content="{{ description or company.summary }}">
+  <meta name="description" content="{{ description or summary or company.summary }}">
 
   {% if meta_og %}
     <meta name="author" content="Grapefruit Lab">
     <meta property="og:title" content="{{ metatitle }}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ company.url }}">
-    <meta property="og:description" content="{{ description or company.summary }}">
+    <meta property="og:description" content="{{ description or summary or company.summary }}">
     <meta property="og:image" content="{{ hero | img('og') | safe }}">
   {% endif %}
 
