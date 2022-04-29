@@ -1252,7 +1252,7 @@ The women would gather, and a priestess would place baskets with unknown content
 
 And I like the physical strain of it. Sometimes you don’t know the secrets you carry, but you can feel their weight in your body. Suddenly you’re crying in the shower, thirty-two years and it all feels wrong. Or you catch a glimpse of who you could be, in a thrift store on South Broadway.
 
-All these fathers of philosophy, taxonomy, biology insisting *it’s our thoughts that make us real. Pure reason* that makes us human. But some things have to be lived to be understood. Felt in our bloodstream, and in the dew between our legs. The body has little regard for theory. Not a mind trapped by a carcass, but a body that carries a story. *I feel, therefore I can be free*. Audre Lorde said that.
+All these fathers of philosophy, taxonomy, biology insisting *it’s our thoughts that make us real. Pure reason* that makes us human. _In the world, but not of it._ But some things have to be lived to be understood. Felt in our bloodstream, and in the dew between our legs. The body has little regard for theory. Not a mind trapped by a carcass, but a body that carries a story. *I feel, therefore I can be free*. Audre Lorde said that.
 
 But as the women carry their secrets across town, Hermes is circling above, and fixes his attention on the youngest, Herse. And so, of course, he follows her home — where Agraulos is there to greet him, standing in the door, blocking his way. Protective, or maybe jealous? At this point, I don’t trust Ovid to get the details right. She asks for money maybe, a bribe? To let the god through. Which is a mistake, of course. This unscrupulous cleverness will be her undoing!
 
