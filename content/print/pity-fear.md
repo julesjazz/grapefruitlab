@@ -1070,9 +1070,6 @@ But I’m hung up on you like it’s some kind of curse
 **Mia:**
 Everyone wants an explanation. This tragedy of a marriage and divorce is too messy, too complicated. Was the love real, or was it a lie all along?
 
-**Mia:**
-They demand a re-write, to make the pieces fit. And slowly, over time -- with telling and re-telling -- the story becomes almost complete, with a magnitude that is almost certain.
-
 **Josie *[sings]*:**
 ```
 I’m cursed to never stop this hurting.
@@ -1080,11 +1077,22 @@ And doing so only makes things worse
 ```
 
 **Mia:**
+They demand a re-write, to make the pieces fit. And slowly, over time -- with telling and re-telling -- the story becomes almost complete, with a magnitude that is almost certain.
+
+**Josie _[sings]_:**
+```
+So I’m reliving this trauma over and over
+Rather than trying to get some closure
+Like picking a scab things are gonna get grosser
+But I don’t know how to stop myself from scratching
+```
+
+**Mia:**
 But it’s clear that I’m being cross-examined. Asked to prove (in prose without meter) that this divorce would provide *not only a pleasure but a benefit*.
 
 ### [Mia - Kekropodai]
 
-Agraulos and her sisters are sometimes called the Kekropodai — daughters of Kekrops — which isalso the genus of cicadas, I think? Because women and cicadas both crop up every once in while, or fall from the trees and the cliffs, screaming — for reasons you might not understand. Because sometimes nothing changes until you climb to the top of the Acropolis, and give yourself over to the wind. To the cliffs. To the will of the gods. Which is what Agraulos does.
+Agraulos and her sisters are sometimes called the Kekropodai — daughters of Kekrops — which is also the genus of cicadas, I think? Because women and cicadas both crop up every once in while, or fall from the trees and the cliffs, screaming — for reasons you might not understand. Because sometimes nothing changes until you climb to the top of the Acropolis, and give yourself over to the wind. To the cliffs. To the will of the gods. Which is what Agraulos does.
 
 And I wonder, when she heard that prophesy — "a sacrifice of one to save the city" — and she’s able to see herself in that story, in that role, the martyr. Was she confident about her choice? A destiny buried deep inside, or was she simply willing to risk it all, and hope for the best?
 
