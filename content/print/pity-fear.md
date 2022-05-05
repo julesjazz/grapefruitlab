@@ -100,19 +100,13 @@ Oh yeah, I just got those. Do you like them?
 They’re… really something.
 
 **Mia:**
-Yeah, it’s a joke. You know, these masks? Tragedy and comedy?
+Yeah, it’s a joke. You know, these masks?
 
 **Josie:**
 Theater masks, yeah —
 
 **Mia:**
-So I read that actors in tragic roles used to wear a boot called a "buskin" — maybe they needed the money? — while actors with comedic roles only wore "a thin soled shoe" called a sock. So like, socks. That’s their names! Sock and Buskin! Sock’s the happy one.
-
-**Josie:**
-Sure, ok —
-
-**Mia:**
-Like me, and then on the other foot —
+So I read that actors in tragic roles used to wear a boot called a "buskin" — maybe they needed the money? — while actors with comedic roles only wore "a thin soled shoe" called a sock. So like, socks. That’s their names! Sock and Buskin! Sock’s the happy one. And then on the other foot —
 
 **Josie:**
 Oh wow —
@@ -127,19 +121,7 @@ Yes, very clever. You’re wearing mismatched niche nerd socks.
 To say of two socks that they are identical is nonsense, and to say of one sock that it is identical with itself is to say nothing. That’s Wittgenstein.
 
 **Josie:**
-I’m positive it isn’t. So what are we doing? You said something about a tragedy? What’s all this? *[reading from a page she found]* Fire lives in the death of earth, and air lives in the death of fire; water lives in the death of air, and earth in that of water.
-
-**Mia:**
-That’s Heraclitus! That’s him! Mister Buskin! *Everything Flows.* I love that one.
-
-**Josie:**
-So is it all… philosophy and theater jokes?
-
-**Mia:**
-Should we scrap the whole thing, and start over?
-
-**Josie:**
-No, no, we can make this work! Let’s see… *[reading from a program]* “Pity *plus* Fear. Is that how you say it?
+I’m positive it isn’t. So what are we doing? Let’s see… *[reading from a program]* “Pity *plus* Fear. Is that how you say it?
 
 **Mia:**
 Say what?
@@ -178,13 +160,7 @@ The chorus is like… extras.
 I am pretty extra…
 
 **Mia:**
-They sing songs and… comment on the action? *[reading from something] The chorus wear masks, and their dancing is expressive.*
-
-**Josie:**
-Yeah, I don’t really dance. It’s more of a lumbering flail…
-
-**Mia:**
-Hold on, you said Pity & Fear, right? That’s Aristotle.
+They sing songs and… comment on the action? Wait, you said Pity & Fear, right? That’s Aristotle.
 
 **Josie:**
 Oh no, more philosophy? You really went down the rabbit hole, didn’t you?
@@ -211,28 +187,10 @@ There’s an audience. We’re on stage. This *is* the show.
 Fine. Semantics. *[pause]* It’s kinda creepy. Their eyes follow me when I move.
 
 **Josie:**
-Whoa, trippy. *[a beat]* You know they’re just people right?
+You know they’re just people right?
 
 **Mia:**
-Are you sure?
-
-**Josie:**
-Yeah, what else?
-
-**Mia:**
-What if they’re like, a metaphor?
-
-**Josie:**
-For what, though?
-
-**Mia:**
-Like… “The public gaze”?
-
-**Josie:**
-I think we’re the public gays.
-
-**Mia:**
-Nice one. *[rummaging again]* Ok, here we go. Aristotle says that tragedy is… *The imitation of an action that is serious, and complete, and of a certain magnitude;* Not like a *large* magnitude, but clearly defined… constrained even. *Certain*… *in language embellished with each kind of artistic ornament*… Which means, like, a chorus — song & dance, whatever — Uh… *language embellished*… *through pity and fear effecting the proper catharsis of these emotions.*
+Riiiiiight. *[rummaging again]* Ok, here we go. Aristotle says that tragedy is… *The imitation of an action that is serious, and complete, and of a certain magnitude;* Not like a *large* magnitude, but clearly defined… constrained even. *Certain*… *in language embellished with each kind of artistic ornament*… Which means, like, a chorus — song & dance, whatever — Uh… *language embellished*… *through pity and fear effecting the proper catharsis of these emotions.*
 
 **Josie:**
 Great. Is that what we’re doing? Greek Tragedy? Catharsis?
@@ -294,9 +252,9 @@ According to Aristotle, the poet Thespis is considered the *first* first actor, 
 
 I used to be a theater person. Can you imagine? I mean, yeah, I am on stage. But I don’t really *act*. I’m not… This isn’t my job!
 
-So I guess Thespis was the first poet to write for an actor, himself, performing in character. Or the first Greek? But Sappho was writing and performing in character a hundred years before that, so why doesn’t she count? She was famous for it! Performing *as herself, Sappho*. The “lyric I” — that’s what they call it. Writing in first person.
+So I guess Thespis was the first poet to write for an actor, himself, performing in character. Or the first Greek? But Sappho was writing and performing in character a hundred years before that, so why doesn’t she count? She was famous for it! Performing *as herself, Sappho*.
 
-*Lyric*, as in *accompanied by a lyre*. No offense, Josie. It’s like a guitar, but older. More Greek. She was a pop star! Like Taylor Swift or whatever. Plato called her the *The Tenth Muse*, *The Mortal Muse*, or just *The Poetess.* Which is in contrast to *The Poet*, masculine, Homer. If he even existed, I guess we’re not sure. He might have been *a poetic tradition,* whatever that means. *They* might have been a poetic tradition?
+The “lyric I” — that’s what they call it. Writing in first person. *Lyric*, as in *accompanied by a lyre*. No offense, Josie.
 
 Homer and all the other *boy poets* were obsessed with epic battles, and divine heroes — Captain America, Superman, The Human Torch. Third person war stories, just writing down what happened, like a good journalist. But then Sappho comes along and makes it all personal, talking about her own experience. Her feelings. *Eros* — Passion, desire, and unfulfilled longing. She was, get this, “*accused by some of being irregular in her ways and a woman-lover.”*
 
@@ -422,19 +380,7 @@ She’s engaged now. Big ring on her finger. Some cis girl. A graphic designer w
 **Mia:**
 Oh shit, I guess she has a type! My ex married a farm boy…
 
-Sorry, where were we? Oh, a “Hero” is also a submarine sandwich, right? Get this. Wikipedia has a whole list of Sandwiches. Like a whole page just for that. But then there’s a disclaimer at the top that it *might* not be a “complete” list. It’s like… American sub, and Beef on Weck, and… There’s a Manwich in the middle…
-
-**Josie:**
-“See also grinder” — if you want some real Meatballs, am I right?
-
-**Mia:**
-I’m vegetarian.
-
-**Josie:**
-Sounds gay. Get this girl a fish taco!
-
-**Mia:**
-Actually… Have you eaten? We should order something.
+Sorry, where were we? Oh, a “Hero” is also a submarine sandwich, right? Have you eaten? We should order something.
 
 **Josie:**
 I’d crush a sando. Does your audience want anything?
@@ -768,9 +714,9 @@ Oh, right! So Plato doesn’t like *art*. Well he enjoys it, but he says it’s 
 
 Plato thinks this physical world — flesh and blood and broken bones — is too unreliable to be *really* real. It’s not rational enough! Things change too much. Entropy and whatever. So there must be some more *real* reality, somewhere else.
 
-Sorry, that’s a bit abstract. Like, ok: if *you are* sitting in a chair, and *you are also* sitting in a chair, but they’re not the same chair…? They don’t even look the same! Then what do we even mean by that word: *chair*? It doesn’t refer to _anything_. What happens if your chair breaks? Chairs break all the time! Are they still chairs? Or do we just mean that, at this moment, they are *both chair-like*? But then, to say these blue monstrosities are *like* something else — then that *something else* must actually exist, right? So that means that the chairs we have, here in a warehouse off Santa Fe, are just poor imitations — shadows of the real thing. The original, perfect *Chair*. *The Ideal Chair Form.*
+Sorry, that’s a bit abstract. Like, ok: if *you are* sitting in a chair, and *you are also* sitting in a chair, but they’re not the same chair…? They don’t even look the same! Then what do we even mean by that word: *chair*? It doesn’t refer to _anything_. Or do we just mean that, at this moment, they are *both chair-like*?
 
-And those Real Things — real chairs, real… women — must all be somewhere we can’t see, can’t touch. We can only *reason* about them. Pure Reason, right? And he calls that the *Realm of Forms.* It’s like an Amazon warehouse somewhere, full of *Ideals*. Hidden truths. The platonic Truth emerging from her platonic well, with a platonic whip.
+But to say these blue monstrosities are *like* something else — then that *something else* must actually exist, right? Somewhere we can’t see, can’t touch. We can only *reason* about them. Pure Reason, right? And he calls that the *Realm of Forms.* It’s like an Amazon warehouse somewhere, full of *Ideals*. Hidden truths. The platonic Truth emerging from her platonic well, with a platonic whip.
 
 It’s why truth has to be naked! Otherwise she’s probably hiding something under her skirt! Or are things more true when they’re hidden? If not *under our clothes,* then maybe *between our ears*? Does that make a truth more extra *real*? More pure and immaculate — free from any contamination of the body.
 
@@ -813,16 +759,6 @@ The definition Aristotle lands on, the purpose of all poetry, is *catharsis*. Bu
 All we know is that a cleansing is required, and tragedy does it best. Better than comedy — better than epic, better than all the other poetic forms. Tragedy is perfect already, and everyone else can go jump off a cliff with their love poems or whatever — *Sappho*.
 
 And so this supposed “defense” of poetry — by attempting to define it — becomes, in reality, a defense of only *some* poetry, and a weapon against the rest. Tragedy *does this thing*. Through words, it doesn't just express an idea, but it *performs some action* that no other art can perform.
-
-Maybe you’ve heard that word, *performative*? if you’re like an academic or whatever?
-
-**Josie:**
-Like *gender is performative?*
-
-**Mia:**
-Yeah, *or gender is performed*. It doesn’t mean fake — not a theatrical facade of actors and liars — but almost the opposite: something that *changes reality*. It performs an action.
-
-Like… a promise, or a threat — the words are the action. Or a vow, the phrase *I do.* Those two words don’t mean much on their own, but if you say them in the right context, they create a new legal reality — the institution of marriage — forever joined into one flesh, or whatever. I guess it doesn’t always *stick*, but that’s the idea. Words can perform actions that change the world around us.
 
 So Tragedy is not a mere reflection of the shadows cast by Plato's Ideal Forms — one step farther from Plato’s hidden truth — but it's active. Creating a new reality. Cleansed of your filthy emotions. Purified in a tide of blood.
 
@@ -1065,6 +1001,7 @@ Still, it’s a small town, small Mennonite college. And divorce is… Everyone 
 ```
 4 billion girls in this universe
 But I’m hung up on you like it’s some kind of curse
+So I'm here torturing myself, over and over
 ```
 
 **Mia:**
@@ -1074,6 +1011,7 @@ Everyone wants an explanation. This tragedy of a marriage and divorce is too mes
 ```
 I’m cursed to never stop this hurting.
 And doing so only makes things worse
+So I'm here torturing myself, over and over
 ```
 
 **Mia:**
@@ -1081,10 +1019,7 @@ They demand a re-write, to make the pieces fit. And slowly, over time -- with te
 
 **Josie _[sings]_:**
 ```
-So I’m reliving this trauma over and over
-Rather than trying to get some closure
-Like picking a scab things are gonna get grosser
-But I don’t know how to stop myself from scratching
+So I'm here torturing myself, over and over
 ```
 
 **Mia:**
@@ -1202,9 +1137,7 @@ They say hindsight is 20/20, but they also say that the winner writes the histor
 
 I also understand the One Rule for making queer art. The more pain I suffer, the more applause I get for my honesty. Authenticity. The classic role for a trans woman on stage, to evoke either pity or fear so that _you_ might be cleansed… of what? Your own discomfort? About my body? My trauma? My joy? My gender?
 
-I remember talking to my aunt, after the divorce. We were sitting around her kitchen table late at night, and she says *you’ll know you’re ready to start dating again once the stories you tell every day don't involve your ex.* Which is awkward. Here I am 15 years later, standing on stage, talking about her again. I guess I’m not ready to date yet… Sorry Erin. Sorry Rae.
-
-I mean, of course, date whenever you want — but there’s still something I love in that. The stories that I tell about myself, reflect *something* about who I am, who I want to be. And as I live new material, I shape it into these stories, and the stories also shape me, what I do next. Like pointing a camera at its own image, or standing between mirrors. Like my center of gravity. It doesn’t exist anywhere, but it describes something real… pulling me down…
+I remember talking to my aunt after the divorce, and she says *you’ll know you’re ready to start dating again once the stories you tell every day don't involve your ex.* And there's something I love about that. The stories that I tell about myself reflect *something* about who I am, who I want to be. And as I live new material, I shape it into these stories, and the stories also shape me, what I do next. Like pointing a camera at its own image, or standing between mirrors. Like my center of gravity. It doesn’t exist anywhere, but it describes something real… pulling me down…
 
 The origin of the name Miriam isn’t known for certain, but there are several theories, like *sea of bitterness*, or *beloved*, or *wished-for child*.
 
@@ -1240,7 +1173,7 @@ Another lesbian poetess, in a proud tradition going back to the original poetess
 Dick Johnson. Classic.
 
 **Mia:**
-Others say she was rejected by a ferryman — and throws herself from the cliffs! A familiar death! More recently, to avoid scandal, she’s been re-cast as a school teacher — the women in her songs, not lovers but students.
+Others say she was rejected by a ferryman — and throws herself from the cliffs! A familiar death! More recently, to avoid scandal, she’s been recast as a school teacher — the women in her songs, not lovers but students.
 
 **Josie:**
 Just gals being pals.
@@ -1262,15 +1195,11 @@ And I like the physical strain of it. Sometimes you don’t know the secrets you
 
 All these fathers of philosophy, taxonomy, biology insisting *it’s our thoughts that make us real. Pure reason* that makes us human. _In the world, but not of it._ But some things have to be lived to be understood. Felt in our bloodstream, and in the dew between our legs. The body has little regard for theory. Not a mind trapped by a carcass, but a body that carries a story. *I feel, therefore I can be free*. Audre Lorde said that.
 
-But as the women carry their secrets across town, Hermes is circling above, and fixes his attention on the youngest, Herse. And so, of course, he follows her home — where Agraulos is there to greet him, standing in the door, blocking his way. Protective, or maybe jealous? At this point, I don’t trust Ovid to get the details right. She asks for money maybe, a bribe? To let the god through. Which is a mistake, of course. This unscrupulous cleverness will be her undoing!
+But as the women carry their secrets across town, Hermes is circling above, and fixes his attention on the youngest, Herse. And so, of course, he follows her home — where Agraulos is there to greet him, standing in the door, blocking his way. Which is a mistake, of course! Hermes turns her to stone, a statue. The end.
 
-Hermes turns her to stone, a statue. The end. Agraulos is dead for the last time.
+Agraulos is dead for the last time. Or the first, if you tell these stories the other way around. It still won’t make any sense. How can Agraulos die at a yearly festival that reenacts her own story? The other story, where she also died, after opening a box full of secrets.
 
-Or the first, if you tell these stories the other way around. It still won’t make any sense. How can Agraulos die at a yearly festival that reenacts her own story? The other story, where she also died, after opening a box full of secrets.
-
-Aristotle says the beginning is what comes before everything else — no setup required. And then the middle comes after the beginning. Not just proximity, but cause and effect, right? The beginning leads to the middle, and then, at the end, there’s an ending. Because there has to be, right? It’s over. Which… sounds nice.
-
-But Agraulos… her whole life… Three different lives… It’s all just… Unscientific? There are some correlations, but I’m not sure about any causation. It doesn’t matter how many times she dies, she’ll never be tragic. Never serious or complete. Always uncertain.
+It doesn’t matter how many times she dies, she’ll never be tragic. Never serious or complete. Always uncertain.
 
 Anyway, this Festival of the Dew Carriers is still honored on 3rd of Skirophorion, which is June or maybe July. It’s a day to finish unfinished projects, and to clear away debris -- what is no longer needed -- to make room for the new.
 
@@ -1289,22 +1218,10 @@ Oh yeah, I was hanging this… Do you have what you need to work on some music?
 Yeah, I had some ideas for an ending. Big final number. Maybe even, reveal a full band behind the curtain?
 
 **Mia:**
-Oh that’s fun. Would they have to wait back there the whole show? What if we did something with a ‘helicopter landing on stage’? But sit mall, it’s a radio controlled thing? It lands on the altar, and it’s carrying… A fortune cookie maybe? Some message from the gods? A prophesy!
-
-**Josie *[pulls out a drone]*:**
-Would something like this work?
-
-**Mia:**
-Yes, yes! But I think it needs to be more realistic, right? For the joke to work. Like some kind of military…
+Oh that’s fun. Would they have to wait back there the whole show? What if we did something with a ‘helicopter landing on stage’? But small, it’s a radio controlled thing? It lands on the altar, and it’s carrying… A fortune cookie maybe? Some message from the gods? A prophesy!
 
 **Josie:**
-Now you’re just setting up a joke about *attack helicopters*. This drone identifies…
-
-**Mia:**
-Oh, yikes. No. Never mind.
-
-**Josie:**
-It’s a bit *Deus Ex Machina* anyway. God from a literal machine?
+It’s a bit *Deus Ex Machina*. God from a literal machine?
 
 **Mia:**
 That’s fair… We just need something that brings this all together.
@@ -1337,25 +1254,13 @@ Ok, yeah, but as *authors of self*, right? Make it personal?
 Oh sure. You’re happy to write all my lines for me, but then I mention *death of the author*, and suddenly we’re all in it together?
 
 **Mia:**
-*[beat]* I guess the little death usually just means orgasm.
-
-**Josie:**
-A *happy ending*, you might say? This “rising action,” so “serious, and complete, and of a certain magnitude,” brings us to a “climax” and then denouement.
-
-**Mia:**
-Denouement means “the untying”. The untying of our limbs? What’s the script say?
+What’s the script say?
 
 **Josie *[reading]*:**
 It ends with that line about *clearing away debris*.
 
 **Mia:**
-Seems a bit ‘on the nose’ — I think we can do better than that… Oh, what are you playing?
-
-**Josie *[sings]*:**
-We all should just leave here and make ourselves better. *[editing]* We all should just leave here and make something better. *[editing]* We all should just leave here it would make everything better… I don’t know.
-
-**Mia:**
-Yeah, I like where you’re going with it. Can you give me some light here?
+Seems a bit _on the nose_. Can you give me some light here?
 
 *[Lights change. Miriam is working on something stage-business. Josie is working on a guitar part. The lights continue to change. The music swells. Light from water, a sense of falling, a magical moment. Maybe there’s a chorus at the end of a build. And then everything is back how it was. They look at each other.]*
 
