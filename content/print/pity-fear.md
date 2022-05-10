@@ -94,13 +94,7 @@ What? No, this is just work clothes.
 But those socks!
 
 **Mia:**
-Oh yeah, I just got those. Do you like them?
-
-**Josie:**
-They’re… really something.
-
-**Mia:**
-Yeah, it’s a joke. You know, these masks?
+Oh yeah, I just got those. It’s a joke. You know, these masks?
 
 **Josie:**
 Theater masks, yeah —
@@ -468,29 +462,31 @@ It all just seemed so overwhelming
 Staring at that empty page
 Is every rhyme I write out trite
 Is every melody the same
+
 Is there anything I have to say
 That has not been said before
 In a million better ways.
-From people who… (what’s a word that rhymes with before,
-But probably not more, poor, or torn)
+From people who… (what’s a word that rhymes with before?)
+*In reality the line is “Maybe ones that mean more”
 
 Tears are forming in my eyes
 "What do they expect from me?"
 My pain on main, my pound of flesh
-Maybe some cursed transsexual symphony?
+Maybe some transexual symphony?
 The Ugly Organ about a surgery?
 Tru-trans soul rebel in a minor key?"
 
 And none of that’s authentic anyway
 At some point should I just
 Throw up my hands and walk away
+Or fade away into rust
 
 Maybe there is no better day than today
 To slowly fade away
 Maybe there is no better day than today
 To slowly fade away
 Maybe there is no better day than today
-To watch me fade away
+To slowly fade away
 ```
 
 ### [Dialogue - ReWrite The Past]
@@ -643,12 +639,12 @@ Of course you do!
 ```
 All I need is an Autumn breeze
 Lazy evenings in a field of green
-You twirling your hair and staring up at me
-My Gen Z horse girl fantasy
+You twirl your hair and stare up at me
+Like some Gen Z horse-girl fantasy
 With your kiltie boots and your broomstick skirt
-And your Chelsey mullet meant to subvert
-Your grace and charm come naturally
-Enhanced by a lack of vanity
+Is that mullet of yours meant to subvert?
+Your grace and charm all come naturally
+All without a trace of vanity
 
 And what country girl seduces wits
 In a country dress and a can of Schlitz?
@@ -660,19 +656,19 @@ But maybe that is what I find exciting
 Oh, Darlin’, You might not be Aphrodite
 But I want you to suffer in myself with me.
 
-Your Halloween head in my lap
-A horror movie, take a nap
-Some curs-ed YouTube videos
-You looked so peaceful in repose
-Your roommates' humor speaks in tongues
-Are those bedroom eyes or sleepy ones
+Your Halloween head in my lap,
+a horror movie, take a nap.
+Some curs-ed YouTube videos.
+You looked so peaceful in repose.
+Your roommates' humor speaks in tongues.
+Are those bedroom eyes or sleepy ones?
 Some morning I will buy you brunch,
 Will I see you in another month?
 
 What would a cowgirl ever see
-in a middle-aged professional like me
+in a middle-aged professional like me?
 Is my hair queer enough, Is my spirit free?
-Can I provide you some stability?
+Can I provide you with stability?
 
 And what country girl seduces wits
 In a country dress and a can of Schlitz?
@@ -808,19 +804,18 @@ Please stop digging, and just let me play a song?
 
 **Josie _[sings]_:**
 ```
-I was classified since I was young
-Intellectual, Guitarist, artist, & son
-And those silos all seem so goddamn binary
-Was punk trying to expose or cement that divide to me?
-
-Cause ‘bad is always bad’ and ‘good is always good’
+We’ve been classified since we were young
+Guitarist, artist, intellectual, son
+And all those piles seem so binary
+When all my heroes were cementing that divide in me
+Cause bad is always bad and good is always good
 And caricatures of both are found in your neighborhood
 Nuance is hard in screamed out rhyming stanzas
-And very few expansive narrative extravaganzas
+with few expansive narrative extravaganzas
 
 But what life actually turn out that way
 People telling me who I am and what I outta say
-And what I’ll like and what I’ll hate, no land between the coasts
+And what I’ll like and what I’ll hate, no land bet-ween the coasts
 Branded for life in column A, Column B is full of ghosts
 
 Did evil somehow lead the good astray
@@ -831,12 +826,12 @@ Somewhere in the shades of grey
 
 No Coasts to bring us down, no borders wall us in.
 No interest all-consuming, all defining, full of sin
-Being queer’s not an all defining trait, to my chagrin
-No labels tell us who we are, no pasts can tell us who we've been.
+No ability to hide the magnitude contained within
+Not all labels tell us who we are, no pasts can tell us who we've been.
 
 Who you are is what they can’t take away.
 No one to tell me who I am and what I outta say
-And what I’ll like and what I’ll hate, or what I oughta weigh
+And what I’ll like and what I’ll hate, or much I oughta weigh
 I’ll be the mess I wanna be, that mess is fucking great.
 
 Did evil somehow lead the good astray
@@ -955,7 +950,7 @@ I don’t know. My ex had her whole life planned out. Married early. Two kids by
 
 **Josie *[sings]*:**
 ```
-I snooped on your instagram to find
+I snooped on your Instagram to find
 A new girl is taking up your time
 A ring on your finger A fox on the box.
 I’m glad that you’re happy, so am I
@@ -966,10 +961,10 @@ At some point, I’m sitting alone in couples therapy — such a classic trope i
 
 **Josie *[sings]*:**
 ```
-The pain of losing you still hurts
-The fact I’m the reason makes it worse
-I want to move on and get past it
-But I seem to be moving in reverse
+But If I was happy why look back
+Was I just hoping to find you sad
+Why seek you out? Why twist that knife?
+Try to find out what you thought I lacked
 ```
 
 **Mia:**
@@ -980,7 +975,7 @@ And the counselor says, like it’s obvious… You know you don’t have to go h
 Why do we do this to ourselves
 We promise that we will not just dwell
 But here we are wallowing in pain
-As gratification gets withheld
+and dragging ourselves through this Hell.
 ```
 
 **Mia:**
@@ -988,9 +983,9 @@ And somewhere in all of it, I start painting my nails. It’s relaxing. Until my
 
 **Josie *[sings]*:**
 ```
-So I’m reliving this trauma over and over
+So I’m here torturing myself, over and over
 Rather than trying to get some closure
-Like picking a scab things are gonna get grosser
+Like picking at a scab things are gonna get grosser
 But I don’t know how to stop myself from scratching
 ```
 
@@ -1000,7 +995,9 @@ Still, it’s a small town, small Mennonite college. And divorce is… Everyone 
 **Josie *[sings]*:**
 ```
 4 billion girls in this universe
-But I’m hung up on you like it’s some kind of curse
+But I’m hung up on you like it’s some kinda curse
+I’m cursed to never stop returning
+And doing so only makes things worse
 So I'm here torturing myself, over and over
 ```
 
@@ -1009,8 +1006,6 @@ Everyone wants an explanation. This tragedy of a marriage and divorce is too mes
 
 **Josie *[sings]*:**
 ```
-I’m cursed to never stop this hurting.
-And doing so only makes things worse
 So I'm here torturing myself, over and over
 ```
 
@@ -1020,6 +1015,7 @@ They demand a re-write, to make the pieces fit. And slowly, over time -- with te
 **Josie _[sings]_:**
 ```
 So I'm here torturing myself, over and over
+Rather than trying to get some closure
 ```
 
 **Mia:**
@@ -1088,8 +1084,7 @@ I remember her — boy Miriam. Two-shaped and uncertain. She’s fuzzy and dista
 **Josie *[sings]*:**
 ```
 The axe forgets but the tree remembers
-The things we think we know for certain
-are just the pieces we’ve put together.
+The things we think we know for sure are just the pieces we’ve put together.
 All colored by internal biases.
 What’s real is probably somewhere in between
 ```
@@ -1099,13 +1094,12 @@ Biology isn’t a static event, but a process that spans a lifetime — a serpen
 
 **Josie *[sings]*:**
 ```
-Or what an artist tells us we should see
-Or all the things a marketer
-convinced us to believe
-Or all the ways a poet makes us feel
+The things a person chooses to conceal
+I’m always careful of the things that I choose to reveal
+Like all the ways that art can makes us feel
 Are any of our feelings even real?
 
-So here comes the truth in a nutshell
+Here comes the truth, here comes the truth in a nutshell
 “Of truth, we all know nothing, because truth is in a well”
 ```
 
@@ -1114,13 +1108,7 @@ And then I’m digging through an old box in the attic. This is a metaphor, it t
 
 **Josie *[sings]*:**
 ```
-Was it a liar who said
-“The truth will set you free”
-Lil Saint John the Beloved
-Sure the fuck never met me
-Why should I give any weight to his decrees?
-
-So here comes the truth in a nutshell
+Here comes the truth, here comes the truth in a nutshell
 “Of truth, we all know nothing, because truth is in a well”
 ```
 
@@ -1137,7 +1125,7 @@ They say hindsight is 20/20, but they also say that the winner writes the histor
 
 I also understand the One Rule for making queer art. The more pain I suffer, the more applause I get for my honesty. Authenticity. The classic role for a trans woman on stage, to evoke either pity or fear so that _you_ might be cleansed… of what? Your own discomfort? About my body? My trauma? My joy? My gender?
 
-I remember talking to my aunt after the divorce, and she says *you’ll know you’re ready to start dating again once the stories you tell every day don't involve your ex.* And there's something I love about that. The stories that I tell about myself reflect *something* about who I am, who I want to be. And as I live new material, I shape it into these stories, and the stories also shape me, what I do next. Like pointing a camera at its own image, or standing between mirrors. Like my center of gravity. It doesn’t exist anywhere, but it describes something real… pulling me down…
+I remember talking to my aunt after the divorce, and she says *you’ll know you’re ready to start dating again once the stories you tell every day don't involve your ex.* Which is awkward. Here I am 15 years later, on stage talking about _her_ again. But there's something I love about that. The stories that I tell about myself reflect *something* about who I am, who I want to be. And as I live new material, I shape it into these stories, and the stories also shape me, what I do next. Like pointing a camera at its own image, or standing between mirrors. Like my center of gravity. It doesn’t exist anywhere, but it describes something real… pulling me down…
 
 The origin of the name Miriam isn’t known for certain, but there are several theories, like *sea of bitterness*, or *beloved*, or *wished-for child*.
 
@@ -1212,13 +1200,13 @@ I’m not sure if any of this debris is *needed*. But I’m not sure how to fini
 What were you working on when I came in?
 
 **Mia:**
-Oh yeah, I was hanging this… Do you have what you need to work on some music?
+Oh yeah, I was fixing this… Do you have what you need to work on some music?
 
 **Josie:**
 Yeah, I had some ideas for an ending. Big final number. Maybe even, reveal a full band behind the curtain?
 
 **Mia:**
-Oh that’s fun. Would they have to wait back there the whole show? What if we did something with a ‘helicopter landing on stage’? But small, it’s a radio controlled thing? It lands on the altar, and it’s carrying… A fortune cookie maybe? Some message from the gods? A prophesy!
+Oh that’s fun. Would they have to wait back there the whole show? What if we did something with a ‘helicopter landing on stage’? But small, like a radio controlled thing? It lands on the altar, and it’s carrying… A fortune cookie maybe? Some message from the gods? A prophesy!
 
 **Josie:**
 It’s a bit *Deus Ex Machina*. God from a literal machine?
