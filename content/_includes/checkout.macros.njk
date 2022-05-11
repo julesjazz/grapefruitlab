@@ -13,7 +13,8 @@
   suggested=none
 ) %}
   <form action="/api/checkout" method="POST">
-    {%- set max = tickets[0]['onSale'] -%}
+    {% set selected = tickets | find('display.attrs.selected') %}
+    {%- set max = selected.onSale or tickets[0]['onSale'] -%}
 
     {{- form.input(
       id='max',

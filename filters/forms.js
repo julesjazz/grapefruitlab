@@ -17,9 +17,28 @@ const getOptions = (collection, key, value) => {
 const showTickets = (run, products) => {
   if (!run || !run.length) { return null; }
 
-  return run.map((perf) => {
+  let hasSelected = false;
+
+  return run
+    .sort((a, b) => a.date - b.date )
+    .map((perf) => {
     const ticket = _.find(products, ['metadata.sanity_id', perf.id]);
     const onSale = perf.seats - perf.sold;
+    let selected = null;
+
+    if (ticket && onSale > 0 && !hasSelected) {
+      hasSelected = true;
+      selected = true;
+    }
+
+    const perfDate = `${date(perf.date, 'show')}`;
+    const display = {
+      value: onSale > 0 ? perfDate : `${perfDate} (SOLD OUT)`,
+      attrs: {
+        selected,
+        disabled: onSale > 0 ? null : 'disabled',
+      }
+    };
 
     return {
       ticket: ticket ? ticket.id : null,
@@ -28,9 +47,9 @@ const showTickets = (run, products) => {
       sold: perf.sold,
       onSale: onSale > 0 ? onSale : null,
       value: ticket ? `${ticket.id}@event@${perf.id}` : null,
-      display: `${date(perf.date, 'show')}`,
+      display: display,
     };
-  }).filter((perf) => perf.onSale && perf.ticket);
+  }).filter((perf) => perf.ticket);
 }
 
 module.exports = {

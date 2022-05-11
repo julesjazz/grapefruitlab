@@ -98,9 +98,17 @@ params:
   } | merge(attrs) -%}
   <select {{ utility.show_attrs(attrs) }}>
     {%- for key, option in options -%}
-      <option value="{{ key }}" {{ 'selected' if loop.first }}>
-        {{- option -}}
-      </option>
+      {% set selected = select_first %}
+      {% if option is string %}
+        <option value="{{ key }}" {{ 'selected' if loop.first }}>
+          {{- option -}}
+        </option>
+      {% else %}
+        {% set has_selected = options | find('attrs.selected') %}
+        <option value="{{ key }}" {{ 'selected' if loop.first and not has_selected }} {{ utility.show_attrs(option.attrs) }}>
+          {{- option.value -}}
+        </option>
+      {% endif %}
     {%- endfor -%}
   </select>
 {%- endmacro %}
