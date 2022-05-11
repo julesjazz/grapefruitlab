@@ -1,3 +1,4 @@
+const { EleventyServerlessBundlerPlugin } = require("@11ty/eleventy");
 const yaml = require('js-yaml');
 const util = require('util')
 const _ = require('lodash');
@@ -88,6 +89,13 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addDataExtension('yaml', yaml.load);
   eleventyConfig.setQuietMode(true);
   eleventyConfig.setDataDeepMerge(true);
+
+  // serverless
+  eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
+    name: 'dynamic', // The serverless function name from your permalink object
+    copy: ['./filters/', './utils/', './client-config.js'],
+    redirects: false,
+  });
 
   // settings
   return {

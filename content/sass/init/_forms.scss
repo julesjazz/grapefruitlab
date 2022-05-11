@@ -22,6 +22,10 @@ legend {
   padding: 0 var(--shim);
 }
 
+label {
+  cursor: pointer;
+}
+
 button {
   background: var(--action);
   border: thin solid var(--border);

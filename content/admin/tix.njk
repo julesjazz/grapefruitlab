@@ -3,7 +3,8 @@ pagination:
     data: admin.perfs
     size: 1
     alias: perf
-permalink: 'admin/perfs/{{ perf.show }}/{{ perf.id }}/'
+permalink:
+  dynamic: '/admin/perfs/{{ perf.show }}/{{ perf.id }}/'
 eleventyComputed:
   title: '{{ perf.date | date }}'
   summary: '{{ perf.notes }}'
@@ -24,7 +25,7 @@ eleventyComputed:
 {% for ticket in perf.tickets %}
   <tr data-show="{{ perf.id }}">
     <td class="checkin">
-      <input type="checkbox" name="{{ ticket.name | slug }}" id="{{ ticket.name | slug }}" checked="{{ ticket.checkedIn }}">
+      <input type="checkbox" name="{{ ticket.name | slug }}" id="{{ ticket.name | slug }}" {% if ticket.checkedIn %}checked{% endif %}>
     </td>
     <td class="name">
       <label for="{{ ticket.name | slug }}">{{ ticket.name }}</label>

@@ -10,13 +10,64 @@ command = "yarn dev"
 from = "/admin/*"
 force = true
 status = 200
-conditions = {Role = ["admin"]}
+
+  [redirects.conditions]
+  Role = [ "admin" ]
 
 [[redirects]]
 from = "/admin/*"
 to = "/login/"
 force = true
 status = 401
+
+[[redirects]]
+from = "/admin/perfs/pity-fear/fbbc8309-cbc0-4dcd-a70b-640e2b3aeb4a/"
+to = "/.netlify/functions/dynamic"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "dynamic"
+
+[[redirects]]
+from = "/admin/perfs/pity-fear/d807398f-a707-4ad5-b861-cb551b34b3c5/"
+to = "/.netlify/functions/dynamic"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "dynamic"
+
+[[redirects]]
+from = "/admin/perfs/pity-fear/9f60088d-53f9-4e48-8060-8f932e26a648/"
+to = "/.netlify/functions/dynamic"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "dynamic"
+
+[[redirects]]
+from = "/admin/perfs/pity-fear/8bff9c75-16f4-4a0d-afbf-a4030bf9a58c/"
+to = "/.netlify/functions/dynamic"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "dynamic"
+
+[[redirects]]
+from = "/admin/perfs/pity-fear/8bfd2650-9838-4722-a8f6-2ea9e7a97749/"
+to = "/.netlify/functions/dynamic"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "dynamic"
+
+[[redirects]]
+from = "/admin/perfs/pity-fear/60f70436-d5de-4708-81da-dd9a35754f1e/"
+to = "/.netlify/functions/dynamic"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "dynamic"
+
+[[redirects]]
+from = "/admin/"
+to = "/.netlify/functions/dynamic"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "dynamic"
 
 [[redirects]]
 from = "/api/*"

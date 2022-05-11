@@ -1,3 +1,7 @@
+# serverless
+functions/dynamic/**
+!functions/dynamic/index.js
+
 # Ignore local env
 .env.development
 
