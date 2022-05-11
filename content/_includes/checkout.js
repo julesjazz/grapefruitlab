@@ -4,6 +4,7 @@ const maxInput = document.getElementById('max');
 
 const priceInput = document.getElementById('field-price');
 const priceTotal = document.getElementById('total-price-output');
+const availableOut = document.getElementById('tickets-available-output');
 
 const updateTotal = () => {
   if (priceInput.value && countInput.value) {
@@ -26,6 +27,9 @@ const updateLimit = () => {
 
   countInput.setAttribute('max', max);
   maxInput.setAttribute('value', max);
+  availableOut.value = max > 0
+    ? max
+    : 'SOLD OUT';
 }
 
 const updateTicketInfo = (data) => {

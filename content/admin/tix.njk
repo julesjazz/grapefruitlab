@@ -32,10 +32,10 @@ eleventyComputed:
     </tr>
   </thead>
 {% for ticket in perf.tickets %}
-  <tr>
-    <th>{{ ticket.name }}</th>
-    <th>{{ ticket.count }}</th>
-    <th>{{ ticket.notes }}</th>
+  <tr data-show="{{ perf.id }}">
+    <td class="name">{{ ticket.name }}</td>
+    <td class="count">{{ ticket.count }}</td>
+    <td class="notes">{{ ticket.notes }}</td>
   </tr>
 {% endfor %}
 </table>

@@ -33,6 +33,10 @@
       name='product',
       options=tickets | getOptions('value', 'display')
     ) -}}
+    <p class="form-hint">
+      <strong>Tickets available:</strong>
+      <output for="field-product" id="tickets-available-output">{{ max or 'SOLD OUT' }}</output>
+    </p>
     <div data-fieldgroup>
     {{- form.field(
       label='Number of Tickets',
@@ -42,7 +46,7 @@
       value=1,
       input_attrs={
         min: 1,
-        max: max or 20
+        max: max
       }
     ) -}}
     {{- form.field(
