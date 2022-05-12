@@ -34,4 +34,15 @@ eleventyComputed:
   </tr>
 {% endfor %}
 </table>
+
+<h2>Emails</h2>
+
+<ul>
+{% for ticket in perf.tickets %}
+  {% if ticket.email %}
+    <li>{{ ticket.email }}</li>
+  {% endif %}
+{% endfor %}
+</ul>
+
 {% endif %}
