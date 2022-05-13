@@ -1,8 +1,10 @@
 const environment = process.env.CONTEXT;
 
-const dataset = environment === "production"
-  ? process.env.SANITY_DATASET_PROD
-  : process.env.SANITY_DATASET_DEV;
+// const dataset = environment === 'production'
+//   ? process.env.SANITY_DATASET_PROD
+//   : process.env.SANITY_DATASET_DEV;
+
+const dataset = 'production';
 
 module.exports = {
   sanity: {
