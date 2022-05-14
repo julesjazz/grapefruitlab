@@ -8,7 +8,7 @@ const dataset = 'production';
 
 module.exports = {
   sanity: {
-    projectId: process.env.SANITY_PROJECT_ID || 'kf9wwftw',
+    projectId: process.env.SANITY_PROJECT_ID || '7jk93b9e',
     dataset: dataset || 'production',
     apiVersion: '2022-03-03'
   }
