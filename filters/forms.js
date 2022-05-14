@@ -1,6 +1,7 @@
 'use strict';
 
-const { date } = require("./time");
+const { DateTime } = require("luxon");
+const { date, now } = require("./time");
 const _ = require('lodash');
 
 const getOptions = (collection, key, value) => {
@@ -20,10 +21,11 @@ const showTickets = (run, products) => {
   let hasSelected = false;
 
   return run
+    .filter((perf) => (DateTime.fromISO(perf.date) > now.plus({ hours: 1 })))
     .sort((a, b) => a.date - b.date )
     .map((perf) => {
     const ticket = _.find(products, ['metadata.sanity_id', perf.id]);
-    const onSale = perf.seats - perf.sold;
+    const onSale = (perf.seats - perf.sold);
     let selected = null;
 
     if (ticket && onSale > 0 && !hasSelected) {

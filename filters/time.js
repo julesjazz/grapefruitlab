@@ -1,9 +1,10 @@
 const { DateTime } = require("luxon");
 
+const now = DateTime.now();
 
 const getDateObj = (date) => {
   if (!date) {
-    return DateTime.now();
+    return now;
   }
 
   return (typeof date === 'string')
@@ -29,4 +30,5 @@ const date = (dateObj, format) => {
 module.exports = {
   htmlDate,
   date,
+  now,
 };
