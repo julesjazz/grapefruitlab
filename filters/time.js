@@ -14,7 +14,7 @@ const getDateObj = (date) => {
 
 // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
 const htmlDate = (dateObj) => {
-  return getDateObj(dateObj).toFormat('yyyy-LL-dd');
+  return getDateObj(dateObj).setZone('America/Denver').toFormat('yyyy-LL-dd');
 };
 
 
