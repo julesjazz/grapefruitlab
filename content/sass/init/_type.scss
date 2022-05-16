@@ -21,10 +21,13 @@ h2, h3, h4, h5 {
   margin-block-start: var(--gutter);
 }
 
-ul,
-ol {
-  @include config.above(40em) {
-    padding-inline-start: 0;
+:is(ul, ol) {
+  padding-inline-start: 1em;
+
+  &:not(ul *, ol *) {
+    @include config.above(40em) {
+      padding-inline-start: 0;
+    }
   }
 }
 
