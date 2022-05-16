@@ -40,30 +40,15 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("debug", function(value) {
     return util.inspect(value, {compact: false})
-   });
+  });
 
   eleventyConfig.addFilter('getOptions', forms.getOptions);
   eleventyConfig.addFilter('showTickets', forms.showTickets);
 
   eleventyConfig.addFilter('img', img.img);
 
-  eleventyConfig.addFilter('find', _.find);
-  eleventyConfig.addFilter('filter', _.filter);
-  eleventyConfig.addFilter('merge', _.merge);
-  eleventyConfig.addFilter('groupBy', _.groupBy);
-  eleventyConfig.addFilter('sortBy', _.sortBy);
-
-  eleventyConfig.addFilter('typogr', typogr.typogrify);
-
-  eleventyConfig.addFilter("date", time.date);
-  eleventyConfig.addFilter('htmlDate', time.htmlDate);
-
   eleventyConfig.addFilter('jsonify', (obj) => JSON.stringify(obj));
   eleventyConfig.addFilter('lowercase', content => content.toLowerCase());
-
-  eleventyConfig.addFilter("debug", function(value) {
-    return util.inspect(value, {compact: false})
-  });
 
   // shortcodes
   eleventyConfig.addNunjucksShortcode('img', img.img);
