@@ -30,22 +30,22 @@ module.exports = async function() {
 
   const perfs = shows.reduce((all, show) => {
     if (show.run) {
-      show.run = show.run.map((perf) => {
+      show.run = show.run.forEach((perf) => {
         perf.seats = perf.seats || 25;
         perf.sold = perf.tickets.reduce((sold, tix) => sold + tix.count, 0);
         perf.onSale = Math.max(perf.seats - perf.sold, 0);
 
         perf.income = perf.tickets.reduce((all, item) => all + ((item.price || 0) * item.count), 0);
-        return perf;
+        all[perf.id] = perf;
       });
-
-      return all.concat(show.run);
     }
 
     return all;
-  }, []);
+  }, {});
+
+  const perfArray = Object.values(perfs);
 
   return {
-    admin: { shows, perfs },
+    admin: { shows, perfs, perfArray },
   };
 };
