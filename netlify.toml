@@ -8,8 +8,10 @@ command = "yarn dev"
 
 [[redirects]]
 from = "/admin/*"
+to = "/.netlify/functions/dynamic"
 force = true
 status = 200
+_generated_by_eleventy_serverless = "dynamic"
 
   [redirects.conditions]
   Role = [ "admin" ]

@@ -1,3 +1,5 @@
+const { EleventyServerlessBundlerPlugin } = require("@11ty/eleventy");
+
 const yaml = require('js-yaml');
 const util = require('util')
 const _ = require('lodash');
@@ -61,6 +63,14 @@ module.exports = function(eleventyConfig) {
       .getFilteredByTag('show')
       .filter((item) => item.data.feature)
       .sort((a, b) => a.date - b.date);
+  });
+
+  // dynamic pages
+  eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
+    name: 'dynamic', // The serverless function name from your permalink object
+    functionsDir: './functions/',
+    copy: ['./utils/', './filters/', './client-config.js'],
+    redirects: false,
   });
 
   // config

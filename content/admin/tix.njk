@@ -3,7 +3,9 @@ pagination:
     data: admin.perfs
     size: 1
     alias: perf
-permalink: '/admin/perfs/{{ perf.show }}/{{ perf.id }}/'
+    serverless: eleventy.serverless.path.id
+permalink:
+  dynamic: '/admin/perfs/:id/'
 eleventyComputed:
   title: '{{ perf.date | date }}'
   summary: '{{ perf.notes }}'

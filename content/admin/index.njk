@@ -1,12 +1,15 @@
 ---
 title: Admin Dashboard
-permalink: '/admin/'
+permalink:
+  dynamic: '/admin/'
 ---
 
 <h2>Tickets</h2>
 
 {% for show in admin.shows | sortBy('date') %}
-  {% if show.run.length > 0 %}
+  {% set run = admin.perfArray | filter(['show', show.slug]) %}
+
+  {% if run.length > 0 %}
     <details {% if show.onsale %}open{% endif %}>
       <summary>
         {% if show.onsale %}💸{% endif %}
@@ -21,28 +24,26 @@ permalink: '/admin/'
           <th data-num>Income</th>
         </thead>
         <tbody>
-          {% for perf in show.run | sortBy('date') %}
-            {% set admin_perf = admin.perfs | find(['id', perf.id]) %}
+          {% for perf in run | sortBy('date') %}
             <tr>
               <th>
-                <a href="perfs/{{ perf.show }}/{{ perf.id }}/">{{ perf.date | date }}</a>
+                <a href="perfs/{{ perf.id }}/">{{ perf.date | date }}</a>
               </th>
               <td data-num>{{ perf.seats }}</td>
               <td data-num>{{ perf.sold }}</td>
               <td data-num>{{ perf.onSale }}</td>
-              <td data-num>${{ admin_perf.income }}</td>
+              <td data-num>${{ perf.income }}</td>
             </tr>
           {% endfor %}
           <tfoot>
             <tr>
-              {% set perfs = admin.perfs | filter('show', show.id) %}
-              {% set seats = perfs | getAll('seats') | sum %}
-              {% set sold = perfs | getAll('sold') | sum %}
+              {% set seats = run | getAll('seats') | sum %}
+              {% set sold = run | getAll('sold') | sum %}
               <th>Totals</th>
               <td data-num>{{ seats }}</td>
               <td data-num>{{ sold }}</td>
               <td data-num>{{ seats - sold }}</td>
-              <td data-num>${{ perfs | getAll('income') | sum }}</td>
+              <td data-num>${{ run | getAll('income') | sum }}</td>
             </tr>
           </tfoot>
         </tbody>
