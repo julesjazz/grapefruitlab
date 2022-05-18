@@ -25,7 +25,6 @@ permalink:
         </thead>
         <tbody>
           {% for perf in run | sortBy('date') %}
-            {% set admin_perf = admin.perfs | find(['id', perf.id]) %}
             <tr>
               <th>
                 <a href="perfs/{{ perf.id }}/">{{ perf.date | date }}</a>
@@ -33,19 +32,18 @@ permalink:
               <td data-num>{{ perf.seats }}</td>
               <td data-num>{{ perf.sold }}</td>
               <td data-num>{{ perf.onSale }}</td>
-              <td data-num>${{ admin_perf.income }}</td>
+              <td data-num>${{ perf.income }}</td>
             </tr>
           {% endfor %}
           <tfoot>
             <tr>
-              {% set perfs = admin.perfArray | filter('show', show.slug) %}
-              {% set seats = perfs | getAll('seats') | sum %}
-              {% set sold = perfs | getAll('sold') | sum %}
+              {% set seats = run | getAll('seats') | sum %}
+              {% set sold = run | getAll('sold') | sum %}
               <th>Totals</th>
               <td data-num>{{ seats }}</td>
               <td data-num>{{ sold }}</td>
               <td data-num>{{ seats - sold }}</td>
-              <td data-num>${{ perfs | getAll('income') | sum }}</td>
+              <td data-num>${{ run | getAll('income') | sum }}</td>
             </tr>
           </tfoot>
         </tbody>
