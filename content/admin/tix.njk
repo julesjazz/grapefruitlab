@@ -23,18 +23,28 @@ eleventyComputed:
       <th class="notes">note</th>
     </tr>
   </thead>
-{% for ticket in perf.tickets %}
-  <tr data-show="{{ perf.id }}">
-    <td class="checkin">
-      <input type="checkbox" name="{{ ticket.name | slug }}" id="{{ ticket.name | slug }}" {% if ticket.checkedIn %}checked{% endif %}>
-    </td>
-    <td class="name">
-      <label for="{{ ticket.name | slug }}">{{ ticket.name }}</label>
-    </td>
-    <td class="count">{{ ticket.count }}</td>
-    <td class="notes">{{ ticket.notes }}</td>
-  </tr>
-{% endfor %}
+  <tbody>
+    {% for ticket in perf.tickets %}
+      <tr>
+        <td class="checkin">
+          <input type="checkbox" name="{{ ticket.name | slug }}" id="{{ ticket.name | slug }}" {% if ticket.checkedIn %}checked{% endif %}>
+        </td>
+        <td class="name">
+          <label for="{{ ticket.name | slug }}">{{ ticket.name }}</label>
+        </td>
+        <td class="count">{{ ticket.count }}</td>
+        <td class="notes">{{ ticket.notes }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+  <tfoot>
+    <tr>
+      <td></td>
+      <th>Total</th>
+      <td class="count">{{ perf.sold }}/{{ perf.seats }}</td>
+      <td class="notes">({{ perf.onSale }} remaining)</td>
+    </tr>
+  </tfoot>
 </table>
 
 <section class="emails">
