@@ -1,0 +1,56 @@
+{
+  "root": true,
+  "project": {
+    "name": "GrapefruitLab"
+  },
+  "__experimental_spaces": [
+    {
+      "name": "prod",
+      "title": "Production",
+      "default": true,
+      "api": {
+        "projectId": "7jk93b9e",
+        "dataset": "production"
+      }
+    },
+    {
+      "name": "dev",
+      "title": "Development",
+      "api": {
+        "projectId": "7jk93b9e",
+        "dataset": "development"
+      }
+    }
+  ],
+  "api": {
+    "projectId": "7jk93b9e",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "documents-pane",
+    "media-library",
+    "@sanity/vision"
+  ],
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    },
+    {
+      "implements": "part:@sanity/base/brand-logo",
+      "path": "components/logo.js"
+    },
+    {
+      "implements": "part:@sanity/base/theme/variables/override-style",
+      "path": "./styles/style-override.css"
+    },
+    {
+      "name": "part:@sanity/desk-tool/structure",
+      "path": "./structure/deskStructure.js"
+    }
+  ]
+}

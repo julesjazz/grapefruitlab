@@ -1,0 +1,5 @@
+/* Icon shadowboxes */
+:global([data-ui='PaneItem'] *:not(svg) + span) {
+  box-shadow: none !important;
+}
+
